@@ -1,17 +1,4 @@
-/* 固定目錄在左側 */
-#TableOfContents {
-  position: fixed;
-  top: 200px;
-  left: 100px;
-  width: 300px;
-  max-height: 80vh;
-  overflow-y: auto;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  /* 移除邊框 */
-  border: none;
-}
+
 
 /* 確保主內容不被 TOC 遮擋 */
 main {
