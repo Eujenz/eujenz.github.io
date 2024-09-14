@@ -27,11 +27,11 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;截止區（Cutoff Region）&lt;/strong&gt;：
-當閘極電壓（$V_{GS}$）低於某個臨界電壓（$V_{th}$）時，MOSFET 處於關閉狀態，無電流通過源極和汲極。&lt;/p&gt;
+當閘極電壓$V_{GS}$低於某個臨界電壓$V_{th}$時，MOSFET 處於關閉狀態，無電流通過源極和汲極。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;線性區（Linear Region）&lt;/strong&gt;：
-當閘極電壓高於臨界電壓，但汲極-源極電壓（$V_{DS}$）相對較低時，MOSFET 處於線性區，電流與汲極電壓成正比，電晶體像是電阻，適合用作放大器。&lt;/p&gt;
+當閘極電壓高於臨界電壓，但汲極-源極電壓$V_{DS}$相對較低時，MOSFET 處於線性區，電流與汲極電壓成正比，電晶體像是電阻，適合用作放大器。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;飽和區（Saturation Region）&lt;/strong&gt;：
