@@ -27,11 +27,11 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;截止區（Cutoff Region）&lt;/strong&gt;：
-當閘極電壓$V_{GS}$低於某個臨界電壓$V_{th}$時，MOSFET 處於關閉狀態，無電流通過源極和汲極。&lt;/p&gt;
+當閘極電壓 $V_{GS}$ 低於某個臨界電壓 $V_{th}$ 時，MOSFET 處於關閉狀態，無電流通過源極和汲極。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;線性區（Linear Region）&lt;/strong&gt;：
-當閘極電壓高於臨界電壓，但汲極-源極電壓$V_{DS}$相對較低時，MOSFET 處於線性區，電流與汲極電壓成正比，電晶體像是電阻，適合用作放大器。&lt;/p&gt;
+當閘極電壓高於臨界電壓，但汲極-源極電壓 $V_{DS}$ 相對較低時，MOSFET 處於線性區，電流與汲極電壓成正比，電晶體像是電阻，適合用作放大器。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;飽和區（Saturation Region）&lt;/strong&gt;：
@@ -57,11 +57,7 @@
 &lt;p&gt;&lt;strong&gt;開關應用&lt;/strong&gt;：MOSFET 常被用於數位電路中，開關切換迅速，特別適合邏輯電路（如 CMOS 技術）。在開關應用中，MOSFET 工作於截止區和飽和區之間。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;放大應用&lt;/strong&gt;：當 MOSFET 工作在線性區時，可以用作信號放大器，常見於類比電路中。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;5-mosfet-與-cmos-的關係&#34;&gt;5. MOSFET 與 CMOS 的關係&lt;/h3&gt;
-&lt;p&gt;CMOS 電路是由 NMOS 和 PMOS 互補組成的，兩者在工作時互相補充：當一個導通，另一個截止，從而實現邏輯反相功能。這樣的組合使 CMOS 具有低功耗的特點，廣泛應用於數位電路和處理器中。&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;放大應用&lt;/strong&gt;：當 MOSFET 工作在線性區時，可以用作信號放大器，常見於類比電路中。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
