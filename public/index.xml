@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LEE CHIEN-WEI</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on LEE CHIEN-WEI</description>
+    <generator>Hugo -- 0.134.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Sep 2024 00:36:24 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MOSFET</title>
+      <link>http://localhost:1313/posts/mosfet/</link>
+      <pubDate>Sun, 15 Sep 2024 00:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/posts/mosfet/</guid>
+      <description>&lt;p&gt;要系統性地理解 MOSFET 的概念，必須從基本結構、工作原理、類型與應用四個層面進行分析。這樣的學習架構能夠幫助你逐步掌握 MOSFET 的關鍵知識。以下是對 MOSFET 概念的系統化介紹：&lt;/p&gt;
+&lt;h3 id=&#34;1-mosfet-的基本結構&#34;&gt;1. MOSFET 的基本結構&lt;/h3&gt;
+&lt;p&gt;MOSFET 是一種場效電晶體，由四個主要部分組成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;閘極（Gate）&lt;/strong&gt;：控制電流的開關。閘極與半導體層之間有一層絕緣層（通常是二氧化矽），這層絕緣層使得電場可以控制電流，而不需直接的電流流過閘極。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;汲極（Drain）&lt;/strong&gt;：電流從此端流出。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;源極（Source）&lt;/strong&gt;：電流從此端流入。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基板（Body）&lt;/strong&gt;：通常與源極連接。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-mosfet-的工作原理&#34;&gt;2. MOSFET 的工作原理&lt;/h3&gt;
+&lt;p&gt;MOSFET 是根據閘極電壓來控制源極與汲極之間的電流流動。主要有三個工作區域：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;截止區（Cutoff Region）&lt;/strong&gt;：
+當閘極電壓（$V_{GS}$）低於某個臨界電壓（$V_{th}$）時，MOSFET 處於關閉狀態，無電流通過源極和汲極。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;線性區（Linear Region）&lt;/strong&gt;：
+當閘極電壓高於臨界電壓，但汲極-源極電壓（$V_{DS}$）相對較低時，MOSFET 處於線性區，電流與汲極電壓成正比，電晶體像是電阻，適合用作放大器。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;飽和區（Saturation Region）&lt;/strong&gt;：
+當 $V_{DS}$ 較大時，MOSFET 進入飽和區，電流達到最大值並保持穩定，適合用於開關操作。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-mosfet-的類型&#34;&gt;3. MOSFET 的類型&lt;/h3&gt;
+&lt;p&gt;MOSFET 根據通道類型和控制方式可分為以下兩類：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;N 通道 MOSFET（NMOS）&lt;/strong&gt;：
+當閘極電壓高於源極電壓時，形成 N 型通道，電流從汲極流向源極。適用於正電壓驅動的情況。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;P 通道 MOSFET（PMOS）&lt;/strong&gt;：
+當閘極電壓低於源極電壓時，形成 P 型通道，電流從源極流向汲極。適用於負電壓或相對低電壓驅動。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-mosfet-的應用&#34;&gt;4. MOSFET 的應用&lt;/h3&gt;
+&lt;p&gt;MOSFET 可以在各種應用中作為開關或放大器使用。以下是兩大主要應用：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;開關應用&lt;/strong&gt;：MOSFET 常被用於數位電路中，開關切換迅速，特別適合邏輯電路（如 CMOS 技術）。在開關應用中，MOSFET 工作於截止區和飽和區之間。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;放大應用&lt;/strong&gt;：當 MOSFET 工作在線性區時，可以用作信號放大器，常見於類比電路中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-mosfet-與-cmos-的關係&#34;&gt;5. MOSFET 與 CMOS 的關係&lt;/h3&gt;
+&lt;p&gt;CMOS 電路是由 NMOS 和 PMOS 互補組成的，兩者在工作時互相補充：當一個導通，另一個截止，從而實現邏輯反相功能。這樣的組合使 CMOS 具有低功耗的特點，廣泛應用於數位電路和處理器中。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 15 Sep 2024 00:12:59 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

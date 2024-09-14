@@ -1,0 +1,92 @@
+/* 固定目錄在左側 */
+#TableOfContents {
+  position: fixed;
+  top: 200px;
+  left: 100px;
+  width: 300px;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  /* 移除邊框 */
+  border: none;
+}
+
+/* 確保主內容不被 TOC 遮擋 */
+main {
+  margin-left: 320px;
+}
+
+/* 調整表頭和鏈接的配色 */
+#TableOfContents a {
+  text-decoration: none;
+}
+
+#TableOfContents a:hover {
+  color: #007bff;
+}
+
+#TableOfContents h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* 日間模式設置 */
+@media (prefers-color-scheme: light) {
+  #TableOfContents {
+    background-color: #ffffff;  /* 白色背景 */
+    color: #333;  /* 深灰色文字 */
+  }
+
+  #TableOfContents a {
+    color: #333;  /* 深灰色鏈接 */
+  }
+
+  #TableOfContents h2 {
+    color: #555;  /* 更深的灰色標題 */
+  }
+}
+
+/* 夜間模式設置 */
+@media (prefers-color-scheme: dark) {
+  #TableOfContents {
+    background-color: #1e1e1e;  /* 深色背景 */
+    color: #ccc;  /* 淡灰色文字 */
+  }
+
+  #TableOfContents a {
+    color: #ccc;  /* 淡灰色鏈接 */
+  }
+
+  #TableOfContents a:hover {
+    color: #66bfff;  /* 懸停時改為淺藍色 */
+  }
+
+  #TableOfContents h2 {
+    color: #ddd;  /* 更淺的灰色標題 */
+  }
+}
+
+@font-face {
+  font-family: 'TaipeiSansTCBeta';
+  src: url('/fonts/TaipeiSansTCBeta-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 將字體應用到整個網站的文本 */
+body {
+  font-family: 'TaipeiSansTCBeta', sans-serif;
+}
+
+/* 你可以選擇性地應用到特定元素 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'TaipeiSansTCBeta', sans-serif;
+}
+
+/* 移除 TOC 中的符號 */
+#TableOfContents ul {
+  list-style: none;  /* 移除列表項目的符號 */
+  padding-left: 0;  /* 移除內邊距 */
+}

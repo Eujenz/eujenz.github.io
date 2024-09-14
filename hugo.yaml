@@ -1,0 +1,115 @@
+baseURL: "http://localhost:1313/"
+title: "LEE CHIEN-WEI"
+paginate: 10  # 每頁顯示的文章數量
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45  # Google Analytics ID
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  # 允許使用 HTML 標籤
+
+
+params:
+  math: true  # 啟用數學公式排版
+  env: production  # 啟用 SEO 和社交元數據
+  title: "MOSFET Technical Notes"
+  description: "Technical blog focusing on electronics and MOSFET."
+  keywords: [MOSFET, Electronics, PaperMod, Notes]
+  author: ""
+  DateFormat: "January 2, 2006"
+  assets:
+    # 添加這一行來啟用自定義樣式
+    extendedCSS:
+      - css/extended/custom.css
+
+  # 主題設置
+  defaultTheme: auto  # 根據系統設定自動切換亮/暗模式
+  disableThemeToggle: false  # 允許用戶切換主題
+
+  # 展示設置
+  ShowReadingTime: false  # 顯示閱讀時間
+  ShowShareButtons: false  # 顯示社交媒體分享按鈕
+  ShowPostNavLinks: true  # 顯示文章導航（上一頁/下一頁）
+  ShowBreadCrumbs: true  # 顯示麵包屑導航
+  ShowCodeCopyButtons: true  # 顯示代碼複製按鈕
+  ShowWordCount: false  # 顯示文章字數
+  ShowRssButtonInSectionTermList: true  # 顯示 RSS 按鈕
+  UseHugoToc: true  # 使用 Hugo 內建目錄功能
+  disableSpecial1stPost: true  # 禁用首篇特殊文章展示
+  disableScrollToTop: false  # 啟用滾動到頂部按鈕
+  comments: false  # 評論功能
+  hidemeta: false  # 顯示元數據（如日期、作者）
+  hideSummary: true  # 顯示文章摘要
+  showtoc: true  # 顯示目錄（ToC）
+  tocopen: true  # 預設展開目錄
+
+  # 資源設置
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+    disableFingerprinting: true  # 禁用資產指紋檢查
+
+  # 社交圖標設置
+  socialIcons:
+    - name: github
+      url: "https://github.com/your-profile"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/your-profile/"
+    - name: twitter
+      url: "https://twitter.com/your-profile"
+
+  # 搜索功能設置
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+  # 設置編輯文章鏈接
+  editPost:
+    URL: ""
+    Text: ""
+    appendFilePath: true  # 自動附加文章路徑
+
+menu:
+  main:
+    # - identifier: posts
+    #   name: Posts
+    #   url: /posts/
+    #   weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON  # 必須為搜索功能啟用

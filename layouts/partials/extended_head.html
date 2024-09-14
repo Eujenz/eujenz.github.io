@@ -1,0 +1,6 @@
+<!-- 如果文章啟用了數學公式支持，則引入 math.html -->
+{{ if or .Params.math .Site.Params.math }}
+    {{ partial "math.html" . }}
+{{ end }}
+
+<!-- 其他全局自定義的樣式或腳本可以放在這裡 -->
