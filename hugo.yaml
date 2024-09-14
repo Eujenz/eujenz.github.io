@@ -1,6 +1,7 @@
 baseURL: "https://eujenz.github.io/"
 title: "LEE CHIEN-WEI"
-paginate: 10  # 每頁顯示的文章數量
+pagination:
+  pagerSize: 10 # 每頁顯示的文章數量
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -21,7 +22,7 @@ markup:
 
 
 params:
-  math: true  # 啟用數學公式排版
+  mathjax: true  # 啟用數學公式排版
   env: production  # 啟用 SEO 和社交元數據
   title: "MOSFET Technical Notes"
   description: "Technical blog focusing on electronics and MOSFET."
