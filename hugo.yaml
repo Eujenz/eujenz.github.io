@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://eujenz.github.io/"
 title: "LEE CHIEN-WEI"
 paginate: 10  # 每頁顯示的文章數量
 theme: PaperMod
