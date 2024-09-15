@@ -1,87 +1,89 @@
-# 這個 workflow 用來構建並部署 Hugo 網站到 GitHub Pages
+# 名稱: 部署 Hugo 網站到 GitHub Pages
 name: Deploy Hugo site to Pages
 
+# 觸發工作流的條件
 on:
-  # 當推送到 main 分支時觸發此工作流
+  # 當推送到默認分支時自動運行
   push:
     branches: ["main"]
 
-  # 允許從 GitHub Actions 手動觸發此工作流
+  # 允許手動從 Actions 頁面觸發此工作流
   workflow_dispatch:
 
 # 設置 GITHUB_TOKEN 權限來允許部署到 GitHub Pages
 permissions:
-  contents: read        # 讀取 repository 的內容
-  pages: write          # 寫入 GitHub Pages 部署權限
-  id-token: write       # 寫入身份驗證 token 的權限
+  contents: read  # 讀取存儲庫內容的權限
+  pages: write    # 許可寫入到 GitHub Pages
+  id-token: write # 允許生成 ID Token，允許身份驗證
 
-# 允許一次只有一個部署過程進行，避免並發部署問題
+# 設置並發運行的策略
 concurrency:
-  group: "pages"
-  cancel-in-progress: false  # 不會取消進行中的部署，允許其完成
+  group: "pages"              # 工作流在 "pages" 群組中運行
+  cancel-in-progress: false   # 不會取消正在進行的部署，保證部署過程不會被中斷
 
-# 預設 shell 設置為 bash
+# 默認的 shell 使用 bash
 defaults:
   run:
     shell: bash
 
+# 工作區: Build 和 Deploy
 jobs:
-  # 第一個 Job: 構建網站
+  # 建構 (Build) 任務
   build:
-    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 環境來運行任務
+    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 作為執行環境
     env:
-      HUGO_VERSION: 0.128.0  # 定義要安裝的 Hugo 版本
+      HUGO_VERSION: 0.128.0  # 指定 Hugo 版本
     steps:
-      # 下載並安裝 Hugo
+      # 第一步：安裝 Hugo CLI
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
-      # 安裝 Dart Sass，用來編譯 SCSS/Sass 樣式文件
+      # 第二步：安裝 Dart Sass
       - name: Install Dart Sass
         run: sudo snap install dart-sass
 
-      # 檢出最新的代碼並拉取子模塊
+      # 第三步：檢出存儲庫的內容
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # 檢出所有子模塊
+          submodules: recursive  # 遞歸檢出子模組
 
-      # 配置 GitHub Pages 部署環境
+      # 第四步：配置 GitHub Pages 部署
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v5  # 配置 GitHub Pages 相關設定
 
-      # 安裝 Node.js 依賴項（如果有 package-lock.json）
+      # 第五步：安裝 Node.js 依賴項（如果有 package-lock.json 文件）
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      # 使用 Hugo 構建網站
+      # 第六步：使用 Hugo 進行網站構建
       - name: Build with Hugo
         env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache  # 設置 Hugo 的緩存目錄
-          HUGO_ENVIRONMENT: production  # 設置 Hugo 為生產環境
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache  # 指定 Hugo 緩存目錄
+          HUGO_ENVIRONMENT: production  # 設定為生產環境
         run: |
           hugo \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"  # 設置部署網站的 base URL
+            --minify \  # 啟用 Hugo 壓縮網站文件
+            --baseURL "${{ steps.pages.outputs.base_url }}/"  # 設置基礎 URL 為 Pages 部署地址
 
-      # 上傳構建好的靜態網站作為 artifact（將靜態文件打包並保存）
+      # 第七步：上傳建構的 Hugo 靜態文件作為工件 (artifact)
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public  # 上傳 public 資料夾中生成的靜態網站文件
+          path: ./public  # 將 Hugo 生成的 public 文件夾上傳為 Pages 工件
 
-  # 第二個 Job: 部署到 GitHub Pages
+  # 部署 (Deploy) 任務
   deploy:
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}  # 部署完成後的頁面 URL
-    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 環境運行部署任務
-    needs: build  # 依賴於 "build" 任務成功完成
+      name: github-pages  # 設定部署環境為 GitHub Pages
+      url: ${{ steps.deployment.outputs.page_url }}  # 部署完成後顯示的網站 URL
+    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 作為執行環境
+    needs: build  # 此任務需要在 "build" 任務完成後運行
     steps:
-      # 部署靜態網站到 GitHub Pages
+      # 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4  # 使用 GitHub 提供的 Pages 部署操作
