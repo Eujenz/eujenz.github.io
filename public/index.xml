@@ -2,17 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LEE CHIEN-WEI</title>
-    <link>https://eujenz.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Sep 2024 00:36:24 +0800</lastBuildDate>
-    <atom:link href="https://eujenz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Sep 2024 07:48:52 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ConventionalCommits初學指南</title>
+      <link>http://localhost:1313/posts/conventionalcommits/</link>
+      <pubDate>Mon, 16 Sep 2024 07:48:52 +0800</pubDate>
+      <guid>http://localhost:1313/posts/conventionalcommits/</guid>
+      <description>&lt;h2 id=&#34;為什麼使用慣例式提交&#34;&gt;為什麼使用慣例式提交？&lt;/h2&gt;
+&lt;p&gt;慣例式提交（Conventional Commits）是一種對提交說明的簡單規範，優勢如下。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自動產生修改日誌 (Changelog)。&lt;/li&gt;
+&lt;li&gt;基於提交的類型，自動決定語意化版本的升級。&lt;/li&gt;
+&lt;li&gt;向同事、公眾以及其他的利益相關者傳達變化的過程。&lt;/li&gt;
+&lt;li&gt;觸發建置與發布流程。&lt;/li&gt;
+&lt;li&gt;讓大家探索更有結構的提交歷史，使你的專案更容易被貢獻。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;結構說明&#34;&gt;結構說明&lt;/h3&gt;
+&lt;p&gt;提交說明的結構如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;類型 type&amp;gt;[可選的作用範圍 scope]: &amp;lt;描述 description&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[可選的正文 body]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[可選的頁腳 footer]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;範例如下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;feat: 支援新的配置文件擴展功能
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BREAKING CHANGE: 現在 `extends` 鍵可用於擴展其他配置文件
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fix: 修正請求的競爭問題
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;增加請求 ID 並追蹤最後一次請求。忽略來自舊請求的回應。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;規範要點&#34;&gt;規範要點&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;類型（如&lt;code&gt;fix&lt;/code&gt;、 &lt;code&gt;feat&lt;/code&gt;）必須在最前面。&lt;/li&gt;
+&lt;li&gt;提交描述應簡明扼要，描述程式碼變更的內容。&lt;/li&gt;
+&lt;li&gt;可以選擇提供詳細正文以補充提交的變更細節。
+&lt;ul&gt;
+&lt;li&gt;若有重大變更，必須使用 &lt;code&gt;BREAKING CHANGE:&lt;/code&gt; 說明具體變更。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;常見類型&#34;&gt;常見類型&lt;/h3&gt;
+&lt;p&gt;有助於清晰傳達提交的內容，常見的類型有：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;fix&lt;/code&gt;: 表示對程式修正了一個bug（語意化版本中的 修訂號 PATCH）。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;feat&lt;/code&gt;: 表示對程式增加了一個功能（語意化版本中的 次版本 MINOR）。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;BREAKING CHANGE&lt;/code&gt;: 重大變更，（語意化版本中的 主版本 MAJOR）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其他常見的類型&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;chore&lt;/code&gt;: 進行一些任務管理或環境變更，不涉及程式邏輯。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docs&lt;/code&gt;: 文件相關的變更。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;style&lt;/code&gt;: 程式碼風格或格式上的調整。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;refactor&lt;/code&gt;: 程式碼重構，不改變外部行為。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;perf&lt;/code&gt;: 提升效能的修改。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;test&lt;/code&gt;: 測試相關的修改。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;進階使用&lt;/p&gt;</description>
+    </item>
     <item>
       <title>MOSFET</title>
-      <link>https://eujenz.github.io/posts/mosfet/</link>
+      <link>http://localhost:1313/posts/mosfet/</link>
       <pubDate>Sun, 15 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/mosfet/</guid>
+      <guid>http://localhost:1313/posts/mosfet/</guid>
       <description>&lt;p&gt;要系統性地理解 MOSFET 的概念，必須從基本結構、工作原理、類型與應用四個層面進行分析。這樣的學習架構能夠幫助你逐步掌握 MOSFET 的關鍵知識。以下是對 MOSFET 概念的系統化介紹：&lt;/p&gt;
 &lt;h3 id=&#34;1-mosfet-的基本結構&#34;&gt;1. MOSFET 的基本結構&lt;/h3&gt;
 &lt;p&gt;MOSFET 是一種場效電晶體，由四個主要部分組成：&lt;/p&gt;
@@ -61,9 +117,9 @@
     </item>
     <item>
       <title>About</title>
-      <link>https://eujenz.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 15 Sep 2024 00:12:59 +0800</pubDate>
-      <guid>https://eujenz.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description></description>
     </item>
   </channel>

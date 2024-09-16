@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Process on LEE CHIEN-WEI</title>
-    <link>https://eujenz.github.io/tags/process/</link>
+    <link>http://localhost:1313/tags/process/</link>
     <description>Recent content in Process on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 Sep 2024 00:36:24 +0800</lastBuildDate>
-    <atom:link href="https://eujenz.github.io/tags/process/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/process/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MOSFET</title>
-      <link>https://eujenz.github.io/posts/mosfet/</link>
+      <link>http://localhost:1313/posts/mosfet/</link>
       <pubDate>Sun, 15 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/mosfet/</guid>
+      <guid>http://localhost:1313/posts/mosfet/</guid>
       <description>&lt;p&gt;要系統性地理解 MOSFET 的概念，必須從基本結構、工作原理、類型與應用四個層面進行分析。這樣的學習架構能夠幫助你逐步掌握 MOSFET 的關鍵知識。以下是對 MOSFET 概念的系統化介紹：&lt;/p&gt;
 &lt;h3 id=&#34;1-mosfet-的基本結構&#34;&gt;1. MOSFET 的基本結構&lt;/h3&gt;
 &lt;p&gt;MOSFET 是一種場效電晶體，由四個主要部分組成：&lt;/p&gt;
