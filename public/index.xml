@@ -6,13 +6,422 @@
     <description>Recent content on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Sep 2024 07:48:52 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2024 00:36:24 +0800</lastBuildDate>
     <atom:link href="https://eujenz.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>SMT-Devices 認識半導體元件</title>
+      <link>https://eujenz.github.io/posts/smt-devices/</link>
+      <pubDate>Sun, 15 Sep 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/smt-devices/</guid>
+      <description>&lt;h2 id=&#34;類比與數位設備被動與主動元件與寄生結構&#34;&gt;類比與數位設備、被動與主動元件與寄生結構&lt;/h2&gt;
+&lt;h3 id=&#34;類比與數位設備&#34;&gt;類比與數位設備&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;類比設備（Analog Devices）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;處理連續信號，應用於無線電接收器、音頻系統和汽車點火系統。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特點&lt;/strong&gt;: 類比設備能夠放大或處理自然界中的連續信號，通常將物理現象轉換為電子信號。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;數位設備（Digital Devices）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;處理離散信號，信號形式為二進制「高」或「低」，常見於計算機、計算器等數位邏輯電路。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特點&lt;/strong&gt;: 數位設備處理開/關的二進制狀態，主要用於邏輯運算和數據處理，具有精確性和可編程性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;被動與主動元件&#34;&gt;被動與主動元件&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;被動元件（Passive Components）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不需外部電源來工作，無法放大信號，常見被動元件有：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;電阻（Resistor）&lt;/strong&gt;: 控制電流並分配電壓。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;電容（Capacitor）&lt;/strong&gt;: 儲存和釋放電能，常用於濾波與能量存儲。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;電感（Inductor）&lt;/strong&gt;: 儲存磁能，通常用於電源線路中的濾波。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;寄生效應&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;寄生結構（Parasitic Structures）&lt;/strong&gt;: 被動元件內部不可避免的效應，如寄生電容和寄生電阻，這些效應會降低電路性能。例如，寄生電容會引起信號耦合，影響高頻響應。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;主動元件（Active Components）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;需要外部電源來工作，能夠放大信號或控制電流，常見主動元件有：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;二極體（Diode）&lt;/strong&gt;: 允許電流單向流動，控制電流方向。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;雙極性晶體管（BJT）&lt;/strong&gt;: 用於放大信號或作為開關。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;場效應晶體管（FET）&lt;/strong&gt;: 利用電場控制電流，提供更高的輸入阻抗與更低功耗。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;寄生效應&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;寄生結構&lt;/strong&gt;: 主動元件內部的寄生結構，如寄生雙極性晶體管與寄生電容，可能會形成非預期的電流路徑，導致漏電、電路不穩定或性能降低。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;寄生結構的影響&#34;&gt;寄生結構的影響&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;寄生電阻（Parasitic Resistance）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;元件內部材料和接觸點因製程缺陷產生的非理想寄生電阻，增加電路總電阻，導致功耗增加和運行速度下降。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;寄生電容（Parasitic Capacitance）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;電晶體內部不同層間的寄生電容在高頻信號下會導致不必要的耦合或漏電，影響信號的穩定性與性能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;寄生雙極性晶體管（Parasitic Bipolar Transistor）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 MOSFET 中，P 型和 N 型區域可能形成意外的寄生雙極性晶體管，這些寄生晶體管會引發鎖定效應（Latch-up），導致電路短路或失效。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;小結&#34;&gt;小結&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;類比與數位設備&lt;/strong&gt;: 類比設備處理連續信號，數位設備處理二進制信號。類比設備多用於自然信號的轉換，數位設備則主要應用於邏輯運算和數據處理。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;被動與主動元件&lt;/strong&gt;: 被動元件無法放大信號，而主動元件可以放大信號或控制電流。兩者在電路中相輔相成，但寄生結構會影響其性能，尤其是在高頻應用中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;寄生結構的影響&lt;/strong&gt;: 寄生電阻、寄生電容和寄生晶體管會降低元件性能，導致功耗增加、信號損耗或電路不穩定，甚至可能引發鎖定效應。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pn-junction正向與反向偏壓&#34;&gt;PN Junction、正向與反向偏壓&lt;/h2&gt;
+&lt;h3 id=&#34;pn-junction-的基本概念&#34;&gt;PN Junction 的基本概念&lt;/h3&gt;
+&lt;p&gt;PN 結是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，而 N 型材料中的多數載子是電子。這些載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷不再能自由移動，導致兩側形成內建電場，並進一步阻止多數載子穿過接面。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://eujenz.github.io/about/</link>
+      <pubDate>Sun, 15 Sep 2024 00:12:59 +0800</pubDate>
+      <guid>https://eujenz.github.io/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>一張圖搞懂半導體晶圓製程</title>
+      <link>https://eujenz.github.io/posts/smt-diagram/</link>
+      <pubDate>Fri, 13 Sep 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/smt-diagram/</guid>
+      <description>&lt;h1 id=&#34;一張圖搞懂半導體晶圓製程&#34;&gt;一張圖搞懂半導體晶圓製程&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://eujenz.github.io/images/Wafer-processing.png&#34; alt=&#34;半導體晶圓製程&#34;  /&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用自 &lt;a href=&#34;https://www.lorric.com/tw/Industries/semiconductor-industry&#34;&gt;https://www.lorric.com/tw/Industries/semiconductor-industry&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/jKqvorv0gt4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;1-純化--wafer-cleaning&#34;&gt;1. 純化 | Wafer Cleaning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 使用高溫熔煉或溶劑（如HF氫氟酸或KOH氫氧化鉀）清洗晶圓表面，去除污染和有機殘留物，確保基材品質。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Wafer Prep&lt;/strong&gt;: 說明如何將矽精煉成半導體級矽，並且如何在晶圓製備過程中進行清洗確保高純度。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Contamination&lt;/strong&gt;: 討論如何控制晶圓清潔度，避免污染對製程影響。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-長晶--crystal-growth&#34;&gt;2. 長晶 | Crystal Growth&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 將高純度的矽原料（如二氧化矽）放入爐中提煉，還原成冶煉級矽，經蒸餾純化後生成「多晶矽」。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Wafer Prep&lt;/strong&gt;: 解釋單晶矽的晶體結構與成長方法，並討論長晶過程中的材料品質。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-拉晶--ingot-pulling&#34;&gt;3. 拉晶 | Ingot Pulling&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 在高溫下將探棒浸入熔融矽中，透過旋轉和拉升將單晶矽形成柱狀矽錠。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Wafer Prep&lt;/strong&gt;: 討論單晶矽錠的生長過程及相關技術，這是晶圓製造中的關鍵步驟。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-切片--wafer-slicing&#34;&gt;4. 切片 | Wafer Slicing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 將柱狀單晶矽錠切割成薄片，形成晶圓，並進行邊緣處理以保證尺寸和表面平整度。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Wafer Prep&lt;/strong&gt;: 涉及如何將晶圓從矽錠切割並進行拋光處理，確保晶圓適用於後續製程。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;5-拋光研磨--polishing--lapping&#34;&gt;5. 拋光研磨 | Polishing &amp;amp; Lapping&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 經過切割後，晶圓表面粗糙，需進行拋光與研磨，保證表面光滑和平坦，適合光刻等後續製程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMT-CMP&lt;/strong&gt;: 討論化學機械拋光技術及其對於晶圓表面平整度的提升。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Wafer Prep&lt;/strong&gt;: 說明晶圓拋光與研磨的具體步驟，保證晶圓表面品質。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;6-氣相沈積--cvd&#34;&gt;6. 氣相沈積 | CVD&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 在反應室中通入氣態前體，透過化學反應在晶圓表面沉積一層薄膜，用以形成絕緣層或導體層。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Deposition&lt;/strong&gt;: 解釋CVD技術及其他薄膜沉積技術的工作原理和應用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Oxidation&lt;/strong&gt;: 討論氧化膜的成長過程，氧化技術是CVD的應用之一。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;7-光阻塗佈--photoresist-coating&#34;&gt;7. 光阻塗佈 | Photoresist Coating&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 將光阻液均勻塗佈在晶圓表面，形成光阻層，這層光阻在曝光和顯影過程中會發生化學變化，形成所需圖案。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Photo-1&lt;/strong&gt;: 涉及光阻劑的應用和光刻製程中的光阻塗佈技術。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;8-曝光--exposure&#34;&gt;8. 曝光 | Exposure&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 將光罩上的圖案通過紫外光照射轉印到晶圓上的光阻層，形成微細結構的模板。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Photo-2&lt;/strong&gt;: 解釋光刻中的對準與曝光技術，包括光學系統的關鍵參數。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;9-顯影--photolithography&#34;&gt;9. 顯影 | Photolithography&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 通過顯影溶液處理曝光過的光阻層，使得曝光區域或未曝光區域被去除，從而留下圖案。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Photo-3&lt;/strong&gt;: 討論顯影過程及顯影後的處理步驟，如硬烘焙與顯影後檢查。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;10-蝕刻--etching&#34;&gt;10. 蝕刻 | Etching&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 使用酸或鹼性溶液根據光阻圖案對底層材料進行蝕刻，移除未保護的材料，形成所需的結構。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Etch&lt;/strong&gt;: 涵蓋乾蝕刻與濕蝕刻技術的工作原理及其在半導體製造中的應用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;11-光阻剝除--photoresist-stripping&#34;&gt;11. 光阻剝除 | Photoresist Stripping&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 在蝕刻後，移除殘留的光阻，使用化學剝除、熱處理或機械剝除方式，以確保元件不受光阻殘留物影響。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Chemicals&lt;/strong&gt;: 討論光阻剝除中的化學過程及使用的化學品。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;12-清洗--final-cleaning&#34;&gt;12. 清洗 | Final Cleaning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 在製程完成後，使用清洗技術（如溶劑、超音波等）去除製程中的殘留物，確保晶片表面潔淨。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Contamination&lt;/strong&gt;: 涵蓋最終清洗過程中的污染控制技術，保證晶圓在後續使用中的潔淨度。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SMT-Wafer Prep&lt;/strong&gt;: 涉及製程中的清洗技術，確保晶圓製造過程中的清潔度。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>半導體製程技術課程大綱</title>
+      <link>https://eujenz.github.io/posts/smt-course-outline/</link>
+      <pubDate>Thu, 12 Sep 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/smt-course-outline/</guid>
+      <description>&lt;h1 id=&#34;半導體製程技術課程大綱&#34;&gt;半導體製程技術課程大綱&lt;/h1&gt;
+&lt;h2 id=&#34;smt-introduction-基本概念&#34;&gt;SMT-Introduction 基本概念&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;了解半導體產業的經濟現狀和技術根源。&lt;/li&gt;
+&lt;li&gt;說明集成電路（IC）的概念，並列出五個電路集成時代。&lt;/li&gt;
+&lt;li&gt;描述晶圓的結構，並說明晶圓製造的五個基本階段。&lt;/li&gt;
+&lt;li&gt;討論晶圓製造的三大改進趨勢。&lt;/li&gt;
+&lt;li&gt;解釋關鍵尺寸（CD）及摩爾定律對晶圓製造進展的預測。&lt;/li&gt;
+&lt;li&gt;回顧自晶體管發明以來的電子產品不同時代。&lt;/li&gt;
+&lt;li&gt;探討半導體行業的不同職業道路。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-devices-認識半導體元件&#34;&gt;SMT-Devices 認識半導體元件&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;區分類比與數位設備、被動與主動元件，並說明寄生結構的影響。&lt;/li&gt;
+&lt;li&gt;描述PN結及其重要性，並解釋正向與反向偏壓。&lt;/li&gt;
+&lt;li&gt;說明雙極技術及雙極結型晶體管（BJT）的功能、偏壓、結構與應用。&lt;/li&gt;
+&lt;li&gt;解釋CMOS技術的基本特徵，包括場效應晶體管（FET）及CMOS反相器。&lt;/li&gt;
+&lt;li&gt;區分增強型和耗盡型MOSFET。&lt;/li&gt;
+&lt;li&gt;討論寄生晶體管對CMOS鎖定效應的影響。&lt;/li&gt;
+&lt;li&gt;提供IC產品範例及其應用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-wafer-prep-掌握晶圓製備技術&#34;&gt;SMT-Wafer Prep 掌握晶圓製備技術&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;說明如何將原始矽精煉成半導體級矽。&lt;/li&gt;
+&lt;li&gt;解釋單晶矽的晶體結構與生長方法。&lt;/li&gt;
+&lt;li&gt;討論矽晶體的主要缺陷。&lt;/li&gt;
+&lt;li&gt;概述從矽錠到晶圓的基本製備過程。&lt;/li&gt;
+&lt;li&gt;討論供應商對晶圓的七項品質要求。&lt;/li&gt;
+&lt;li&gt;解釋外延層的概念及其對晶圓的重要性。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-process-flow-理解製程流程&#34;&gt;SMT-Process Flow 理解製程流程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;繪製一個典型的亞微米CMOS IC製造流程圖。&lt;/li&gt;
+&lt;li&gt;概述晶圓廠內的六大製程區域及測試區域。&lt;/li&gt;
+&lt;li&gt;說明14個CMOS製造步驟的主要目的。&lt;/li&gt;
+&lt;li&gt;討論每個CMOS製造步驟中使用的關鍵設備與技術。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-materials-理解製程使用的材料特性&#34;&gt;SMT-Materials 理解製程使用的材料特性&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;描述原子結構，包括價電子層、能帶理論和離子。&lt;/li&gt;
+&lt;li&gt;解釋主族元素的化學鍵（離子鍵與共價鍵）形成過程。&lt;/li&gt;
+&lt;li&gt;闡述三類材料及其導電性差異。&lt;/li&gt;
+&lt;li&gt;說明電阻率、電阻與電容，並討論其在晶圓製造中的重要性。&lt;/li&gt;
+&lt;li&gt;解釋純矽的特性，並列出其作為半導體材料的四個主要原因。&lt;/li&gt;
+&lt;li&gt;解釋摻雜過程及三價、五價摻雜元素對矽的影響。&lt;/li&gt;
+&lt;li&gt;討論替代半導體材料，強調砷化鎵的應用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-oxidation-理解氧化技術&#34;&gt;SMT-Oxidation 理解氧化技術&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;描述半導體氧化膜的原子結構、應用及優點。&lt;/li&gt;
+&lt;li&gt;說明氧化的化學反應，並解釋氧化層在矽上的生長過程。&lt;/li&gt;
+&lt;li&gt;解釋選擇性氧化及其應用範例。&lt;/li&gt;
+&lt;li&gt;描述熱處理設備的三種類型及垂直爐的五個組成部分。&lt;/li&gt;
+&lt;li&gt;討論快速熱處理機的功能與使用。&lt;/li&gt;
+&lt;li&gt;闡述氧化過程的關鍵質量指標與常見故障排除方法。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-photo-1&#34;&gt;SMT-Photo-1&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;解釋光刻技術的基本概念，包括製程概覽、關鍵尺寸、光譜及解析度。&lt;/li&gt;
+&lt;li&gt;討論正向與負向光刻的差異。&lt;/li&gt;
+&lt;li&gt;說明光刻的八個基本步驟。&lt;/li&gt;
+&lt;li&gt;解釋晶圓表面的光刻準備過程。&lt;/li&gt;
+&lt;li&gt;描述光阻劑及其物理性質。&lt;/li&gt;
+&lt;li&gt;討論傳統I線光阻劑的化學性質與應用。&lt;/li&gt;
+&lt;li&gt;說明深紫外（DUV）光阻劑的化學性質與優點，包括化學增強型光阻劑。&lt;/li&gt;
+&lt;li&gt;解釋光阻劑在晶圓製造中的應用及軟烘焙的作用。&lt;/li&gt;
+&lt;li&gt;討論軟烘焙的目的及其在生產中的實現方式。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-photo-2&#34;&gt;SMT-Photo-2&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;解釋光刻技術中的對準與曝光目的。&lt;/li&gt;
+&lt;li&gt;描述光的特性及曝光源對光刻的重要性。&lt;/li&gt;
+&lt;li&gt;說明光刻技術中的光學關鍵參數及其計算方式。&lt;/li&gt;
+&lt;li&gt;討論解析度的關鍵參數，並解釋其如何計算。&lt;/li&gt;
+&lt;li&gt;概述五個對準與曝光設備的時代變遷。&lt;/li&gt;
+&lt;li&gt;描述光罩的製造過程及其在微影技術中的應用。&lt;/li&gt;
+&lt;li&gt;討論次波長光刻的光學增強技術。&lt;/li&gt;
+&lt;li&gt;解釋光刻技術中對準的實現方法。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-photo-3&#34;&gt;SMT-Photo-3&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;解釋為何需要進行曝光後烘焙，以及如何為傳統和化學增強型DUV光阻進行烘焙。&lt;/li&gt;
+&lt;li&gt;描述正向與負向光阻的顯影過程，並區分其在傳統和化學增強型DUV光阻中的應用。&lt;/li&gt;
+&lt;li&gt;列出並討論兩種常見的光阻顯影方法及其關鍵參數。&lt;/li&gt;
+&lt;li&gt;說明光阻顯影後為何需要進行硬烘焙。&lt;/li&gt;
+&lt;li&gt;解釋顯影後檢查的好處。&lt;/li&gt;
+&lt;li&gt;列出並描述四種不同的先進光刻替代技術，及其在進入量產過程中的挑戰。&lt;/li&gt;
+&lt;li&gt;描述先進光刻技術中的頂層成像技術及其優勢。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-etch-掌握蝕刻製程&#34;&gt;SMT-Etch 掌握蝕刻製程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;列出並討論蝕刻的重要參數。&lt;/li&gt;
+&lt;li&gt;解釋乾蝕刻的優點及其工作原理。&lt;/li&gt;
+&lt;li&gt;描述七種乾蝕刻設備系統。&lt;/li&gt;
+&lt;li&gt;討論高密度電漿（HDP）蝕刻的優勢及其四種類型的反應器。&lt;/li&gt;
+&lt;li&gt;提供介電質、矽與金屬蝕刻的應用範例。&lt;/li&gt;
+&lt;li&gt;討論濕蝕刻及其應用。&lt;/li&gt;
+&lt;li&gt;解釋光阻劑的去除方法。&lt;/li&gt;
+&lt;li&gt;討論蝕刻檢查與品質控制。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-doping-學習擴散與摻雜技術&#34;&gt;SMT-Doping 學習擴散與摻雜技術&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;解釋摻雜在晶圓製造中的用途與應用。&lt;/li&gt;
+&lt;li&gt;討論摻雜擴散的原理與過程。&lt;/li&gt;
+&lt;li&gt;提供離子植入技術概述，及其優缺點。&lt;/li&gt;
+&lt;li&gt;討論劑量與範圍在離子植入中的重要性。&lt;/li&gt;
+&lt;li&gt;描述離子植入設備的五大子系統。&lt;/li&gt;
+&lt;li&gt;解釋退火與通道效應。&lt;/li&gt;
+&lt;li&gt;討論離子植入技術的不同應用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-metallization-金屬化技術的重要性&#34;&gt;SMT-Metallization 金屬化技術的重要性&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;解釋金屬化技術的術語。&lt;/li&gt;
+&lt;li&gt;列出並描述六類用於晶圓製造的金屬，討論每類金屬的性能要求及應用。&lt;/li&gt;
+&lt;li&gt;討論銅金屬化技術的優勢及實施挑戰。&lt;/li&gt;
+&lt;li&gt;說明濺射技術的優缺點及其物理機制。&lt;/li&gt;
+&lt;li&gt;討論金屬化學氣相沉積（CVD）的優點與應用。&lt;/li&gt;
+&lt;li&gt;解釋銅電鍍的基本原理。&lt;/li&gt;
+&lt;li&gt;描述雙重Damascene製程流程。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-deposition-了解沉積技術&#34;&gt;SMT-Deposition 了解沉積技術&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;描述多層金屬化結構，討論薄膜的可接受特徵及薄膜生長的三個階段。&lt;/li&gt;
+&lt;li&gt;概述不同的薄膜沉積技術。&lt;/li&gt;
+&lt;li&gt;說明化學氣相沉積（CVD）反應的八個基本步驟及其反應類型。&lt;/li&gt;
+&lt;li&gt;討論CVD反應的動態及摻雜對薄膜的影響。&lt;/li&gt;
+&lt;li&gt;描述不同的CVD系統及其應用。&lt;/li&gt;
+&lt;li&gt;討論介電材料在芯片技術中的重要性及應用。&lt;/li&gt;
+&lt;li&gt;討論外延層沉積技術及三種外延層沉積方法。&lt;/li&gt;
+&lt;li&gt;解釋旋轉塗佈介電層的應用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-cmp-學習化學機械拋光技術&#34;&gt;SMT-CMP 學習化學機械拋光技術&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;描述平坦化技術的術語。&lt;/li&gt;
+&lt;li&gt;討論三種傳統平坦化技術。&lt;/li&gt;
+&lt;li&gt;討論化學機械平坦化（CMP）及其對晶圓平坦度的優勢。&lt;/li&gt;
+&lt;li&gt;描述氧化物及金屬CMP中的漿料與墊子。&lt;/li&gt;
+&lt;li&gt;討論CMP設備，包括端點檢測及晶圓承載器。&lt;/li&gt;
+&lt;li&gt;解釋CMP後的清洗程序。&lt;/li&gt;
+&lt;li&gt;列出並描述七種CMP應用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-chemicals-理解製程中的化學過程&#34;&gt;SMT-Chemicals 理解製程中的化學過程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;辨識並討論物質的四種狀態。&lt;/li&gt;
+&lt;li&gt;說明與半導體製造相關的化學性質。&lt;/li&gt;
+&lt;li&gt;解釋製程化學品的分類及其在晶圓廠中的應用。&lt;/li&gt;
+&lt;li&gt;討論酸、鹼與溶劑在晶片製造中的應用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-gas-controls-掌握氣體控制技術&#34;&gt;SMT-Gas Controls 掌握氣體控制技術&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;解釋製程腔體在半導體製造中的用途。&lt;/li&gt;
+&lt;li&gt;描述真空的優勢、真空範圍及合適的泵。&lt;/li&gt;
+&lt;li&gt;解釋氣體流量控制及其在製程腔體中的重要性。&lt;/li&gt;
+&lt;li&gt;討論殘餘氣體分析儀（RGA）及其作用。&lt;/li&gt;
+&lt;li&gt;說明電漿的形成及其應用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;smt-contamination-理解污染控制的重要性&#34;&gt;SMT-Contamination 理解污染控制的重要性&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;描述潔淨室污染的五種類型及其影響。&lt;/li&gt;
+&lt;li&gt;列出並描述潔淨室中的污染來源及其對晶圓清潔度的影響。&lt;/li&gt;
+&lt;li&gt;解釋潔淨室等級及其空氣質量標準。&lt;/li&gt;
+&lt;li&gt;討論技術人員進入潔淨室的七項標準程序。&lt;/li&gt;
+&lt;li&gt;說明超潔淨室設施的各種組成，包括空氣過濾、靜電釋放、超純水及製程氣體的應用。&lt;/li&gt;
+&lt;li&gt;解釋現代工作站設計及微環境對污染減少的貢獻。&lt;/li&gt;
+&lt;li&gt;討論標準濕法清洗方法的化學反應及其替代方法。&lt;/li&gt;
+&lt;li&gt;描述濕法清洗設備及其對晶圓清潔度的貢獻。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>ConventionalCommits初學指南</title>
-      <link>https://eujenz.github.io/posts/conventionalcommits/</link>
-      <pubDate>Mon, 16 Sep 2024 07:48:52 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/conventionalcommits/</guid>
+      <link>https://eujenz.github.io/posts/conventional-commits/</link>
+      <pubDate>Wed, 11 Sep 2024 07:48:52 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/conventional-commits/</guid>
       <description>&lt;h2 id=&#34;為什麼使用慣例式提交&#34;&gt;為什麼使用慣例式提交？&lt;/h2&gt;
 &lt;p&gt;慣例式提交（Conventional Commits）是一種對提交說明的簡單規範，優勢如下。&lt;/p&gt;
 &lt;ul&gt;
@@ -63,64 +472,6 @@
 &lt;li&gt;&lt;code&gt;test&lt;/code&gt;: 測試相關的修改。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;進階使用&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>MOSFET</title>
-      <link>https://eujenz.github.io/posts/mosfet/</link>
-      <pubDate>Sun, 15 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/mosfet/</guid>
-      <description>&lt;p&gt;要系統性地理解 MOSFET 的概念，必須從基本結構、工作原理、類型與應用四個層面進行分析。這樣的學習架構能夠幫助你逐步掌握 MOSFET 的關鍵知識。以下是對 MOSFET 概念的系統化介紹：&lt;/p&gt;
-&lt;h3 id=&#34;1-mosfet-的基本結構&#34;&gt;1. MOSFET 的基本結構&lt;/h3&gt;
-&lt;p&gt;MOSFET 是一種場效電晶體，由四個主要部分組成：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;閘極（Gate）&lt;/strong&gt;：控制電流的開關。閘極與半導體層之間有一層絕緣層（通常是二氧化矽），這層絕緣層使得電場可以控制電流，而不需直接的電流流過閘極。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;汲極（Drain）&lt;/strong&gt;：電流從此端流出。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;源極（Source）&lt;/strong&gt;：電流從此端流入。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;基板（Body）&lt;/strong&gt;：通常與源極連接。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2-mosfet-的工作原理&#34;&gt;2. MOSFET 的工作原理&lt;/h3&gt;
-&lt;p&gt;MOSFET 是根據閘極電壓來控制源極與汲極之間的電流流動。主要有三個工作區域：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;截止區（Cutoff Region）&lt;/strong&gt;：
-當閘極電壓 $V_{GS}$ 低於某個臨界電壓 $V_{th}$ 時，MOSFET 處於關閉狀態，無電流通過源極和汲極。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;線性區（Linear Region）&lt;/strong&gt;：
-當閘極電壓高於臨界電壓，但汲極-源極電壓 $V_{DS}$ 相對較低時，MOSFET 處於線性區，電流與汲極電壓成正比，電晶體像是電阻，適合用作放大器。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;飽和區（Saturation Region）&lt;/strong&gt;：
-當 $V_{DS}$ 較大時，MOSFET 進入飽和區，電流達到最大值並保持穩定，適合用於開關操作。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;3-mosfet-的類型&#34;&gt;3. MOSFET 的類型&lt;/h3&gt;
-&lt;p&gt;MOSFET 根據通道類型和控制方式可分為以下兩類：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;N 通道 MOSFET（NMOS）&lt;/strong&gt;：
-當閘極電壓高於源極電壓時，形成 N 型通道，電流從汲極流向源極。適用於正電壓驅動的情況。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;P 通道 MOSFET（PMOS）&lt;/strong&gt;：
-當閘極電壓低於源極電壓時，形成 P 型通道，電流從源極流向汲極。適用於負電壓或相對低電壓驅動。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;4-mosfet-的應用&#34;&gt;4. MOSFET 的應用&lt;/h3&gt;
-&lt;p&gt;MOSFET 可以在各種應用中作為開關或放大器使用。以下是兩大主要應用：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;開關應用&lt;/strong&gt;：MOSFET 常被用於數位電路中，開關切換迅速，特別適合邏輯電路（如 CMOS 技術）。在開關應用中，MOSFET 工作於截止區和飽和區之間。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;放大應用&lt;/strong&gt;：當 MOSFET 工作在線性區時，可以用作信號放大器，常見於類比電路中。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://eujenz.github.io/about/</link>
-      <pubDate>Sun, 15 Sep 2024 00:12:59 +0800</pubDate>
-      <guid>https://eujenz.github.io/about/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

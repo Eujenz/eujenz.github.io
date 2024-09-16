@@ -1,10 +1,10 @@
 ---
 title: 'ConventionalCommits初學指南'
-date: 2024-09-16T07:48:52+08:00
+date: 2024-09-11T07:48:52+08:00
 draft: false
-tags: [Git]
+tags: ["Git"]
 summary: ""
-categories: ["Notes"]
+categories: ["程式語言"]
 showtoc: true  # 顯示目錄
 tocopen: true  # 預設展開目錄
 mathjax: false

@@ -9,55 +9,101 @@
     <lastBuildDate>Sun, 15 Sep 2024 00:36:24 +0800</lastBuildDate>
     <atom:link href="https://eujenz.github.io/tags/process/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MOSFET</title>
-      <link>https://eujenz.github.io/posts/mosfet/</link>
+      <title>SMT-Devices 認識半導體元件</title>
+      <link>https://eujenz.github.io/posts/smt-devices/</link>
       <pubDate>Sun, 15 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/mosfet/</guid>
-      <description>&lt;p&gt;要系統性地理解 MOSFET 的概念，必須從基本結構、工作原理、類型與應用四個層面進行分析。這樣的學習架構能夠幫助你逐步掌握 MOSFET 的關鍵知識。以下是對 MOSFET 概念的系統化介紹：&lt;/p&gt;
-&lt;h3 id=&#34;1-mosfet-的基本結構&#34;&gt;1. MOSFET 的基本結構&lt;/h3&gt;
-&lt;p&gt;MOSFET 是一種場效電晶體，由四個主要部分組成：&lt;/p&gt;
+      <guid>https://eujenz.github.io/posts/smt-devices/</guid>
+      <description>&lt;h2 id=&#34;類比與數位設備被動與主動元件與寄生結構&#34;&gt;類比與數位設備、被動與主動元件與寄生結構&lt;/h2&gt;
+&lt;h3 id=&#34;類比與數位設備&#34;&gt;類比與數位設備&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;閘極（Gate）&lt;/strong&gt;：控制電流的開關。閘極與半導體層之間有一層絕緣層（通常是二氧化矽），這層絕緣層使得電場可以控制電流，而不需直接的電流流過閘極。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;汲極（Drain）&lt;/strong&gt;：電流從此端流出。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;源極（Source）&lt;/strong&gt;：電流從此端流入。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;基板（Body）&lt;/strong&gt;：通常與源極連接。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;類比設備（Analog Devices）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;處理連續信號，應用於無線電接收器、音頻系統和汽車點火系統。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特點&lt;/strong&gt;: 類比設備能夠放大或處理自然界中的連續信號，通常將物理現象轉換為電子信號。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;2-mosfet-的工作原理&#34;&gt;2. MOSFET 的工作原理&lt;/h3&gt;
-&lt;p&gt;MOSFET 是根據閘極電壓來控制源極與汲極之間的電流流動。主要有三個工作區域：&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;數位設備（Digital Devices）&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;截止區（Cutoff Region）&lt;/strong&gt;：
-當閘極電壓 $V_{GS}$ 低於某個臨界電壓 $V_{th}$ 時，MOSFET 處於關閉狀態，無電流通過源極和汲極。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;線性區（Linear Region）&lt;/strong&gt;：
-當閘極電壓高於臨界電壓，但汲極-源極電壓 $V_{DS}$ 相對較低時，MOSFET 處於線性區，電流與汲極電壓成正比，電晶體像是電阻，適合用作放大器。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;飽和區（Saturation Region）&lt;/strong&gt;：
-當 $V_{DS}$ 較大時，MOSFET 進入飽和區，電流達到最大值並保持穩定，適合用於開關操作。&lt;/p&gt;
+&lt;li&gt;處理離散信號，信號形式為二進制「高」或「低」，常見於計算機、計算器等數位邏輯電路。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特點&lt;/strong&gt;: 數位設備處理開/關的二進制狀態，主要用於邏輯運算和數據處理，具有精確性和可編程性。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;3-mosfet-的類型&#34;&gt;3. MOSFET 的類型&lt;/h3&gt;
-&lt;p&gt;MOSFET 根據通道類型和控制方式可分為以下兩類：&lt;/p&gt;
+&lt;h3 id=&#34;被動與主動元件&#34;&gt;被動與主動元件&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;N 通道 MOSFET（NMOS）&lt;/strong&gt;：
-當閘極電壓高於源極電壓時，形成 N 型通道，電流從汲極流向源極。適用於正電壓驅動的情況。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;被動元件（Passive Components）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不需外部電源來工作，無法放大信號，常見被動元件有：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;電阻（Resistor）&lt;/strong&gt;: 控制電流並分配電壓。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;電容（Capacitor）&lt;/strong&gt;: 儲存和釋放電能，常用於濾波與能量存儲。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;電感（Inductor）&lt;/strong&gt;: 儲存磁能，通常用於電源線路中的濾波。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;P 通道 MOSFET（PMOS）&lt;/strong&gt;：
-當閘極電壓低於源極電壓時，形成 P 型通道，電流從源極流向汲極。適用於負電壓或相對低電壓驅動。&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;寄生效應&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;寄生結構（Parasitic Structures）&lt;/strong&gt;: 被動元件內部不可避免的效應，如寄生電容和寄生電阻，這些效應會降低電路性能。例如，寄生電容會引起信號耦合，影響高頻響應。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;4-mosfet-的應用&#34;&gt;4. MOSFET 的應用&lt;/h3&gt;
-&lt;p&gt;MOSFET 可以在各種應用中作為開關或放大器使用。以下是兩大主要應用：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;開關應用&lt;/strong&gt;：MOSFET 常被用於數位電路中，開關切換迅速，特別適合邏輯電路（如 CMOS 技術）。在開關應用中，MOSFET 工作於截止區和飽和區之間。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;放大應用&lt;/strong&gt;：當 MOSFET 工作在線性區時，可以用作信號放大器，常見於類比電路中。&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;主動元件（Active Components）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;需要外部電源來工作，能夠放大信號或控制電流，常見主動元件有：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;二極體（Diode）&lt;/strong&gt;: 允許電流單向流動，控制電流方向。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;雙極性晶體管（BJT）&lt;/strong&gt;: 用於放大信號或作為開關。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;場效應晶體管（FET）&lt;/strong&gt;: 利用電場控制電流，提供更高的輸入阻抗與更低功耗。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;寄生效應&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;寄生結構&lt;/strong&gt;: 主動元件內部的寄生結構，如寄生雙極性晶體管與寄生電容，可能會形成非預期的電流路徑，導致漏電、電路不穩定或性能降低。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;寄生結構的影響&#34;&gt;寄生結構的影響&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;寄生電阻（Parasitic Resistance）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;元件內部材料和接觸點因製程缺陷產生的非理想寄生電阻，增加電路總電阻，導致功耗增加和運行速度下降。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;寄生電容（Parasitic Capacitance）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;電晶體內部不同層間的寄生電容在高頻信號下會導致不必要的耦合或漏電，影響信號的穩定性與性能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;寄生雙極性晶體管（Parasitic Bipolar Transistor）&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 MOSFET 中，P 型和 N 型區域可能形成意外的寄生雙極性晶體管，這些寄生晶體管會引發鎖定效應（Latch-up），導致電路短路或失效。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;小結&#34;&gt;小結&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;類比與數位設備&lt;/strong&gt;: 類比設備處理連續信號，數位設備處理二進制信號。類比設備多用於自然信號的轉換，數位設備則主要應用於邏輯運算和數據處理。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;被動與主動元件&lt;/strong&gt;: 被動元件無法放大信號，而主動元件可以放大信號或控制電流。兩者在電路中相輔相成，但寄生結構會影響其性能，尤其是在高頻應用中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;寄生結構的影響&lt;/strong&gt;: 寄生電阻、寄生電容和寄生晶體管會降低元件性能，導致功耗增加、信號損耗或電路不穩定，甚至可能引發鎖定效應。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pn-junction正向與反向偏壓&#34;&gt;PN Junction、正向與反向偏壓&lt;/h2&gt;
+&lt;h3 id=&#34;pn-junction-的基本概念&#34;&gt;PN Junction 的基本概念&lt;/h3&gt;
+&lt;p&gt;PN 結是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，而 N 型材料中的多數載子是電子。這些載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷不再能自由移動，導致兩側形成內建電場，並進一步阻止多數載子穿過接面。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
