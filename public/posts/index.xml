@@ -6,8 +6,20 @@
     <description>Recent content in Posts on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Sep 2024 00:36:24 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2024 00:36:24 +0800</lastBuildDate>
     <atom:link href="https://eujenz.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SMT-Process Flow 理解製程流程</title>
+      <link>https://eujenz.github.io/posts/smt-process-flow/</link>
+      <pubDate>Mon, 16 Sep 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/smt-process-flow/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;繪製一個典型的亞微米CMOS IC製造流程圖。&lt;/li&gt;
+&lt;li&gt;概述晶圓廠內的六大製程區域及測試區域。&lt;/li&gt;
+&lt;li&gt;說明14個CMOS製造步驟的主要目的。&lt;/li&gt;
+&lt;li&gt;討論每個CMOS製造步驟中使用的關鍵設備與技術。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
     <item>
       <title>SMT-Devices 認識半導體元件</title>
       <link>https://eujenz.github.io/posts/smt-devices/</link>
@@ -103,139 +115,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;pn-junction正向與反向偏壓&#34;&gt;PN Junction、正向與反向偏壓&lt;/h2&gt;
 &lt;h3 id=&#34;pn-junction-的基本概念&#34;&gt;PN Junction 的基本概念&lt;/h3&gt;
-&lt;p&gt;PN 結是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，而 N 型材料中的多數載子是電子。這些載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷不再能自由移動，導致兩側形成內建電場，並進一步阻止多數載子穿過接面。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>一張圖搞懂半導體晶圓製程</title>
-      <link>https://eujenz.github.io/posts/smt-diagram/</link>
-      <pubDate>Fri, 13 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/smt-diagram/</guid>
-      <description>&lt;h1 id=&#34;一張圖搞懂半導體晶圓製程&#34;&gt;一張圖搞懂半導體晶圓製程&lt;/h1&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://eujenz.github.io/images/Wafer-processing.png&#34; alt=&#34;半導體晶圓製程&#34;  /&gt;
-&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;引用自 &lt;a href=&#34;https://www.lorric.com/tw/Industries/semiconductor-industry&#34;&gt;https://www.lorric.com/tw/Industries/semiconductor-industry&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-    
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/jKqvorv0gt4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-      &gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h2 id=&#34;1-純化--wafer-cleaning&#34;&gt;1. 純化 | Wafer Cleaning&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 使用高溫熔煉或溶劑（如HF氫氟酸或KOH氫氧化鉀）清洗晶圓表面，去除污染和有機殘留物，確保基材品質。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Wafer Prep&lt;/strong&gt;: 說明如何將矽精煉成半導體級矽，並且如何在晶圓製備過程中進行清洗確保高純度。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Contamination&lt;/strong&gt;: 討論如何控制晶圓清潔度，避免污染對製程影響。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;2-長晶--crystal-growth&#34;&gt;2. 長晶 | Crystal Growth&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 將高純度的矽原料（如二氧化矽）放入爐中提煉，還原成冶煉級矽，經蒸餾純化後生成「多晶矽」。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Wafer Prep&lt;/strong&gt;: 解釋單晶矽的晶體結構與成長方法，並討論長晶過程中的材料品質。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;3-拉晶--ingot-pulling&#34;&gt;3. 拉晶 | Ingot Pulling&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 在高溫下將探棒浸入熔融矽中，透過旋轉和拉升將單晶矽形成柱狀矽錠。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Wafer Prep&lt;/strong&gt;: 討論單晶矽錠的生長過程及相關技術，這是晶圓製造中的關鍵步驟。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;4-切片--wafer-slicing&#34;&gt;4. 切片 | Wafer Slicing&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 將柱狀單晶矽錠切割成薄片，形成晶圓，並進行邊緣處理以保證尺寸和表面平整度。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Wafer Prep&lt;/strong&gt;: 涉及如何將晶圓從矽錠切割並進行拋光處理，確保晶圓適用於後續製程。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;5-拋光研磨--polishing--lapping&#34;&gt;5. 拋光研磨 | Polishing &amp;amp; Lapping&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 經過切割後，晶圓表面粗糙，需進行拋光與研磨，保證表面光滑和平坦，適合光刻等後續製程。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SMT-CMP&lt;/strong&gt;: 討論化學機械拋光技術及其對於晶圓表面平整度的提升。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Wafer Prep&lt;/strong&gt;: 說明晶圓拋光與研磨的具體步驟，保證晶圓表面品質。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;6-氣相沈積--cvd&#34;&gt;6. 氣相沈積 | CVD&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 在反應室中通入氣態前體，透過化學反應在晶圓表面沉積一層薄膜，用以形成絕緣層或導體層。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Deposition&lt;/strong&gt;: 解釋CVD技術及其他薄膜沉積技術的工作原理和應用。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Oxidation&lt;/strong&gt;: 討論氧化膜的成長過程，氧化技術是CVD的應用之一。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;7-光阻塗佈--photoresist-coating&#34;&gt;7. 光阻塗佈 | Photoresist Coating&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 將光阻液均勻塗佈在晶圓表面，形成光阻層，這層光阻在曝光和顯影過程中會發生化學變化，形成所需圖案。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Photo-1&lt;/strong&gt;: 涉及光阻劑的應用和光刻製程中的光阻塗佈技術。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;8-曝光--exposure&#34;&gt;8. 曝光 | Exposure&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 將光罩上的圖案通過紫外光照射轉印到晶圓上的光阻層，形成微細結構的模板。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Photo-2&lt;/strong&gt;: 解釋光刻中的對準與曝光技術，包括光學系統的關鍵參數。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;9-顯影--photolithography&#34;&gt;9. 顯影 | Photolithography&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 通過顯影溶液處理曝光過的光阻層，使得曝光區域或未曝光區域被去除，從而留下圖案。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Photo-3&lt;/strong&gt;: 討論顯影過程及顯影後的處理步驟，如硬烘焙與顯影後檢查。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;10-蝕刻--etching&#34;&gt;10. 蝕刻 | Etching&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 使用酸或鹼性溶液根據光阻圖案對底層材料進行蝕刻，移除未保護的材料，形成所需的結構。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Etch&lt;/strong&gt;: 涵蓋乾蝕刻與濕蝕刻技術的工作原理及其在半導體製造中的應用。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;11-光阻剝除--photoresist-stripping&#34;&gt;11. 光阻剝除 | Photoresist Stripping&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 在蝕刻後，移除殘留的光阻，使用化學剝除、熱處理或機械剝除方式，以確保元件不受光阻殘留物影響。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Chemicals&lt;/strong&gt;: 討論光阻剝除中的化學過程及使用的化學品。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;12-清洗--final-cleaning&#34;&gt;12. 清洗 | Final Cleaning&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;流程描述&lt;/strong&gt;: 在製程完成後，使用清洗技術（如溶劑、超音波等）去除製程中的殘留物，確保晶片表面潔淨。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;相關課程&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Contamination&lt;/strong&gt;: 涵蓋最終清洗過程中的污染控制技術，保證晶圓在後續使用中的潔淨度。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SMT-Wafer Prep&lt;/strong&gt;: 涉及製程中的清洗技術，確保晶圓製造過程中的清潔度。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;PN Junction是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，而 N 型材料中的多數載子是電子。這些載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷不再能自由移動，導致兩側形成內建電場，並進一步阻止多數載子穿過接面。&lt;/p&gt;</description>
     </item>
     <item>
       <title>半導體製程技術課程大綱</title>
