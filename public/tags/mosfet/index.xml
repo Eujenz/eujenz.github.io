@@ -6,20 +6,8 @@
     <description>Recent content in MOSFET on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Sep 2024 00:36:24 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2024 00:36:24 +0800</lastBuildDate>
     <atom:link href="https://eujenz.github.io/tags/mosfet/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SMT-Process Flow 理解製程流程</title>
-      <link>https://eujenz.github.io/posts/smt-process-flow/</link>
-      <pubDate>Mon, 16 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/smt-process-flow/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;繪製一個典型的亞微米CMOS IC製造流程圖。&lt;/li&gt;
-&lt;li&gt;概述晶圓廠內的六大製程區域及測試區域。&lt;/li&gt;
-&lt;li&gt;說明14個CMOS製造步驟的主要目的。&lt;/li&gt;
-&lt;li&gt;討論每個CMOS製造步驟中使用的關鍵設備與技術。&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
     <item>
       <title>SMT-Devices 認識半導體元件</title>
       <link>https://eujenz.github.io/posts/smt-devices/</link>

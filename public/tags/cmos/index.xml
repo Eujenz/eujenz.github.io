@@ -6,19 +6,253 @@
     <description>Recent content in CMOS on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Sep 2024 00:36:24 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2024 00:36:24 +0800</lastBuildDate>
     <atom:link href="https://eujenz.github.io/tags/cmos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SMT-Process Flow 理解製程流程</title>
       <link>https://eujenz.github.io/posts/smt-process-flow/</link>
-      <pubDate>Mon, 16 Sep 2024 00:36:24 +0800</pubDate>
+      <pubDate>Wed, 18 Sep 2024 00:36:24 +0800</pubDate>
       <guid>https://eujenz.github.io/posts/smt-process-flow/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;繪製一個典型的亞微米CMOS IC製造流程圖。&lt;/li&gt;
-&lt;li&gt;概述晶圓廠內的六大製程區域及測試區域。&lt;/li&gt;
-&lt;li&gt;說明14個CMOS製造步驟的主要目的。&lt;/li&gt;
-&lt;li&gt;討論每個CMOS製造步驟中使用的關鍵設備與技術。&lt;/li&gt;
-&lt;/ol&gt;</description>
+      <description>&lt;h2 id=&#34;晶圓廠六大製程區域及測試區概述&#34;&gt;晶圓廠六大製程區域及測試區概述&lt;/h2&gt;
+&lt;h3 id=&#34;擴散區diffusion-area&#34;&gt;擴散區（Diffusion Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：進行擴散、氧化和摻雜步驟。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;氧化：利用熱氧化技術在晶圓表面生成氧化層（如閘極氧化層）。&lt;/li&gt;
+&lt;li&gt;離子植入：利用離子植入機將摻雜物（如磷或硼）注入晶圓，改變其電特性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;光刻區photolithography-area&#34;&gt;光刻區（Photolithography Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：使用光刻技術將電路圖案轉移到晶圓上。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;光阻塗佈：在晶圓表面均勻塗佈光阻材料。&lt;/li&gt;
+&lt;li&gt;曝光和顯影：利用光罩和紫外光將圖案轉移至光阻層，然後進行顯影以顯示所需圖案。&lt;/li&gt;
+&lt;li&gt;蝕刻：根據光刻圖案對暴露的區域進行化學或等離子蝕刻。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;蝕刻區etch-area&#34;&gt;蝕刻區（Etch Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：通過乾式或濕式蝕刻技術移除不需要的材料，形成所需的結構。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;乾蝕刻：利用等離子體或反應性氣體蝕刻暴露區域的材料。&lt;/li&gt;
+&lt;li&gt;濕蝕刻：使用化學溶液選擇性地溶解暴露區域的材料。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;離子佈植區ion-implant-area&#34;&gt;離子佈植區（Ion Implant Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：利用離子植入技術將摻雜物注入到晶圓內，調整其電性。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;離子植入：利用加速電場將摻雜離子（如磷、砷、硼）注入到晶圓的指定區域中，以形成N型或P型區域。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;薄膜區thin-films-area&#34;&gt;薄膜區（Thin Films Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：在晶圓上沉積各種薄膜，如金屬、氧化物和氮化物，用於形成電路層間介電質或金屬互連層。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;化學氣相沉積（CVD）：利用氣相反應沉積薄膜材料（如SiO2、Si3N4）。&lt;/li&gt;
+&lt;li&gt;物理氣相沉積（PVD）：利用濺射或蒸鍍技術沉積金屬薄膜（如鋁、鎢）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;化學機械平坦化區cmp-area&#34;&gt;化學機械平坦化區（CMP Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：使用CMP技術對晶圓表面進行平坦化處理，確保多層金屬層之間的平整度。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;CMP：通過化學溶液與機械研磨結合，去除晶圓表面多餘的材料，達到平坦效果，為後續工藝提供平整基礎。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;測試區testing-area&#34;&gt;測試區（Testing Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：對晶圓進行電氣測試，檢查電路的功能和參數是否符合設計要求。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;參數測試（Parametric Testing）：利用探針測試晶圓上的關鍵電參數，確認電晶體、電容、電阻等元件是否符合規範。&lt;/li&gt;
+&lt;li&gt;功能測試：測試電路是否能按預期運行，確保無短路、開路或其他缺陷。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;mos-process-flow&#34;&gt;MOS Process Flow&lt;/h2&gt;
+&lt;p&gt;在 MOS（金氧半場效電晶體，Metal-Oxide-Semiconductor）製程中，主要的製造步驟可以分為四大類：&lt;strong&gt;成層（layering）&lt;/strong&gt;、&lt;strong&gt;圖形化（patterning）&lt;/strong&gt;、&lt;strong&gt;蝕刻（etching）&lt;strong&gt;和&lt;/strong&gt;摻雜（doping）&lt;/strong&gt;。以下是這些步驟的概述：&lt;/p&gt;
+&lt;h3 id=&#34;成層layering&#34;&gt;成層（Layering）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;在基板上沉積各種材料，如矽（Si）、氧化矽（$SiO_2$）、氮化矽（$Si_3N_4$）、多晶矽（polysilicon）。&lt;/li&gt;
+&lt;li&gt;使用氧化或氣相沉積技術（CVD，Chemical Vapor Deposition）來達成。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;圖形化patterning&#34;&gt;圖形化（Patterning）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用光刻技術（Photolithography）將電路圖案轉移到晶圓上。&lt;/li&gt;
+&lt;li&gt;步驟包括：塗佈光阻（photoresist）、曝光、顯影以及後續的蝕刻工藝。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;蝕刻etching&#34;&gt;蝕刻（Etching）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;利用化學或離子蝕刻技術，移除未覆蓋的區域來形成所需結構。&lt;/li&gt;
+&lt;li&gt;常用氣體包括 CF$_4$ 或 CCl$_4$。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;摻雜doping&#34;&gt;摻雜（Doping）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用離子植入技術（Ion Implantation）將摻雜物（如磷或硼）引入矽基板，以控制區域的半導體性質（N 型或 P 型）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cmos-process-flow&#34;&gt;CMOS Process Flow&lt;/h2&gt;
+&lt;h3 id=&#34;1-雙井植入twin-well-implants&#34;&gt;1. 雙井植入（Twin-Well Implants）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：離子植入機（Ion Implanter），快速熱退火系統（RTA）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：磷（$P$）用於N型井，硼（$B$）用於P型井。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;利用離子植入技術將摻雜物植入N型和P型井區。&lt;/li&gt;
+&lt;li&gt;植入後使用RTA系統進行退火，以激活摻雜物並修復晶格損傷。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-淺溝隔離shallow-trench-isolation-sti&#34;&gt;2. 淺溝隔離（Shallow Trench Isolation, STI）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：乾蝕刻設備（Dry Etcher），化學機械平坦化（CMP）設備。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：CVD氧化物或旋塗玻璃（SOG）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;使用乾蝕刻機在矽基板上刻蝕淺溝，然後填充氧化物材料。&lt;/li&gt;
+&lt;li&gt;使用CMP進行平坦化，氮化矽作為CMP的止擋層，確保表面平坦。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-閘極結構的形成gate-structure-formation&#34;&gt;3. 閘極結構的形成（Gate Structure Formation）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：低壓化學氣相沉積系統（LPCVD），乾蝕刻機（Dry Etcher）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：多晶矽（$SiH_4$）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;熱生長氧化層，使用LPCVD沉積摻雜多晶矽層，然後通過光刻和乾蝕刻形成閘極結構。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-輕摻雜汲極植入lightly-doped-drain-ldd&#34;&gt;4. 輕摻雜汲極植入（Lightly Doped Drain, LDD）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：離子植入機（Ion Implanter）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：砷（$As$）和氟化硼（$BF_2$）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;使用離子植入技術將摻雜物植入汲極和源極，形成LDD區域，減少熱載子效應。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-側牆間隔的形成sidewall-spacer-formation&#34;&gt;5. 側牆間隔的形成（Sidewall Spacer Formation）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：CVD系統，各向異性等離子蝕刻機（Anisotropic Plasma Etcher）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：CVD氧化物。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;沉積氧化層，然後通過各向異性等離子蝕刻形成側牆間隔，以保護LDD區域。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;6-源汲極植入sourcedrain-implantation&#34;&gt;6. 源/汲極植入（Source/Drain Implantation）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：離子植入機（Ion Implanter），快速熱退火系統（RTA）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：砷（$As$）和硼（$B$）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;通過離子植入技術進行高劑量摻雜，然後使用RTA系統激活摻雜物並修復晶格損傷。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;7-接觸孔的形成contact-formation&#34;&gt;7. 接觸孔的形成（Contact Formation）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：濺鍍系統（Sputtering System），快速熱處理系統（RTP）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：鈦（$Ti$），氮化鈦（$TiN$）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;使用濺鍍技術沉積鈦，通過RTP形成鈦矽化物（TiSi$_2$），然後進行選擇性蝕刻以去除未反應的鈦。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;8-局部互連的形成local-interconnect-formation&#34;&gt;8. 局部互連的形成（Local Interconnect Formation）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：鎢化學氣相沉積系統（Tungsten CVD System），CMP設備。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：鎢（$W$）、鈦（$Ti$）、氮化鈦（$TiN$）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;沉積鎢來形成局部互連，隨後使用CMP設備進行平坦化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;9-層間介電質ild與導通孔1via-1-formation&#34;&gt;9. 層間介電質（ILD）與導通孔1（Via-1 Formation）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：CVD系統，CMP設備。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：低介電常數材料SiCOH。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;通過CVD系統沉積層間介電質，然後進行導通孔的刻蝕和CMP平坦化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;10-第一金屬層的形成first-metal-layer-formation&#34;&gt;10. 第一金屬層的形成（First Metal Layer Formation）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：濺鍍系統（Sputtering System），乾蝕刻機（Dry Etcher）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：鋁（$Al$）摻銅（$Cu$）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;使用濺鍍技術沉積鋁銅合金，然後通過乾蝕刻機進行圖案化，形成第一層金屬互連。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;11-第二層介電質與導通孔2second-ild-to-via-2-formation&#34;&gt;11. 第二層介電質與導通孔2（Second ILD to Via-2 Formation）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：CVD系統，CMP設備。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：CVD沉積氧化物材料。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;沉積第二層介電質，刻蝕導通孔，並使用CMP設備進行平坦化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;12-第二金屬層至導通孔3的形成second-metal-layer-to-via-3-formation&#34;&gt;12. 第二金屬層至導通孔3的形成（Second Metal Layer to Via-3 Formation）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：濺鍍系統，CMP設備。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：鋁（$Al$）、銅（$Cu$）、鎢（$W$）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;沉積第二層金屬，進行圖案化和平坦化，形成下一層互連。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;13-第三金屬層至焊墊蝕刻third-metal-layer-to-pad-etch&#34;&gt;13. 第三金屬層至焊墊蝕刻（Third Metal Layer to Pad Etch）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：濺鍍系統，乾蝕刻機（Dry Etcher）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：鋁+銅（$Al+Cu$）、氮化鈦（$TiN$）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;沉積第三層金屬並刻蝕形成焊墊，用於外部連接。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;14-參數測試parametric-testing&#34;&gt;14. 參數測試（Parametric Testing）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：微操縱器探針系統（Micromanipulator Prober）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：不涉及化學物質。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;使用探針測試晶圓的電氣特性，確保元件符合規範，良品晶片會被標記進行封裝。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;q--a&#34;&gt;Q &amp;amp; A&lt;/h2&gt;
+&lt;h3 id=&#34;cmos-與-mos-製程的差異&#34;&gt;CMOS 與 MOS 製程的差異&lt;/h3&gt;
+&lt;p&gt;CMOS（互補金氧半導體）和 MOS（金氧半場效電晶體）製程的主要差異在於電路設計和功耗管理。MOS 製程僅使用 N 型或 P 型的場效電晶體（FET），而 CMOS 則是互補式設計，包含 N 型和 P 型 FET。這使得 CMOS 具有以下優勢：&lt;/p&gt;</description>
     </item>
     <item>
       <title>SMT-Devices 認識半導體元件</title>

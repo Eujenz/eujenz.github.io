@@ -50,8 +50,8 @@ params:
   disableSpecial1stPost: true  # 禁用首篇特殊文章展示
   disableScrollToTop: false  # 啟用滾動到頂部按鈕
   comments: false  # 評論功能
-  hidemeta: false  # 顯示元數據（如日期、作者）
-  hideSummary: true  # 顯示文章摘要
+  hidemeta: false  #隱藏元數據（如日期、作者）
+  hideSummary: true  # 隱藏文章摘要
   showtoc: true  # 顯示目錄（ToC）
   tocopen: true  # 預設展開目錄
 
