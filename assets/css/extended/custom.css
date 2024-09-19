@@ -1,10 +1,3 @@
-
-
-/* 確保主內容不被 TOC 遮擋 */
-main {
-  margin-left: 320px;
-}
-
 /* 調整表頭和鏈接的配色 */
 #TableOfContents a {
   text-decoration: none;
@@ -77,3 +70,10 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;  /* 移除列表項目的符號 */
   padding-left: 0;  /* 移除內邊距 */
 }
+
+/* 確保主內容不被 TOC 遮擋 */
+main {
+  margin-left: 320px; /* 對應 HTML5 main 標籤 */
+}
+
+
