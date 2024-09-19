@@ -2,17 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>半導體製程技術 on LEE CHIEN-WEI</title>
-    <link>http://localhost:1313/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%A3%BD%E7%A8%8B%E6%8A%80%E8%A1%93/</link>
+    <link>https://eujenz.github.io/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%A3%BD%E7%A8%8B%E6%8A%80%E8%A1%93/</link>
     <description>Recent content in 半導體製程技術 on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Sep 2024 00:36:24 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%A3%BD%E7%A8%8B%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Sep 2024 12:04:41 +0800</lastBuildDate>
+    <atom:link href="https://eujenz.github.io/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%A3%BD%E7%A8%8B%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SMT-Process Flow 理解製程流程</title>
-      <link>http://localhost:1313/posts/smt-process-flow/</link>
+      <title>SMT- Chemicals 理解製程中的化學過程</title>
+      <link>https://eujenz.github.io/posts/smt-chemicals/</link>
+      <pubDate>Thu, 19 Sep 2024 12:04:41 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/smt-chemicals/</guid>
+      <description>&lt;h2 id=&#34;半導體製造中的液體化學品&#34;&gt;半導體製造中的液體化學品&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;類別&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;化學品&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;用途&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;酸類&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;氫氟酸（HF）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用於蝕刻二氧化矽（$SiO_2$）和清潔石英器具。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;鹽酸（HCl）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SC-2（標準清潔 2）溶液的一部分，用於去除晶圓上的重金屬。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;硫酸（$H_2SO_4$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用於“Piranha”溶液（$H_2SO_4$ + $H_2O_2$）中，用於清潔晶圓。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;磷酸（$H_3PO_4$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用於蝕刻氮化矽（$Si_3N_4$）薄膜。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;硝酸（$HNO_3$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;與氫氟酸混合使用，蝕刻磷硅酸鹽玻璃（PSG）。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;緩衝氧化物蝕刻液（BOE）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用於蝕刻二氧化矽薄膜。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;鹼類&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;過氧化氫（$H_2O_2$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;作為蝕刻溶液中的催化劑，並用作清潔劑。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;氫氧化銨（$NH_4OH$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用作晶圓的清潔溶液。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;氫氧化鉀（KOH）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;正性光阻劑的顯影劑，也用於矽的各向異性蝕刻。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;四甲基氫氧化銨（TMAH）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;也是一種正性光阻劑顯影劑。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;溶劑&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;去離子水（DI Water）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用於沖洗晶圓和稀釋化學品。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;異丙醇（IPA）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;晶圓和工具的通用清潔溶劑。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;丙酮（Acetone）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;強力清潔溶劑，通常用於去除光阻和污染物。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;二甲苯（Xylene）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;強力清潔劑，用於去除光阻邊緣珠。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;半導體製造中的氣體化學品&#34;&gt;半導體製造中的氣體化學品&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;類別&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;氣體&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;用途&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;大量氣體&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;氮氣（$N_2$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用於清洗氣體管線和製程腔體，並提供惰性環境。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;氬氣（$Ar$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;製程腔體中的惰性氣體，用於加工期間。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;氦氣（$He$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用於製程腔體和檢查真空腔體的洩漏。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;氫氣（$H_2$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;作為外延生長中的載氣，用於半導體層的沉積。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;氧氣（$O_2$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用於氧化製程，如生長二氧化矽層。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;特殊氣體&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;矽烷（$SiH_4$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;CVD 過程中的矽源，用於薄膜生長。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;砷烷（$AsH_3$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用於外延膜的 N 型摻雜，通常與氫氣稀釋以更好控制製程。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;磷化氫（$PH_3$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;N 型摻雜的磷源。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;二硼烷（$B_2H_6$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;作為 P 型摻雜物，通常與氫氣稀釋使用。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;四乙氧基矽烷（TEOS）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用於矽氧化物的沉積。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;六氟化鎢（$WF_6$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;鎢薄膜沉積的製程氣體。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;四氟化碳（$CF_4$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;氟基氣體，用於等離子蝕刻過程。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;氯氣（$Cl_2$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用於乾蝕刻製程中，蝕刻矽及其他材料。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;氨氣（$NH_3$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用於氮化和其他反應中的製程氣體。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;tbd&#34;&gt;TBD:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;識並討論物質的四種狀態&lt;/li&gt;
+&lt;li&gt;說明與半導體製造相關的化學性質。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>SMT- Process Flow 理解製程流程</title>
+      <link>https://eujenz.github.io/posts/smt-process-flow/</link>
       <pubDate>Wed, 18 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>http://localhost:1313/posts/smt-process-flow/</guid>
+      <guid>https://eujenz.github.io/posts/smt-process-flow/</guid>
       <description>&lt;h2 id=&#34;晶圓廠六大製程區域及測試區概述&#34;&gt;晶圓廠六大製程區域及測試區概述&lt;/h2&gt;
 &lt;h3 id=&#34;擴散區diffusion-area&#34;&gt;擴散區（Diffusion Area）&lt;/h3&gt;
 &lt;ul&gt;
@@ -59,7 +234,7 @@
 &lt;li&gt;目的：在晶圓上沉積各種薄膜，如金屬、氧化物和氮化物，用於形成電路層間介電質或金屬互連層。&lt;/li&gt;
 &lt;li&gt;主要工藝：
 &lt;ul&gt;
-&lt;li&gt;化學氣相沉積（CVD）：利用氣相反應沉積薄膜材料（如SiO2、Si3N4）。&lt;/li&gt;
+&lt;li&gt;化學氣相沉積（CVD）：利用氣相反應沉積薄膜材料（如$SiO_2$、$Si_3N_4$）。&lt;/li&gt;
 &lt;li&gt;物理氣相沉積（PVD）：利用濺射或蒸鍍技術沉積金屬薄膜（如鋁、鎢）。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -85,180 +260,104 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;mos-process-flow&#34;&gt;MOS Process Flow&lt;/h2&gt;
-&lt;p&gt;在 MOS（金氧半場效電晶體，Metal-Oxide-Semiconductor）製程中，主要的製造步驟可以分為四大類：&lt;strong&gt;成層（layering）&lt;/strong&gt;、&lt;strong&gt;圖形化（patterning）&lt;/strong&gt;、&lt;strong&gt;蝕刻（etching）&lt;strong&gt;和&lt;/strong&gt;摻雜（doping）&lt;/strong&gt;。以下是這些步驟的概述：&lt;/p&gt;
-&lt;h3 id=&#34;成層layering&#34;&gt;成層（Layering）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;在基板上沉積各種材料，如矽（Si）、氧化矽（$SiO_2$）、氮化矽（$Si_3N_4$）、多晶矽（polysilicon）。&lt;/li&gt;
-&lt;li&gt;使用氧化或氣相沉積技術（CVD，Chemical Vapor Deposition）來達成。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;圖形化patterning&#34;&gt;圖形化（Patterning）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;使用光刻技術（Photolithography）將電路圖案轉移到晶圓上。&lt;/li&gt;
-&lt;li&gt;步驟包括：塗佈光阻（photoresist）、曝光、顯影以及後續的蝕刻工藝。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;蝕刻etching&#34;&gt;蝕刻（Etching）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;利用化學或離子蝕刻技術，移除未覆蓋的區域來形成所需結構。&lt;/li&gt;
-&lt;li&gt;常用氣體包括 CF$_4$ 或 CCl$_4$。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;摻雜doping&#34;&gt;摻雜（Doping）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;使用離子植入技術（Ion Implantation）將摻雜物（如磷或硼）引入矽基板，以控制區域的半導體性質（N 型或 P 型）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;cmos-process-flow&#34;&gt;CMOS Process Flow&lt;/h2&gt;
-&lt;h3 id=&#34;1-雙井植入twin-well-implants&#34;&gt;1. 雙井植入（Twin-Well Implants）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：離子植入機（Ion Implanter），快速熱退火系統（RTA）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：磷（$P$）用於N型井，硼（$B$）用於P型井。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;利用離子植入技術將摻雜物植入N型和P型井區。&lt;/li&gt;
-&lt;li&gt;植入後使用RTA系統進行退火，以激活摻雜物並修復晶格損傷。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2-淺溝隔離shallow-trench-isolation-sti&#34;&gt;2. 淺溝隔離（Shallow Trench Isolation, STI）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：乾蝕刻設備（Dry Etcher），化學機械平坦化（CMP）設備。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：CVD氧化物或旋塗玻璃（SOG）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;使用乾蝕刻機在矽基板上刻蝕淺溝，然後填充氧化物材料。&lt;/li&gt;
-&lt;li&gt;使用CMP進行平坦化，氮化矽作為CMP的止擋層，確保表面平坦。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;3-閘極結構的形成gate-structure-formation&#34;&gt;3. 閘極結構的形成（Gate Structure Formation）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：低壓化學氣相沉積系統（LPCVD），乾蝕刻機（Dry Etcher）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：多晶矽（$SiH_4$）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;熱生長氧化層，使用LPCVD沉積摻雜多晶矽層，然後通過光刻和乾蝕刻形成閘極結構。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;4-輕摻雜汲極植入lightly-doped-drain-ldd&#34;&gt;4. 輕摻雜汲極植入（Lightly Doped Drain, LDD）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：離子植入機（Ion Implanter）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：砷（$As$）和氟化硼（$BF_2$）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;使用離子植入技術將摻雜物植入汲極和源極，形成LDD區域，減少熱載子效應。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;5-側牆間隔的形成sidewall-spacer-formation&#34;&gt;5. 側牆間隔的形成（Sidewall Spacer Formation）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：CVD系統，各向異性等離子蝕刻機（Anisotropic Plasma Etcher）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：CVD氧化物。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;沉積氧化層，然後通過各向異性等離子蝕刻形成側牆間隔，以保護LDD區域。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;6-源汲極植入sourcedrain-implantation&#34;&gt;6. 源/汲極植入（Source/Drain Implantation）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：離子植入機（Ion Implanter），快速熱退火系統（RTA）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：砷（$As$）和硼（$B$）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;通過離子植入技術進行高劑量摻雜，然後使用RTA系統激活摻雜物並修復晶格損傷。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;7-接觸孔的形成contact-formation&#34;&gt;7. 接觸孔的形成（Contact Formation）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：濺鍍系統（Sputtering System），快速熱處理系統（RTP）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：鈦（$Ti$），氮化鈦（$TiN$）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;使用濺鍍技術沉積鈦，通過RTP形成鈦矽化物（TiSi$_2$），然後進行選擇性蝕刻以去除未反應的鈦。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;8-局部互連的形成local-interconnect-formation&#34;&gt;8. 局部互連的形成（Local Interconnect Formation）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：鎢化學氣相沉積系統（Tungsten CVD System），CMP設備。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：鎢（$W$）、鈦（$Ti$）、氮化鈦（$TiN$）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;沉積鎢來形成局部互連，隨後使用CMP設備進行平坦化。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;9-層間介電質ild與導通孔1via-1-formation&#34;&gt;9. 層間介電質（ILD）與導通孔1（Via-1 Formation）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：CVD系統，CMP設備。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：低介電常數材料SiCOH。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;通過CVD系統沉積層間介電質，然後進行導通孔的刻蝕和CMP平坦化。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;10-第一金屬層的形成first-metal-layer-formation&#34;&gt;10. 第一金屬層的形成（First Metal Layer Formation）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：濺鍍系統（Sputtering System），乾蝕刻機（Dry Etcher）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：鋁（$Al$）摻銅（$Cu$）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;使用濺鍍技術沉積鋁銅合金，然後通過乾蝕刻機進行圖案化，形成第一層金屬互連。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;11-第二層介電質與導通孔2second-ild-to-via-2-formation&#34;&gt;11. 第二層介電質與導通孔2（Second ILD to Via-2 Formation）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：CVD系統，CMP設備。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：CVD沉積氧化物材料。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;沉積第二層介電質，刻蝕導通孔，並使用CMP設備進行平坦化。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;12-第二金屬層至導通孔3的形成second-metal-layer-to-via-3-formation&#34;&gt;12. 第二金屬層至導通孔3的形成（Second Metal Layer to Via-3 Formation）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：濺鍍系統，CMP設備。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：鋁（$Al$）、銅（$Cu$）、鎢（$W$）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;沉積第二層金屬，進行圖案化和平坦化，形成下一層互連。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;13-第三金屬層至焊墊蝕刻third-metal-layer-to-pad-etch&#34;&gt;13. 第三金屬層至焊墊蝕刻（Third Metal Layer to Pad Etch）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：濺鍍系統，乾蝕刻機（Dry Etcher）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：鋁+銅（$Al+Cu$）、氮化鈦（$TiN$）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;沉積第三層金屬並刻蝕形成焊墊，用於外部連接。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;14-參數測試parametric-testing&#34;&gt;14. 參數測試（Parametric Testing）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;設備&lt;/strong&gt;：微操縱器探針系統（Micromanipulator Prober）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;化學物質&lt;/strong&gt;：不涉及化學物質。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;製程&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;使用探針測試晶圓的電氣特性，確保元件符合規範，良品晶片會被標記進行封裝。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;q--a&#34;&gt;Q &amp;amp; A&lt;/h2&gt;
-&lt;h3 id=&#34;cmos-與-mos-製程的差異&#34;&gt;CMOS 與 MOS 製程的差異&lt;/h3&gt;
-&lt;p&gt;CMOS（互補金氧半導體）和 MOS（金氧半場效電晶體）製程的主要差異在於電路設計和功耗管理。MOS 製程僅使用 N 型或 P 型的場效電晶體（FET），而 CMOS 則是互補式設計，包含 N 型和 P 型 FET。這使得 CMOS 具有以下優勢：&lt;/p&gt;</description>
+&lt;blockquote&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/jKqvorv0gt4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;在 MOS（金氧半場效電晶體，Metal-Oxide-Semiconductor）製程中，主要的製造步驟可以分為四大類：&lt;strong&gt;成層（layering）&lt;/strong&gt;、&lt;strong&gt;圖形化（patterning）&lt;/strong&gt;、&lt;strong&gt;蝕刻（etching）&lt;strong&gt;和&lt;/strong&gt;摻雜（doping）&lt;/strong&gt;。以下是這些步驟的概述：&lt;/p&gt;</description>
     </item>
     <item>
-      <title>SMT-Devices 認識半導體元件</title>
-      <link>http://localhost:1313/posts/smt-devices/</link>
+      <title>SMT-Wafer Prep 晶圓製備技術</title>
+      <link>https://eujenz.github.io/posts/smt-wafer-prep/</link>
+      <pubDate>Mon, 16 Sep 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/smt-wafer-prep/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## SMT-Wafer Prep 掌握晶圓製備技術
+
+1. Describe how raw silicon is refined into semiconductor-grade silicon.
+
+The refinement of raw silicon into semiconductor-grade silicon involves several key steps:
+
+- Metallurgical-Grade Silicon (MGS) Production: Silicon dioxide ($SiO_2$) is reduced with carbon at high temperatures to produce silicon and carbon monoxide. This process creates MGS, which has a purity of about 98%:
+        $SiO_2 + C → Si + CO$.
+
+- Chemical Purification: The MGS undergoes a chemical reaction with hydrogen chloride ($HCl$) to produce trichlorosilane ($SiHCl_3$), a silicon-bearing gas:
+        $Si + 3HCl → SiHCl_3 + H_2$.
+- Siemens Process: In this process, trichlorosilane is decomposed with hydrogen to produce pure semiconductor-grade silicon (SGS). This is achieved through the reaction:
+        $2SiHCl_3 + 2H_2 → 2Si + 6HCl$.
+
+This method provides extremely pure silicon, which is used to fabricate high-quality wafers for semiconductor devices​.
+
+
+2. Explain the crystal structure and growth method for producing monocrystalline silicon.
+
+- Crystal Structure: Silicon typically adopts a face-centered cubic (FCC) diamond structure, which is essential for its electrical and mechanical properties. Monocrystalline silicon has a continuous crystal lattice throughout the entire material, unlike polycrystalline silicon, which has multiple smaller crystals (grains). The monocrystalline structure is essential for high-performance semiconductor devices​.
+
+- Growth Methods:
+    - Czochralski (CZ) Method: In this method, a seed crystal is dipped into molten silicon, and the crystal is slowly pulled out while rotating. This process allows the growth of large monocrystalline silicon ingots. However, some impurities, such as oxygen, may be introduced from the quartz crucible used in this method.
+    - Float-Zone (FZ) Method: This method does not use a crucible, reducing the possibility of contamination. The silicon rod is melted using an RF coil, and the crystal grows without contact with the container, producing a highly pure monocrystalline structure​.
+
+3. Discuss the major defects in silicon crystals.
+
+Three main types of defects can occur in silicon crystals:
+
+- Point Defects: These defects occur at the atomic level and include vacancies (where atoms are missing) and interstitials (extra atoms squeezed into the crystal lattice). These small-scale defects can impact the electrical properties of the silicon.
+
+- Dislocations: Dislocations are disruptions in the regular stacking of atoms in the crystal. These can occur due to uneven cooling or mechanical stress during the crystal growth process, leading to areas where the atomic planes are misaligned​.
+
+- Gross Defects: These larger-scale defects, such as crystal slips and twin planes, are introduced by thermal or mechanical shocks during the crystal growth process. Gross defects can significantly affect the overall structural integrity of the wafer​.
+
+4. Outline and describe the basic process steps for wafer preparation, starting from a silicon ingot and finishing with a wafer.
+
+The preparation of wafers from a silicon ingot involves the following steps:
+
+- Ingot Shaping: The silicon ingot is ground to a uniform diameter to ensure proper slicing.
+- Wafer Slicing: The shaped ingot is sliced into thin wafers using a wire saw or internal diameter saw.
+- Lapping: The wafer undergoes mechanical lapping to remove surface imperfections caused by slicing.
+- Etching: Chemical etching is used to remove any surface damage from the mechanical processes.
+- Polishing: The wafer is polished on both sides to achieve a flat, smooth surface that is essential for device fabrication.
+- Cleaning: The wafers are cleaned to remove any contaminants or particles.
+- Inspection and Packaging: The finished wafers are inspected for defects, and those that meet specifications are packaged for further processing​.
+
+5. State and discuss seven quality measures for wafer suppliers.
+
+Wafer suppliers must ensure that their products meet the following seven quality measures:
+
+- Physical Dimensions: Wafers must adhere to specific diameter and thickness specifications.
+- Flatness: The wafer surface must be flat to ensure uniform layer deposition and lithography.
+- Microroughness: The microscopic surface roughness of the wafer must be minimized to prevent electrical issues during device fabrication.
+- Oxygen Content: Excessive oxygen can affect the electrical properties of the silicon, so oxygen content must be controlled.
+- Crystal Defects: Minimizing crystal defects, such as dislocations and vacancies, is crucial for the reliability of the devices.
+- Particles: The presence of particles on the wafer surface can lead to defects during subsequent fabrication steps.
+- Bulk Resistivity: The electrical resistivity of the wafer must be consistent, which depends on the doping concentration and uniformity​.
+
+6. Explain what epitaxy is and why it is important for wafers.
+
+Epitaxy refers to the process of growing a thin, ordered monocrystalline layer of silicon on top of an existing silicon wafer. This &amp;#34;epi-layer&amp;#34; replicates the crystal structure of the base wafer and can be doped differently from the substrate to achieve specific electrical characteristics.
+
+Importance:
+- Epitaxy allows for precise control of the electrical properties of the silicon, enabling the production of high-performance semiconductor devices.
+- The epitaxial layer is used in applications where improved control over doping and reduced defect density are required.
+- This process is essential for advanced devices such as CMOS transistors, where high-purity, low-defect surfaces are necessary​.
+
+1. 說明如何將原始矽精煉成半導體級矽。
+2. 解釋單晶矽的晶體結構與生長方法。
+3. 討論矽晶體的主要缺陷。
+4. 概述從矽錠到晶圓的基本製備過程。
+5. 討論供應商對晶圓的七項品質要求。
+6. 解釋外延層的概念及其對晶圓的重要性。
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>SMT- Devices 認識半導體元件</title>
+      <link>https://eujenz.github.io/posts/smt-devices/</link>
       <pubDate>Sun, 15 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>http://localhost:1313/posts/smt-devices/</guid>
+      <guid>https://eujenz.github.io/posts/smt-devices/</guid>
       <description>&lt;h2 id=&#34;類比與數位設備被動與主動元件與寄生結構&#34;&gt;類比與數位設備、被動與主動元件與寄生結構&lt;/h2&gt;
 &lt;h3 id=&#34;類比與數位設備&#34;&gt;類比與數位設備&lt;/h3&gt;
 &lt;ul&gt;
@@ -352,10 +451,10 @@
 &lt;p&gt;PN Junction是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，而 N 型材料中的多數載子是電子。這些載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷不再能自由移動，導致兩側形成內建電場，並進一步阻止多數載子穿過接面。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>SMT-半導體製程技術課程大綱</title>
-      <link>http://localhost:1313/posts/smt-course-outline/</link>
+      <title>SMT- 半導體製程技術課程大綱</title>
+      <link>https://eujenz.github.io/posts/smt-course-outline/</link>
       <pubDate>Thu, 12 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>http://localhost:1313/posts/smt-course-outline/</guid>
+      <guid>https://eujenz.github.io/posts/smt-course-outline/</guid>
       <description>&lt;h1 id=&#34;半導體製程技術課程大綱&#34;&gt;半導體製程技術課程大綱&lt;/h1&gt;
 &lt;h2 id=&#34;smt-introduction-基本概念&#34;&gt;SMT-Introduction 基本概念&lt;/h2&gt;
 &lt;ol&gt;
