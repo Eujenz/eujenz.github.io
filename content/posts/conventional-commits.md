@@ -1,5 +1,5 @@
 ---
-title: 'ConventionalCommits初學指南'
+title: 'ConventionalCommits 初學指南'
 date: 2024-09-11T07:48:52+08:00
 draft: false
 tags: ["Git"]

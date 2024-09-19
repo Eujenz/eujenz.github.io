@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on LEE CHIEN-WEI</title>
-    <link>https://eujenz.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 18 Sep 2024 00:36:24 +0800</lastBuildDate>
-    <atom:link href="https://eujenz.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SMT-Process Flow 理解製程流程</title>
-      <link>https://eujenz.github.io/posts/smt-process-flow/</link>
+      <link>http://localhost:1313/posts/smt-process-flow/</link>
       <pubDate>Wed, 18 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/smt-process-flow/</guid>
+      <guid>http://localhost:1313/posts/smt-process-flow/</guid>
       <description>&lt;h2 id=&#34;晶圓廠六大製程區域及測試區概述&#34;&gt;晶圓廠六大製程區域及測試區概述&lt;/h2&gt;
 &lt;h3 id=&#34;擴散區diffusion-area&#34;&gt;擴散區（Diffusion Area）&lt;/h3&gt;
 &lt;ul&gt;
@@ -256,9 +256,9 @@
     </item>
     <item>
       <title>SMT-Devices 認識半導體元件</title>
-      <link>https://eujenz.github.io/posts/smt-devices/</link>
+      <link>http://localhost:1313/posts/smt-devices/</link>
       <pubDate>Sun, 15 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/smt-devices/</guid>
+      <guid>http://localhost:1313/posts/smt-devices/</guid>
       <description>&lt;h2 id=&#34;類比與數位設備被動與主動元件與寄生結構&#34;&gt;類比與數位設備、被動與主動元件與寄生結構&lt;/h2&gt;
 &lt;h3 id=&#34;類比與數位設備&#34;&gt;類比與數位設備&lt;/h3&gt;
 &lt;ul&gt;
@@ -352,10 +352,10 @@
 &lt;p&gt;PN Junction是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，而 N 型材料中的多數載子是電子。這些載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷不再能自由移動，導致兩側形成內建電場，並進一步阻止多數載子穿過接面。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>半導體製程技術課程大綱</title>
-      <link>https://eujenz.github.io/posts/smt-course-outline/</link>
+      <title>SMT-半導體製程技術課程大綱</title>
+      <link>http://localhost:1313/posts/smt-course-outline/</link>
       <pubDate>Thu, 12 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/smt-course-outline/</guid>
+      <guid>http://localhost:1313/posts/smt-course-outline/</guid>
       <description>&lt;h1 id=&#34;半導體製程技術課程大綱&#34;&gt;半導體製程技術課程大綱&lt;/h1&gt;
 &lt;h2 id=&#34;smt-introduction-基本概念&#34;&gt;SMT-Introduction 基本概念&lt;/h2&gt;
 &lt;ol&gt;
@@ -526,9 +526,9 @@
     </item>
     <item>
       <title>ConventionalCommits初學指南</title>
-      <link>https://eujenz.github.io/posts/conventional-commits/</link>
+      <link>http://localhost:1313/posts/conventional-commits/</link>
       <pubDate>Wed, 11 Sep 2024 07:48:52 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/conventional-commits/</guid>
+      <guid>http://localhost:1313/posts/conventional-commits/</guid>
       <description>&lt;h2 id=&#34;為什麼使用慣例式提交&#34;&gt;為什麼使用慣例式提交？&lt;/h2&gt;
 &lt;p&gt;慣例式提交（Conventional Commits）是一種對提交說明的簡單規範，優勢如下。&lt;/p&gt;
 &lt;ul&gt;

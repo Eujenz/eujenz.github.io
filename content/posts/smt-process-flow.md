@@ -1,5 +1,5 @@
 ---
-title: 'SMT-Process Flow 理解製程流程'
+title: 'SMT- Process Flow 理解製程流程'
 date: 2024-09-18T00:36:24+08:00
 draft: false
 tags: ["半導體製程技術", "CMOS"]
@@ -9,6 +9,7 @@ showtoc: true  # 顯示目錄
 tocopen: true  # 預設展開目錄
 mathjax: true
 ---
+
 ## 晶圓廠六大製程區域及測試區概述
 ### 擴散區（Diffusion Area）
 - 目的：進行擴散、氧化和摻雜步驟。
@@ -59,6 +60,7 @@ mathjax: true
 
 ---
 
+
 ## MOS Process Flow
 
 在 MOS（金氧半場效電晶體，Metal-Oxide-Semiconductor）製程中，主要的製造步驟可以分為四大類：**成層（layering）**、**圖形化（patterning）**、**蝕刻（etching）**和**摻雜（doping）**。以下是這些步驟的概述：
@@ -81,6 +83,8 @@ mathjax: true
 ---
 
 ## CMOS Process Flow
+
+> {{< youtube jKqvorv0gt4 >}}
 
 ### 1. 雙井植入（Twin-Well Implants）
 

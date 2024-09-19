@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>程式語言 on LEE CHIEN-WEI</title>
-    <link>https://eujenz.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/</link>
+    <link>http://localhost:1313/categories/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/</link>
     <description>Recent content in 程式語言 on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 11 Sep 2024 07:48:52 +0800</lastBuildDate>
-    <atom:link href="https://eujenz.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ConventionalCommits初學指南</title>
-      <link>https://eujenz.github.io/posts/conventional-commits/</link>
+      <link>http://localhost:1313/posts/conventional-commits/</link>
       <pubDate>Wed, 11 Sep 2024 07:48:52 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/conventional-commits/</guid>
+      <guid>http://localhost:1313/posts/conventional-commits/</guid>
       <description>&lt;h2 id=&#34;為什麼使用慣例式提交&#34;&gt;為什麼使用慣例式提交？&lt;/h2&gt;
 &lt;p&gt;慣例式提交（Conventional Commits）是一種對提交說明的簡單規範，優勢如下。&lt;/p&gt;
 &lt;ul&gt;

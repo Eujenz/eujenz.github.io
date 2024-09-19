@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CMOS on LEE CHIEN-WEI</title>
-    <link>https://eujenz.github.io/tags/cmos/</link>
+    <link>http://localhost:1313/tags/cmos/</link>
     <description>Recent content in CMOS on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 18 Sep 2024 00:36:24 +0800</lastBuildDate>
-    <atom:link href="https://eujenz.github.io/tags/cmos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cmos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SMT-Process Flow 理解製程流程</title>
-      <link>https://eujenz.github.io/posts/smt-process-flow/</link>
+      <link>http://localhost:1313/posts/smt-process-flow/</link>
       <pubDate>Wed, 18 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/smt-process-flow/</guid>
+      <guid>http://localhost:1313/posts/smt-process-flow/</guid>
       <description>&lt;h2 id=&#34;晶圓廠六大製程區域及測試區概述&#34;&gt;晶圓廠六大製程區域及測試區概述&lt;/h2&gt;
 &lt;h3 id=&#34;擴散區diffusion-area&#34;&gt;擴散區（Diffusion Area）&lt;/h3&gt;
 &lt;ul&gt;
@@ -256,9 +256,9 @@
     </item>
     <item>
       <title>SMT-Devices 認識半導體元件</title>
-      <link>https://eujenz.github.io/posts/smt-devices/</link>
+      <link>http://localhost:1313/posts/smt-devices/</link>
       <pubDate>Sun, 15 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/smt-devices/</guid>
+      <guid>http://localhost:1313/posts/smt-devices/</guid>
       <description>&lt;h2 id=&#34;類比與數位設備被動與主動元件與寄生結構&#34;&gt;類比與數位設備、被動與主動元件與寄生結構&lt;/h2&gt;
 &lt;h3 id=&#34;類比與數位設備&#34;&gt;類比與數位設備&lt;/h3&gt;
 &lt;ul&gt;
