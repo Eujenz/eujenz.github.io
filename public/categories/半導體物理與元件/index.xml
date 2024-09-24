@@ -1,16 +1,19 @@
----
-title: 'SMT-Wafer Prep'
-date: 2024-09-16T00:36:24+08:00
-draft: true
-tags: ["半導體製程技術"]
-summary: ""
-categories: ["半導體製程技術"]
-showtoc: true  # 顯示目錄
-tocopen: true  # 預設展開目錄
-mathjax: true
----
-```
-## SMT-Wafer Prep 掌握晶圓製備技術
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>半導體物理與元件 on LEE CHIEN-WEI</title>
+    <link>http://localhost:1313/categories/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%89%A9%E7%90%86%E8%88%87%E5%85%83%E4%BB%B6/</link>
+    <description>Recent content in 半導體物理與元件 on LEE CHIEN-WEI</description>
+    <generator>Hugo -- 0.134.2</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Sep 2024 00:36:24 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%89%A9%E7%90%86%E8%88%87%E5%85%83%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Crystal Structure of Solids</title>
+      <link>http://localhost:1313/posts/spd-the-crystal-structure-of-solids/</link>
+      <pubDate>Fri, 20 Sep 2024 00:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/posts/spd-the-crystal-structure-of-solids/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## SMT-Wafer Prep 掌握晶圓製備技術
 
 1. Describe how raw silicon is refined into semiconductor-grade silicon.
 
@@ -71,7 +74,7 @@ Wafer suppliers must ensure that their products meet the following seven quality
 
 6. Explain what epitaxy is and why it is important for wafers.
 
-Epitaxy refers to the process of growing a thin, ordered monocrystalline layer of silicon on top of an existing silicon wafer. This "epi-layer" replicates the crystal structure of the base wafer and can be doped differently from the substrate to achieve specific electrical characteristics.
+Epitaxy refers to the process of growing a thin, ordered monocrystalline layer of silicon on top of an existing silicon wafer. This &amp;#34;epi-layer&amp;#34; replicates the crystal structure of the base wafer and can be doped differently from the substrate to achieve specific electrical characteristics.
 
 Importance:
 - Epitaxy allows for precise control of the electrical properties of the silicon, enabling the production of high-performance semiconductor devices.
@@ -84,5 +87,7 @@ Importance:
 4. 概述從矽錠到晶圓的基本製備過程。
 5. 討論供應商對晶圓的七項品質要求。
 6. 解釋外延層的概念及其對晶圓的重要性。
-
-```
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

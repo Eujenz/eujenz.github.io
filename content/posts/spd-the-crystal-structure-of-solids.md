@@ -1,10 +1,10 @@
 ---
-title: 'SMT-Wafer Prep'
-date: 2024-09-16T00:36:24+08:00
+title: 'The Crystal Structure of Solids'
+date: 2024-09-20T00:36:24+08:00
 draft: true
-tags: ["半導體製程技術"]
+tags: ["半導體物理與元件"]
 summary: ""
-categories: ["半導體製程技術"]
+categories: ["半導體物理與元件"]
 showtoc: true  # 顯示目錄
 tocopen: true  # 預設展開目錄
 mathjax: true

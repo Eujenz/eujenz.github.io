@@ -1,5 +1,5 @@
 ---
-title: 'SMT- Process Flow 理解製程流程'
+title: 'SMT- Process Flow'
 date: 2024-09-18T00:36:24+08:00
 draft: false
 tags: ["半導體製程技術", "CMOS"]

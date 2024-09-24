@@ -1,6 +1,6 @@
 ---
-title: 'SMT- Chemicals 理解製程中的化學過程'
-date: 2024-09-19T12:04:41+08:00
+title: 'SMT- Chemicals'
+date: 2024-09-17T12:04:41+08:00
 draft: false
 tags: ["半導體製程技術"]
 summary: ""

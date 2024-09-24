@@ -1,5 +1,5 @@
 ---
-title: 'SMT- Devices 認識半導體元件'
+title: 'SMT- Devices'
 date: 2024-09-15T00:36:24+08:00
 draft: false
 tags: ["半導體製程技術", "MOSFET", "CMOS"]

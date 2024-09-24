@@ -6,12 +6,136 @@
     <description>Recent content in 半導體製程技術 on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Sep 2024 12:04:41 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2024 00:36:24 +0800</lastBuildDate>
     <atom:link href="https://eujenz.github.io/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%A3%BD%E7%A8%8B%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SMT- Chemicals 理解製程中的化學過程</title>
+      <title>SMT-Oxidation</title>
+      <link>https://eujenz.github.io/posts/smt-oxidation/</link>
+      <pubDate>Mon, 23 Sep 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/smt-oxidation/</guid>
+      <description>&lt;h2 id=&#34;半導體氧化膜的原子結構應用及優點&#34;&gt;半導體氧化膜的原子結構、應用及優點&lt;/h2&gt;
+&lt;h3 id=&#34;1-氧化膜的原子結構&#34;&gt;1. 氧化膜的原子結構&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;二氧化矽（SiO₂）的結構&lt;/strong&gt;：二氧化矽氧化膜的原子結構是一種非晶（Amorphous）結構。每個矽原子與四個氧原子鍵結，形成四面體單元，而每個氧原子與兩個矽原子鍵結，形成無規則的網絡結構。這種非晶態結構使得 SiO₂ 具備良好的介電特性和電氣隔離性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;強黏附性&lt;/strong&gt;：二氧化矽具有良好的與矽基板的黏附性，能夠提供高質量的氧化層，這在半導體製程中非常重要。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-氧化膜的應用&#34;&gt;2. 氧化膜的應用&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;器件保護與隔離（Device Protection and Isolation）&lt;/strong&gt;：二氧化矽層可用於保護半導體元件，防止外界的物理或化學侵蝕，並提供元件之間的電氣隔離。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;表面鈍化（Surface Passivation）&lt;/strong&gt;：氧化層可以降低表面態密度，減少表面缺陷對電子的影響，從而提高元件性能，這對於控制 pn 結漏電流非常重要。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;閘極氧化層（Gate Oxide Dielectric）&lt;/strong&gt;：在 MOSFET 等元件中，氧化層作為閘極與通道之間的介電層，控制電場強度。典型的閘極氧化層厚度約為 20-60 Å。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;摻雜屏障（Dopant Barrier）&lt;/strong&gt;：在摻雜過程中，氧化層可作為摻雜物屏障，阻止摻雜物不必要的擴散，確保摻雜區域的精確性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;金屬層之間的介電層（Dielectric Between Metal Layers）&lt;/strong&gt;：在多層金屬互連中，氧化層用於隔離金屬層，防止相鄰層間的短路。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-氧化膜的優點&#34;&gt;3. 氧化膜的優點&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;優異的電氣性能&lt;/strong&gt;：SiO₂ 具有很高的介電強度（約 $10^7 \text{V/cm}$）和極高的電阻率（約 $10^{17} \ \Omega \cdot cm$），能夠有效地隔離電氣信號並防止漏電流。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;良好的熱膨脹匹配性&lt;/strong&gt;：SiO₂ 與矽的熱膨脹係數相近，這意味著在高溫製程中，不會產生過大的應力或晶片變形，保證了氧化層的穩定性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可靠的機械強度與保護功能&lt;/strong&gt;：二氧化矽層具有非多孔、堅硬的性質，能夠有效地保護半導體元件免受物理損傷，並提供長期的穩定性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;小結&#34;&gt;小結&lt;/h3&gt;
+&lt;p&gt;半導體中的氧化膜（主要為二氧化矽）具有非晶態結構，並在多種應用中發揮著關鍵作用，包括元件的保護、隔離、摻雜屏障以及閘極介電層等。此外，氧化膜的高介電強度、良好的熱穩定性與機械強度，使其成為半導體製程中的核心材料，確保了元件的穩定性與性能。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. 描述半導體氧化膜的原子結構、應用及優點。
+2. 說明氧化的化學反應，並解釋氧化層在矽上的生長過程。
+3. 解釋選擇性氧化及其應用範例。
+4. 描述熱處理設備的三種類型及垂直爐的五個組成部分。
+5. 討論快速熱處理機的功能與使用。
+6. 闡述氧化過程的關鍵質量指標與常見故障排除方法。
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>SMT- Process Flow</title>
+      <link>https://eujenz.github.io/posts/smt-process-flow/</link>
+      <pubDate>Wed, 18 Sep 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/smt-process-flow/</guid>
+      <description>&lt;h2 id=&#34;晶圓廠六大製程區域及測試區概述&#34;&gt;晶圓廠六大製程區域及測試區概述&lt;/h2&gt;
+&lt;h3 id=&#34;擴散區diffusion-area&#34;&gt;擴散區（Diffusion Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：進行擴散、氧化和摻雜步驟。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;氧化：利用熱氧化技術在晶圓表面生成氧化層（如閘極氧化層）。&lt;/li&gt;
+&lt;li&gt;離子植入：利用離子植入機將摻雜物（如磷或硼）注入晶圓，改變其電特性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;光刻區photolithography-area&#34;&gt;光刻區（Photolithography Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：使用光刻技術將電路圖案轉移到晶圓上。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;光阻塗佈：在晶圓表面均勻塗佈光阻材料。&lt;/li&gt;
+&lt;li&gt;曝光和顯影：利用光罩和紫外光將圖案轉移至光阻層，然後進行顯影以顯示所需圖案。&lt;/li&gt;
+&lt;li&gt;蝕刻：根據光刻圖案對暴露的區域進行化學或等離子蝕刻。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;蝕刻區etch-area&#34;&gt;蝕刻區（Etch Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：通過乾式或濕式蝕刻技術移除不需要的材料，形成所需的結構。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;乾蝕刻：利用等離子體或反應性氣體蝕刻暴露區域的材料。&lt;/li&gt;
+&lt;li&gt;濕蝕刻：使用化學溶液選擇性地溶解暴露區域的材料。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;離子佈植區ion-implant-area&#34;&gt;離子佈植區（Ion Implant Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：利用離子植入技術將摻雜物注入到晶圓內，調整其電性。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;離子植入：利用加速電場將摻雜離子（如磷、砷、硼）注入到晶圓的指定區域中，以形成N型或P型區域。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;薄膜區thin-films-area&#34;&gt;薄膜區（Thin Films Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：在晶圓上沉積各種薄膜，如金屬、氧化物和氮化物，用於形成電路層間介電質或金屬互連層。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;化學氣相沉積（CVD）：利用氣相反應沉積薄膜材料（如$SiO_2$、$Si_3N_4$）。&lt;/li&gt;
+&lt;li&gt;物理氣相沉積（PVD）：利用濺射或蒸鍍技術沉積金屬薄膜（如鋁、鎢）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;化學機械平坦化區cmp-area&#34;&gt;化學機械平坦化區（CMP Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：使用CMP技術對晶圓表面進行平坦化處理，確保多層金屬層之間的平整度。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;CMP：通過化學溶液與機械研磨結合，去除晶圓表面多餘的材料，達到平坦效果，為後續工藝提供平整基礎。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;測試區testing-area&#34;&gt;測試區（Testing Area）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;目的：對晶圓進行電氣測試，檢查電路的功能和參數是否符合設計要求。&lt;/li&gt;
+&lt;li&gt;主要工藝：
+&lt;ul&gt;
+&lt;li&gt;參數測試（Parametric Testing）：利用探針測試晶圓上的關鍵電參數，確認電晶體、電容、電阻等元件是否符合規範。&lt;/li&gt;
+&lt;li&gt;功能測試：測試電路是否能按預期運行，確保無短路、開路或其他缺陷。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;mos-process-flow&#34;&gt;MOS Process Flow&lt;/h2&gt;
+&lt;blockquote&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/jKqvorv0gt4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;在 MOS（金氧半場效電晶體，Metal-Oxide-Semiconductor）製程中，主要的製造步驟可以分為四大類：&lt;strong&gt;成層（layering）&lt;/strong&gt;、&lt;strong&gt;圖形化（patterning）&lt;/strong&gt;、&lt;strong&gt;蝕刻（etching）&lt;strong&gt;和&lt;/strong&gt;摻雜（doping）&lt;/strong&gt;。以下是這些步驟的概述：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SMT- Chemicals</title>
       <link>https://eujenz.github.io/posts/smt-chemicals/</link>
-      <pubDate>Thu, 19 Sep 2024 12:04:41 +0800</pubDate>
+      <pubDate>Tue, 17 Sep 2024 12:04:41 +0800</pubDate>
       <guid>https://eujenz.github.io/posts/smt-chemicals/</guid>
       <description>&lt;h2 id=&#34;半導體製造中的液體化學品&#34;&gt;半導體製造中的液體化學品&lt;/h2&gt;
 &lt;table&gt;
@@ -184,177 +308,7 @@
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>SMT- Process Flow 理解製程流程</title>
-      <link>https://eujenz.github.io/posts/smt-process-flow/</link>
-      <pubDate>Wed, 18 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/smt-process-flow/</guid>
-      <description>&lt;h2 id=&#34;晶圓廠六大製程區域及測試區概述&#34;&gt;晶圓廠六大製程區域及測試區概述&lt;/h2&gt;
-&lt;h3 id=&#34;擴散區diffusion-area&#34;&gt;擴散區（Diffusion Area）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;目的：進行擴散、氧化和摻雜步驟。&lt;/li&gt;
-&lt;li&gt;主要工藝：
-&lt;ul&gt;
-&lt;li&gt;氧化：利用熱氧化技術在晶圓表面生成氧化層（如閘極氧化層）。&lt;/li&gt;
-&lt;li&gt;離子植入：利用離子植入機將摻雜物（如磷或硼）注入晶圓，改變其電特性。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;光刻區photolithography-area&#34;&gt;光刻區（Photolithography Area）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;目的：使用光刻技術將電路圖案轉移到晶圓上。&lt;/li&gt;
-&lt;li&gt;主要工藝：
-&lt;ul&gt;
-&lt;li&gt;光阻塗佈：在晶圓表面均勻塗佈光阻材料。&lt;/li&gt;
-&lt;li&gt;曝光和顯影：利用光罩和紫外光將圖案轉移至光阻層，然後進行顯影以顯示所需圖案。&lt;/li&gt;
-&lt;li&gt;蝕刻：根據光刻圖案對暴露的區域進行化學或等離子蝕刻。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;蝕刻區etch-area&#34;&gt;蝕刻區（Etch Area）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;目的：通過乾式或濕式蝕刻技術移除不需要的材料，形成所需的結構。&lt;/li&gt;
-&lt;li&gt;主要工藝：
-&lt;ul&gt;
-&lt;li&gt;乾蝕刻：利用等離子體或反應性氣體蝕刻暴露區域的材料。&lt;/li&gt;
-&lt;li&gt;濕蝕刻：使用化學溶液選擇性地溶解暴露區域的材料。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;離子佈植區ion-implant-area&#34;&gt;離子佈植區（Ion Implant Area）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;目的：利用離子植入技術將摻雜物注入到晶圓內，調整其電性。&lt;/li&gt;
-&lt;li&gt;主要工藝：
-&lt;ul&gt;
-&lt;li&gt;離子植入：利用加速電場將摻雜離子（如磷、砷、硼）注入到晶圓的指定區域中，以形成N型或P型區域。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;薄膜區thin-films-area&#34;&gt;薄膜區（Thin Films Area）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;目的：在晶圓上沉積各種薄膜，如金屬、氧化物和氮化物，用於形成電路層間介電質或金屬互連層。&lt;/li&gt;
-&lt;li&gt;主要工藝：
-&lt;ul&gt;
-&lt;li&gt;化學氣相沉積（CVD）：利用氣相反應沉積薄膜材料（如$SiO_2$、$Si_3N_4$）。&lt;/li&gt;
-&lt;li&gt;物理氣相沉積（PVD）：利用濺射或蒸鍍技術沉積金屬薄膜（如鋁、鎢）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;化學機械平坦化區cmp-area&#34;&gt;化學機械平坦化區（CMP Area）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;目的：使用CMP技術對晶圓表面進行平坦化處理，確保多層金屬層之間的平整度。&lt;/li&gt;
-&lt;li&gt;主要工藝：
-&lt;ul&gt;
-&lt;li&gt;CMP：通過化學溶液與機械研磨結合，去除晶圓表面多餘的材料，達到平坦效果，為後續工藝提供平整基礎。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;測試區testing-area&#34;&gt;測試區（Testing Area）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;目的：對晶圓進行電氣測試，檢查電路的功能和參數是否符合設計要求。&lt;/li&gt;
-&lt;li&gt;主要工藝：
-&lt;ul&gt;
-&lt;li&gt;參數測試（Parametric Testing）：利用探針測試晶圓上的關鍵電參數，確認電晶體、電容、電阻等元件是否符合規範。&lt;/li&gt;
-&lt;li&gt;功能測試：測試電路是否能按預期運行，確保無短路、開路或其他缺陷。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;mos-process-flow&#34;&gt;MOS Process Flow&lt;/h2&gt;
-&lt;blockquote&gt;
-
-
-    
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/jKqvorv0gt4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-      &gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;/blockquote&gt;
-&lt;p&gt;在 MOS（金氧半場效電晶體，Metal-Oxide-Semiconductor）製程中，主要的製造步驟可以分為四大類：&lt;strong&gt;成層（layering）&lt;/strong&gt;、&lt;strong&gt;圖形化（patterning）&lt;/strong&gt;、&lt;strong&gt;蝕刻（etching）&lt;strong&gt;和&lt;/strong&gt;摻雜（doping）&lt;/strong&gt;。以下是這些步驟的概述：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>SMT-Wafer Prep 晶圓製備技術</title>
-      <link>https://eujenz.github.io/posts/smt-wafer-prep/</link>
-      <pubDate>Mon, 16 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>https://eujenz.github.io/posts/smt-wafer-prep/</guid>
-      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## SMT-Wafer Prep 掌握晶圓製備技術
-
-1. Describe how raw silicon is refined into semiconductor-grade silicon.
-
-The refinement of raw silicon into semiconductor-grade silicon involves several key steps:
-
-- Metallurgical-Grade Silicon (MGS) Production: Silicon dioxide ($SiO_2$) is reduced with carbon at high temperatures to produce silicon and carbon monoxide. This process creates MGS, which has a purity of about 98%:
-        $SiO_2 + C → Si + CO$.
-
-- Chemical Purification: The MGS undergoes a chemical reaction with hydrogen chloride ($HCl$) to produce trichlorosilane ($SiHCl_3$), a silicon-bearing gas:
-        $Si + 3HCl → SiHCl_3 + H_2$.
-- Siemens Process: In this process, trichlorosilane is decomposed with hydrogen to produce pure semiconductor-grade silicon (SGS). This is achieved through the reaction:
-        $2SiHCl_3 + 2H_2 → 2Si + 6HCl$.
-
-This method provides extremely pure silicon, which is used to fabricate high-quality wafers for semiconductor devices​.
-
-
-2. Explain the crystal structure and growth method for producing monocrystalline silicon.
-
-- Crystal Structure: Silicon typically adopts a face-centered cubic (FCC) diamond structure, which is essential for its electrical and mechanical properties. Monocrystalline silicon has a continuous crystal lattice throughout the entire material, unlike polycrystalline silicon, which has multiple smaller crystals (grains). The monocrystalline structure is essential for high-performance semiconductor devices​.
-
-- Growth Methods:
-    - Czochralski (CZ) Method: In this method, a seed crystal is dipped into molten silicon, and the crystal is slowly pulled out while rotating. This process allows the growth of large monocrystalline silicon ingots. However, some impurities, such as oxygen, may be introduced from the quartz crucible used in this method.
-    - Float-Zone (FZ) Method: This method does not use a crucible, reducing the possibility of contamination. The silicon rod is melted using an RF coil, and the crystal grows without contact with the container, producing a highly pure monocrystalline structure​.
-
-3. Discuss the major defects in silicon crystals.
-
-Three main types of defects can occur in silicon crystals:
-
-- Point Defects: These defects occur at the atomic level and include vacancies (where atoms are missing) and interstitials (extra atoms squeezed into the crystal lattice). These small-scale defects can impact the electrical properties of the silicon.
-
-- Dislocations: Dislocations are disruptions in the regular stacking of atoms in the crystal. These can occur due to uneven cooling or mechanical stress during the crystal growth process, leading to areas where the atomic planes are misaligned​.
-
-- Gross Defects: These larger-scale defects, such as crystal slips and twin planes, are introduced by thermal or mechanical shocks during the crystal growth process. Gross defects can significantly affect the overall structural integrity of the wafer​.
-
-4. Outline and describe the basic process steps for wafer preparation, starting from a silicon ingot and finishing with a wafer.
-
-The preparation of wafers from a silicon ingot involves the following steps:
-
-- Ingot Shaping: The silicon ingot is ground to a uniform diameter to ensure proper slicing.
-- Wafer Slicing: The shaped ingot is sliced into thin wafers using a wire saw or internal diameter saw.
-- Lapping: The wafer undergoes mechanical lapping to remove surface imperfections caused by slicing.
-- Etching: Chemical etching is used to remove any surface damage from the mechanical processes.
-- Polishing: The wafer is polished on both sides to achieve a flat, smooth surface that is essential for device fabrication.
-- Cleaning: The wafers are cleaned to remove any contaminants or particles.
-- Inspection and Packaging: The finished wafers are inspected for defects, and those that meet specifications are packaged for further processing​.
-
-5. State and discuss seven quality measures for wafer suppliers.
-
-Wafer suppliers must ensure that their products meet the following seven quality measures:
-
-- Physical Dimensions: Wafers must adhere to specific diameter and thickness specifications.
-- Flatness: The wafer surface must be flat to ensure uniform layer deposition and lithography.
-- Microroughness: The microscopic surface roughness of the wafer must be minimized to prevent electrical issues during device fabrication.
-- Oxygen Content: Excessive oxygen can affect the electrical properties of the silicon, so oxygen content must be controlled.
-- Crystal Defects: Minimizing crystal defects, such as dislocations and vacancies, is crucial for the reliability of the devices.
-- Particles: The presence of particles on the wafer surface can lead to defects during subsequent fabrication steps.
-- Bulk Resistivity: The electrical resistivity of the wafer must be consistent, which depends on the doping concentration and uniformity​.
-
-6. Explain what epitaxy is and why it is important for wafers.
-
-Epitaxy refers to the process of growing a thin, ordered monocrystalline layer of silicon on top of an existing silicon wafer. This &amp;#34;epi-layer&amp;#34; replicates the crystal structure of the base wafer and can be doped differently from the substrate to achieve specific electrical characteristics.
-
-Importance:
-- Epitaxy allows for precise control of the electrical properties of the silicon, enabling the production of high-performance semiconductor devices.
-- The epitaxial layer is used in applications where improved control over doping and reduced defect density are required.
-- This process is essential for advanced devices such as CMOS transistors, where high-purity, low-defect surfaces are necessary​.
-
-1. 說明如何將原始矽精煉成半導體級矽。
-2. 解釋單晶矽的晶體結構與生長方法。
-3. 討論矽晶體的主要缺陷。
-4. 概述從矽錠到晶圓的基本製備過程。
-5. 討論供應商對晶圓的七項品質要求。
-6. 解釋外延層的概念及其對晶圓的重要性。
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    <item>
-      <title>SMT- Devices 認識半導體元件</title>
+      <title>SMT- Devices</title>
       <link>https://eujenz.github.io/posts/smt-devices/</link>
       <pubDate>Sun, 15 Sep 2024 00:36:24 +0800</pubDate>
       <guid>https://eujenz.github.io/posts/smt-devices/</guid>
