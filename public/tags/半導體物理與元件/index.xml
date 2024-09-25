@@ -2,92 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>半導體物理與元件 on LEE CHIEN-WEI</title>
-    <link>http://localhost:1313/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%89%A9%E7%90%86%E8%88%87%E5%85%83%E4%BB%B6/</link>
+    <link>https://eujenz.github.io/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%89%A9%E7%90%86%E8%88%87%E5%85%83%E4%BB%B6/</link>
     <description>Recent content in 半導體物理與元件 on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Sep 2024 00:36:24 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%89%A9%E7%90%86%E8%88%87%E5%85%83%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Sep 2024 00:36:24 +0800</lastBuildDate>
+    <atom:link href="https://eujenz.github.io/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%89%A9%E7%90%86%E8%88%87%E5%85%83%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Crystal Structure of Solids</title>
-      <link>http://localhost:1313/posts/spd-the-crystal-structure-of-solids/</link>
-      <pubDate>Fri, 20 Sep 2024 00:36:24 +0800</pubDate>
-      <guid>http://localhost:1313/posts/spd-the-crystal-structure-of-solids/</guid>
-      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## SMT-Wafer Prep 掌握晶圓製備技術
-
-1. Describe how raw silicon is refined into semiconductor-grade silicon.
-
-The refinement of raw silicon into semiconductor-grade silicon involves several key steps:
-
-- Metallurgical-Grade Silicon (MGS) Production: Silicon dioxide ($SiO_2$) is reduced with carbon at high temperatures to produce silicon and carbon monoxide. This process creates MGS, which has a purity of about 98%:
-        $SiO_2 + C → Si + CO$.
-
-- Chemical Purification: The MGS undergoes a chemical reaction with hydrogen chloride ($HCl$) to produce trichlorosilane ($SiHCl_3$), a silicon-bearing gas:
-        $Si + 3HCl → SiHCl_3 + H_2$.
-- Siemens Process: In this process, trichlorosilane is decomposed with hydrogen to produce pure semiconductor-grade silicon (SGS). This is achieved through the reaction:
-        $2SiHCl_3 + 2H_2 → 2Si + 6HCl$.
-
-This method provides extremely pure silicon, which is used to fabricate high-quality wafers for semiconductor devices​.
-
-
-2. Explain the crystal structure and growth method for producing monocrystalline silicon.
-
-- Crystal Structure: Silicon typically adopts a face-centered cubic (FCC) diamond structure, which is essential for its electrical and mechanical properties. Monocrystalline silicon has a continuous crystal lattice throughout the entire material, unlike polycrystalline silicon, which has multiple smaller crystals (grains). The monocrystalline structure is essential for high-performance semiconductor devices​.
-
-- Growth Methods:
-    - Czochralski (CZ) Method: In this method, a seed crystal is dipped into molten silicon, and the crystal is slowly pulled out while rotating. This process allows the growth of large monocrystalline silicon ingots. However, some impurities, such as oxygen, may be introduced from the quartz crucible used in this method.
-    - Float-Zone (FZ) Method: This method does not use a crucible, reducing the possibility of contamination. The silicon rod is melted using an RF coil, and the crystal grows without contact with the container, producing a highly pure monocrystalline structure​.
-
-3. Discuss the major defects in silicon crystals.
-
-Three main types of defects can occur in silicon crystals:
-
-- Point Defects: These defects occur at the atomic level and include vacancies (where atoms are missing) and interstitials (extra atoms squeezed into the crystal lattice). These small-scale defects can impact the electrical properties of the silicon.
-
-- Dislocations: Dislocations are disruptions in the regular stacking of atoms in the crystal. These can occur due to uneven cooling or mechanical stress during the crystal growth process, leading to areas where the atomic planes are misaligned​.
-
-- Gross Defects: These larger-scale defects, such as crystal slips and twin planes, are introduced by thermal or mechanical shocks during the crystal growth process. Gross defects can significantly affect the overall structural integrity of the wafer​.
-
-4. Outline and describe the basic process steps for wafer preparation, starting from a silicon ingot and finishing with a wafer.
-
-The preparation of wafers from a silicon ingot involves the following steps:
-
-- Ingot Shaping: The silicon ingot is ground to a uniform diameter to ensure proper slicing.
-- Wafer Slicing: The shaped ingot is sliced into thin wafers using a wire saw or internal diameter saw.
-- Lapping: The wafer undergoes mechanical lapping to remove surface imperfections caused by slicing.
-- Etching: Chemical etching is used to remove any surface damage from the mechanical processes.
-- Polishing: The wafer is polished on both sides to achieve a flat, smooth surface that is essential for device fabrication.
-- Cleaning: The wafers are cleaned to remove any contaminants or particles.
-- Inspection and Packaging: The finished wafers are inspected for defects, and those that meet specifications are packaged for further processing​.
-
-5. State and discuss seven quality measures for wafer suppliers.
-
-Wafer suppliers must ensure that their products meet the following seven quality measures:
-
-- Physical Dimensions: Wafers must adhere to specific diameter and thickness specifications.
-- Flatness: The wafer surface must be flat to ensure uniform layer deposition and lithography.
-- Microroughness: The microscopic surface roughness of the wafer must be minimized to prevent electrical issues during device fabrication.
-- Oxygen Content: Excessive oxygen can affect the electrical properties of the silicon, so oxygen content must be controlled.
-- Crystal Defects: Minimizing crystal defects, such as dislocations and vacancies, is crucial for the reliability of the devices.
-- Particles: The presence of particles on the wafer surface can lead to defects during subsequent fabrication steps.
-- Bulk Resistivity: The electrical resistivity of the wafer must be consistent, which depends on the doping concentration and uniformity​.
-
-6. Explain what epitaxy is and why it is important for wafers.
-
-Epitaxy refers to the process of growing a thin, ordered monocrystalline layer of silicon on top of an existing silicon wafer. This &amp;#34;epi-layer&amp;#34; replicates the crystal structure of the base wafer and can be doped differently from the substrate to achieve specific electrical characteristics.
-
-Importance:
-- Epitaxy allows for precise control of the electrical properties of the silicon, enabling the production of high-performance semiconductor devices.
-- The epitaxial layer is used in applications where improved control over doping and reduced defect density are required.
-- This process is essential for advanced devices such as CMOS transistors, where high-purity, low-defect surfaces are necessary​.
-
-1. 說明如何將原始矽精煉成半導體級矽。
-2. 解釋單晶矽的晶體結構與生長方法。
-3. 討論矽晶體的主要缺陷。
-4. 概述從矽錠到晶圓的基本製備過程。
-5. 討論供應商對晶圓的七項品質要求。
-6. 解釋外延層的概念及其對晶圓的重要性。
-&lt;/code&gt;&lt;/pre&gt;</description>
+      <title>Introduction to Quantum Mechanics</title>
+      <link>https://eujenz.github.io/posts/spd-introduction-to-quantum-mechanics/</link>
+      <pubDate>Wed, 25 Sep 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/spd-introduction-to-quantum-mechanics/</guid>
+      <description>&lt;h2 id=&#34;波函數的物理意義&#34;&gt;波函數的物理意義&lt;/h2&gt;
+&lt;p&gt;在量子力學中，波函數 $\Psi(x,t)$ 描述了粒子在空間和時間中所處的狀態。不同於經典物理中的確定位置，在量子力學中，物質的位置並不是確定的，而是呈現機率分布的型態。波函數的物理意義主要表現在以下幾個方面：&lt;/p&gt;
+&lt;h3 id=&#34;機率密度函數&#34;&gt;機率密度函數&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;波函數的絕對值平方 $|\Psi(x,t)|^2$ 代表了粒子在位置 $x$ 處、時間 $t$ 的機率密度。這告訴我們粒子在某一特定位置出現的機率大小。&lt;/li&gt;
+&lt;li&gt;例如，在圖中的常態分布範例中，波函數平方的形狀類似於常態分佈，顯示粒子最有可能出現在分布的中心，而在遠離中心的區域出現的機率較小。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;全域機率總和為-1&#34;&gt;全域機率總和為 1&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;根據量子力學的原理，粒子必須存在於空間中的某個位置。因此，波函數的絕對值平方在整個空間上的積分必須等於 1，這稱為歸一化條件。這保證了粒子的出現機率在整個空間內加總後是 100%。&lt;/li&gt;
+&lt;li&gt;數學上表達為：
+$$ \int_{-\infty}^{\infty} |\Psi(x,t)|^2 dx = 1 $$&lt;/li&gt;
+&lt;li&gt;這意味著無論粒子在哪個位置，總的機率必須是 1，表明粒子肯定存在於某個位置。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;波函數 $\Psi(x,t)$ 的絕對值平方 $|\Psi(x,t)|^2$ 代表粒子出現在某位置的機率密度。波函數必須滿足全空間內的總機率為 1，這是一個基本的量子力學原則。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;波函數的邊界條件-boundary-condition&#34;&gt;波函數的邊界條件 (Boundary Condition)&lt;/h2&gt;
+&lt;p&gt;在量子力學中，波函數 $\Psi(x,t)$ 必須滿足一些邊界條件，以保證物理上的合理性。這些條件限制了波函數在空間中的行為，使得它能夠正確描述粒子的運動和機率分布。&lt;/p&gt;
+&lt;h3 id=&#34;波函數必須正規化&#34;&gt;波函數必須正規化&lt;/h3&gt;
+&lt;p&gt;正如上面所說，波函數的機率分布必須滿足整個空間上的機率總和為 1。這是量子力學中的歸一化條件，表示粒子一定存在於某個地方。&lt;/p&gt;
+&lt;h3 id=&#34;波函數必須是有限且連續的&#34;&gt;波函數必須是有限且連續的&lt;/h3&gt;
+&lt;p&gt;波函數 $\Psi(x)$ 必須是有限的，並且在空間中是連續的。這意味著波函數不能有不合理的跳變或無限值，因為這樣的波函數在物理上沒有意義。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如下圖所示，連續的波函數曲線是一條平滑的波形，而不連續的波函數則出現了明顯的跳變，這樣的情況在物理上是不可能的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://eujenz.github.io/images/spf01.png&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;波函數的一階導數必須是有限且連續的&#34;&gt;波函數的一階導數必須是有限且連續的&lt;/h3&gt;
+&lt;p&gt;波函數對位置 $x$ 的一階導數（表示波函數的斜率或變化率）也必須是連續且有限的。這確保了波函數在空間中變化是平滑的，沒有突然的變化。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果波函數的一階導數是連續的，波函數本身也會是連續平滑的，這符合物理的要求。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;位能井的概念&#34;&gt;位能井的概念&lt;/h2&gt;
+&lt;p&gt;這裡的&amp;quot;井&amp;quot;是用來形容粒子被限制在一個特定區域中，無法逃逸出這個區域的狀態。以下是對這一概念的進一步解釋：&lt;/p&gt;
+&lt;h3 id=&#34;位能井的形狀&#34;&gt;位能井的形狀&lt;/h3&gt;
+&lt;p&gt;當繪製粒子的位能圖時，在無限位能井模型中，井內的位能通常是 &lt;strong&gt;零&lt;/strong&gt;，而在井外位能則是 &lt;strong&gt;無限大&lt;/strong&gt;。這樣的位能圖表明粒子只能在位能井的內部區域活動，而無法到達井外。&lt;br&gt;
+在這樣的圖形上，位能在井內（即有限區間 $0 &amp;lt; x &amp;lt; a$）是平坦的，這代表粒子在井內可以自由運動，而在井外（$x \leq 0$ 和 $x \geq a$）的位能無限大，表示粒子被完全束縛住無法逃離，位能的形狀看起來就像是一個深井。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

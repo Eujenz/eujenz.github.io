@@ -1,0 +1,153 @@
+<!doctype html><html lang=en dir=auto><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><script defer src=https://busuanzi.9420.ltd/js></script><title>Introduction to Quantum Mechanics | LEE CHIEN-WEI</title>
+<meta name=keywords content="半導體物理與元件"><meta name=description content="無限位能井中的粒子行為與波函數
+
+
+這張圖展示了無限位能井 (Infinite Potential Well) 的概念，並展示了波函數 (\Psi(x)) 在位能井內部和邊界的行為。
+
+無限高的位能牆限制了粒子的運動範圍，並且波函數必須滿足井邊界處為零的條件
+在井內，波函數表示粒子的機率分佈，並且能量是量子化的，即粒子只能取特定的離散能量值。
+
+無限位能井的位能分佈
+
+藍色線條表示位能 (V(x)) 的分佈，圖中顯示在 (x = 0) 和 (x = a) 的邊界處，位能 (V(x) = \infty)。
+在井內（即 (0 < x < a)），位能 (V(x) = 0)，這意味著粒子在該區域內不受任何位能的限制，可以自由運動。
+在井外（即 (x \leq 0) 和 (x \geq a)），位能是無限大 (V(x) = \infty)，這表示粒子無法進入井外的區域，也不能穿透這些邊界。因此，波函數 (\Psi(x)) 在井外為零，粒子不存在於這些區域。
+
+波函數的行為
+
+黑色虛線表示波函數 (\Psi(x))，描述了粒子在井內不同位置的存在概率。
+在 (x = 0) 和 (x = a) 處，波函數 (\Psi(x) = 0)，這符合邊界條件，因為在這些邊界處粒子無法存在。
+在 (0 < x < a) 的區域內，波函數的形狀為一個正弦波，表示粒子在這個區域內的存在概率分佈。波函數的最大值出現在井的中心，意味著粒子最有可能出現在靠近井中心的位置。
+
+能量量子化
+
+波函數的具體形狀由量子數 (n) 決定，這決定了粒子的能量。對於每個 (n)，波函數會有不同的形狀，並且能量是離散的，不能連續變化。
+由於粒子被限制在這個有限區域內，其能量不是連續的，而是以離散的形式存在。這是量子力學中的能量量子化現象。
+
+波函數的物理意義
+
+波函數 (\Psi(x)) 的絕對值平方 (\lvert \Psi(x) \rvert^2) 代表粒子在位置 (x) 處的存在概率密度。圖中顯示的波函數形狀表明，粒子出現在井中心附近的概率較大，而在靠近邊界處的概率為零。
+此外，波函數的正弦形狀表現出粒子的振動模式，對應不同的能級。高能級時波函數會有更多節點，表示粒子在井內不同位置的出現概率不同。
+
+
+無限位能井中的量子化能量
+在無限位能井中，粒子的能量呈現階梯式（離散）而非連續式，這是量子力學中非常重要的一個特徵。以下將說明為何這種表示方式導致能量是離散的，而不是連續的。"><meta name=author content><link rel=canonical href=http://localhost:1313/posts/spd-iintroduction-to-quantum-mechanics/><link crossorigin=anonymous href=/assets/css/stylesheet.css rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/favicon.ico><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/favicon-32x32.png><link rel=apple-touch-icon href=http://localhost:1313/apple-touch-icon.png><link rel=mask-icon href=http://localhost:1313/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=http://localhost:1313/posts/spd-iintroduction-to-quantum-mechanics/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:title" content="Introduction to Quantum Mechanics"><meta property="og:description" content="無限位能井中的粒子行為與波函數
+
+
+這張圖展示了無限位能井 (Infinite Potential Well) 的概念，並展示了波函數 (\Psi(x)) 在位能井內部和邊界的行為。
+
+無限高的位能牆限制了粒子的運動範圍，並且波函數必須滿足井邊界處為零的條件
+在井內，波函數表示粒子的機率分佈，並且能量是量子化的，即粒子只能取特定的離散能量值。
+
+無限位能井的位能分佈
+
+藍色線條表示位能 (V(x)) 的分佈，圖中顯示在 (x = 0) 和 (x = a) 的邊界處，位能 (V(x) = \infty)。
+在井內（即 (0 < x < a)），位能 (V(x) = 0)，這意味著粒子在該區域內不受任何位能的限制，可以自由運動。
+在井外（即 (x \leq 0) 和 (x \geq a)），位能是無限大 (V(x) = \infty)，這表示粒子無法進入井外的區域，也不能穿透這些邊界。因此，波函數 (\Psi(x)) 在井外為零，粒子不存在於這些區域。
+
+波函數的行為
+
+黑色虛線表示波函數 (\Psi(x))，描述了粒子在井內不同位置的存在概率。
+在 (x = 0) 和 (x = a) 處，波函數 (\Psi(x) = 0)，這符合邊界條件，因為在這些邊界處粒子無法存在。
+在 (0 < x < a) 的區域內，波函數的形狀為一個正弦波，表示粒子在這個區域內的存在概率分佈。波函數的最大值出現在井的中心，意味著粒子最有可能出現在靠近井中心的位置。
+
+能量量子化
+
+波函數的具體形狀由量子數 (n) 決定，這決定了粒子的能量。對於每個 (n)，波函數會有不同的形狀，並且能量是離散的，不能連續變化。
+由於粒子被限制在這個有限區域內，其能量不是連續的，而是以離散的形式存在。這是量子力學中的能量量子化現象。
+
+波函數的物理意義
+
+波函數 (\Psi(x)) 的絕對值平方 (\lvert \Psi(x) \rvert^2) 代表粒子在位置 (x) 處的存在概率密度。圖中顯示的波函數形狀表明，粒子出現在井中心附近的概率較大，而在靠近邊界處的概率為零。
+此外，波函數的正弦形狀表現出粒子的振動模式，對應不同的能級。高能級時波函數會有更多節點，表示粒子在井內不同位置的出現概率不同。
+
+
+無限位能井中的量子化能量
+在無限位能井中，粒子的能量呈現階梯式（離散）而非連續式，這是量子力學中非常重要的一個特徵。以下將說明為何這種表示方式導致能量是離散的，而不是連續的。"><meta property="og:type" content="article"><meta property="og:url" content="http://localhost:1313/posts/spd-iintroduction-to-quantum-mechanics/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2024-09-25T00:36:24+08:00"><meta property="article:modified_time" content="2024-09-25T00:36:24+08:00"><meta property="og:site_name" content="MOSFET Technical Notes"><meta name=twitter:card content="summary"><meta name=twitter:title content="Introduction to Quantum Mechanics"><meta name=twitter:description content="無限位能井中的粒子行為與波函數
+
+
+這張圖展示了無限位能井 (Infinite Potential Well) 的概念，並展示了波函數 (\Psi(x)) 在位能井內部和邊界的行為。
+
+無限高的位能牆限制了粒子的運動範圍，並且波函數必須滿足井邊界處為零的條件
+在井內，波函數表示粒子的機率分佈，並且能量是量子化的，即粒子只能取特定的離散能量值。
+
+無限位能井的位能分佈
+
+藍色線條表示位能 (V(x)) 的分佈，圖中顯示在 (x = 0) 和 (x = a) 的邊界處，位能 (V(x) = \infty)。
+在井內（即 (0 < x < a)），位能 (V(x) = 0)，這意味著粒子在該區域內不受任何位能的限制，可以自由運動。
+在井外（即 (x \leq 0) 和 (x \geq a)），位能是無限大 (V(x) = \infty)，這表示粒子無法進入井外的區域，也不能穿透這些邊界。因此，波函數 (\Psi(x)) 在井外為零，粒子不存在於這些區域。
+
+波函數的行為
+
+黑色虛線表示波函數 (\Psi(x))，描述了粒子在井內不同位置的存在概率。
+在 (x = 0) 和 (x = a) 處，波函數 (\Psi(x) = 0)，這符合邊界條件，因為在這些邊界處粒子無法存在。
+在 (0 < x < a) 的區域內，波函數的形狀為一個正弦波，表示粒子在這個區域內的存在概率分佈。波函數的最大值出現在井的中心，意味著粒子最有可能出現在靠近井中心的位置。
+
+能量量子化
+
+波函數的具體形狀由量子數 (n) 決定，這決定了粒子的能量。對於每個 (n)，波函數會有不同的形狀，並且能量是離散的，不能連續變化。
+由於粒子被限制在這個有限區域內，其能量不是連續的，而是以離散的形式存在。這是量子力學中的能量量子化現象。
+
+波函數的物理意義
+
+波函數 (\Psi(x)) 的絕對值平方 (\lvert \Psi(x) \rvert^2) 代表粒子在位置 (x) 處的存在概率密度。圖中顯示的波函數形狀表明，粒子出現在井中心附近的概率較大，而在靠近邊界處的概率為零。
+此外，波函數的正弦形狀表現出粒子的振動模式，對應不同的能級。高能級時波函數會有更多節點，表示粒子在井內不同位置的出現概率不同。
+
+
+無限位能井中的量子化能量
+在無限位能井中，粒子的能量呈現階梯式（離散）而非連續式，這是量子力學中非常重要的一個特徵。以下將說明為何這種表示方式導致能量是離散的，而不是連續的。"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"http://localhost:1313/posts/"},{"@type":"ListItem","position":2,"name":"Introduction to Quantum Mechanics","item":"http://localhost:1313/posts/spd-iintroduction-to-quantum-mechanics/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Introduction to Quantum Mechanics","name":"Introduction to Quantum Mechanics","description":"無限位能井中的粒子行為與波函數 這張圖展示了無限位能井 (Infinite Potential Well) 的概念，並展示了波函數 (\\Psi(x)) 在位能井內部和邊界的行為。\n無限高的位能牆限制了粒子的運動範圍，並且波函數必須滿足井邊界處為零的條件 在井內，波函數表示粒子的機率分佈，並且能量是量子化的，即粒子只能取特定的離散能量值。 無限位能井的位能分佈 藍色線條表示位能 (V(x)) 的分佈，圖中顯示在 (x = 0) 和 (x = a) 的邊界處，位能 (V(x) = \\infty)。 在井內（即 (0 \u0026lt; x \u0026lt; a)），位能 (V(x) = 0)，這意味著粒子在該區域內不受任何位能的限制，可以自由運動。 在井外（即 (x \\leq 0) 和 (x \\geq a)），位能是無限大 (V(x) = \\infty)，這表示粒子無法進入井外的區域，也不能穿透這些邊界。因此，波函數 (\\Psi(x)) 在井外為零，粒子不存在於這些區域。 波函數的行為 黑色虛線表示波函數 (\\Psi(x))，描述了粒子在井內不同位置的存在概率。 在 (x = 0) 和 (x = a) 處，波函數 (\\Psi(x) = 0)，這符合邊界條件，因為在這些邊界處粒子無法存在。 在 (0 \u0026lt; x \u0026lt; a) 的區域內，波函數的形狀為一個正弦波，表示粒子在這個區域內的存在概率分佈。波函數的最大值出現在井的中心，意味著粒子最有可能出現在靠近井中心的位置。 能量量子化 波函數的具體形狀由量子數 (n) 決定，這決定了粒子的能量。對於每個 (n)，波函數會有不同的形狀，並且能量是離散的，不能連續變化。 由於粒子被限制在這個有限區域內，其能量不是連續的，而是以離散的形式存在。這是量子力學中的能量量子化現象。 波函數的物理意義 波函數 (\\Psi(x)) 的絕對值平方 (\\lvert \\Psi(x) \\rvert^2) 代表粒子在位置 (x) 處的存在概率密度。圖中顯示的波函數形狀表明，粒子出現在井中心附近的概率較大，而在靠近邊界處的概率為零。 此外，波函數的正弦形狀表現出粒子的振動模式，對應不同的能級。高能級時波函數會有更多節點，表示粒子在井內不同位置的出現概率不同。 無限位能井中的量子化能量 在無限位能井中，粒子的能量呈現階梯式（離散）而非連續式，這是量子力學中非常重要的一個特徵。以下將說明為何這種表示方式導致能量是離散的，而不是連續的。\n","keywords":["半導體物理與元件"],"articleBody":"無限位能井中的粒子行為與波函數 這張圖展示了無限位能井 (Infinite Potential Well) 的概念，並展示了波函數 (\\Psi(x)) 在位能井內部和邊界的行為。\n無限高的位能牆限制了粒子的運動範圍，並且波函數必須滿足井邊界處為零的條件 在井內，波函數表示粒子的機率分佈，並且能量是量子化的，即粒子只能取特定的離散能量值。 無限位能井的位能分佈 藍色線條表示位能 (V(x)) 的分佈，圖中顯示在 (x = 0) 和 (x = a) 的邊界處，位能 (V(x) = \\infty)。 在井內（即 (0 \u003c x \u003c a)），位能 (V(x) = 0)，這意味著粒子在該區域內不受任何位能的限制，可以自由運動。 在井外（即 (x \\leq 0) 和 (x \\geq a)），位能是無限大 (V(x) = \\infty)，這表示粒子無法進入井外的區域，也不能穿透這些邊界。因此，波函數 (\\Psi(x)) 在井外為零，粒子不存在於這些區域。 波函數的行為 黑色虛線表示波函數 (\\Psi(x))，描述了粒子在井內不同位置的存在概率。 在 (x = 0) 和 (x = a) 處，波函數 (\\Psi(x) = 0)，這符合邊界條件，因為在這些邊界處粒子無法存在。 在 (0 \u003c x \u003c a) 的區域內，波函數的形狀為一個正弦波，表示粒子在這個區域內的存在概率分佈。波函數的最大值出現在井的中心，意味著粒子最有可能出現在靠近井中心的位置。 能量量子化 波函數的具體形狀由量子數 (n) 決定，這決定了粒子的能量。對於每個 (n)，波函數會有不同的形狀，並且能量是離散的，不能連續變化。 由於粒子被限制在這個有限區域內，其能量不是連續的，而是以離散的形式存在。這是量子力學中的能量量子化現象。 波函數的物理意義 波函數 (\\Psi(x)) 的絕對值平方 (\\lvert \\Psi(x) \\rvert^2) 代表粒子在位置 (x) 處的存在概率密度。圖中顯示的波函數形狀表明，粒子出現在井中心附近的概率較大，而在靠近邊界處的概率為零。 此外，波函數的正弦形狀表現出粒子的振動模式，對應不同的能級。高能級時波函數會有更多節點，表示粒子在井內不同位置的出現概率不同。 無限位能井中的量子化能量 在無限位能井中，粒子的能量呈現階梯式（離散）而非連續式，這是量子力學中非常重要的一個特徵。以下將說明為何這種表示方式導致能量是離散的，而不是連續的。\n1. 量子化的原因：邊界條件的限制 首先，我們推導出了粒子的波函數： $$ \\Psi(x) = B \\sin\\left(\\frac{n\\pi x}{a}\\right) $$ 其中 $n$ 是一個整數，代表不同的量子數。關鍵在於：\n粒子被限制在 $x=0$ 到 $x=a$ 的區域內，無法出現在井外。這些邊界條件迫使波函數在邊界處為零。 這種邊界條件對波函數施加了嚴格的限制，使其必須呈現特定形式才能滿足這些條件。 因此，波函數的形狀受到限制，進而限制了對應的能量值。波函數必須在區域內「完全適配」，導致只有某些特定的波長（或波數 $k$）是允許的。\n2. 能量公式的推導 在量子力學中，粒子的能量與波數 $k$ 之間的關係如下： $$ E = \\frac{\\hbar^2 k^2}{2m} $$ 其中：\n$E$ 是粒子的能量， $\\hbar$ 是簡化普朗克常數， $m$ 是粒子的質量， $k$ 是波數，與波長 $\\lambda$ 的關係為 $k = \\frac{2\\pi}{\\lambda}$。 在無限位能井中，波數 $k$ 被邊界條件限制，必須取以下形式： $$ k = \\frac{n\\pi}{a} $$ 其中 $n = 1, 2, 3, \\dots$ 是整數量子數。\n將 $k$ 代入能量公式，我們得到： $$ E_n = \\frac{\\hbar^2}{2m} \\left(\\frac{n\\pi}{a}\\right)^2 $$ 簡化為： $$ E_n = \\frac{n^2 \\pi^2 \\hbar^2}{2ma^2} $$ 這裡的 $n$ 表示不同的能級，而 $n$ 只能取正整數（1, 2, 3,…）。因此，粒子的能量不是連續的，而是離散的，這就是能量量子化的原因。\n3. 階梯式能階的概念 從這個能量公式中可以看出：\n每個量子數 $n$ 對應於一個特定的能量 $E_n$。 當 $n$ 增加時，能量 $E_n$ 也會增加，並且隨著 $n^2$ 的速度增加。 因此，能量只能取特定的值，這類似於站在階梯上，只能停留在特定的台階位置，而不能站在兩個台階之間。這就是為什麼我們說量子力學中的能量是階梯式的。\n4. 為什麼能量不是連續的？ 在經典物理學中，粒子的能量可以是任何值，因為沒有邊界條件的限制，粒子可以自由移動，能量可以平滑變化。然而，在量子力學中，邊界條件對波函數的形狀施加了嚴格的限制，導致波數 $k$ 只能取特定值。\n由於能量和波數是相關的（通過公式 $E = \\frac{\\hbar^2 k^2}{2m}$），因此波數的限制導致能量只能取離散值，而不是連續的。\n5. 具體的例子 當 $n = 1$ 時，我們得到最低的能量，稱為基態能量，這是粒子能擁有的最小能量。 當 $n = 2$ 時，能量比基態高出一個量級。 當 $n = 3$ 時，能量會進一步增加，依次類推。 這些不同的能量對應於粒子在井內不同的「振動模式」或「能量階」。\n綜合比較 經典物理中的能量：\n粒子的能量可以是連續的，粒子可以擁有任意能量值。 沒有邊界條件的限制，粒子的能量隨粒子運動自由變化。 量子力學中的能量：\n由於邊界條件的存在，粒子的能量只能取離散的值，這叫做能量量子化。 波函數的正弦形式和邊界條件決定了波數 $k$ 和能量 $E_n$ 都是量子化的，形成了階梯式的能量圖像。 小結 量子力學中的無限位能井模型展示了能量量子化現象。由於粒子的波函數必須滿足特定的邊界條件，這直接導致了能量只能取特定值，形成階梯式的能量分佈，而不是連續的。這個現象與經典物理學中的連續能量分佈形成了鮮明對比。\n無限位能井的兩種推導 在無限位能井中，粒子的能量呈現階梯式（離散）而非連續式，這是量子力學中非常重要的一個特徵。下面將用簡單易懂的方式來說明，為什麼這種表示方式導致能量是離散的，而不是連續的，並通過兩種推導過程來對比。\n第一種推導 問題背景： 粒子被限制在一個長度為 $a$ 的區域內（無限位能井），粒子在這個區域外不能存在，因此我們知道波函數在區域外的值必須是 $0$（即 $Ψ(x)=0$）。\n邊界條件： 當 $x=0$ 和 $x=a$ 時，因為粒子無法出現在位能井之外，所以波函數 $Ψ(x)$ 在這些位置的值必須是 $0$。這是邊界條件。\n解方程： 我們設計一個通解來描述粒子在井內的波函數。這個通解是由正弦和餘弦函數構成的： $$ Ψ(x)=A\\cos(kx) + B\\sin(kx) $$ 這裡的 $A$ 和 $B$ 是未知常數，而 $k$ 是一個和波長有關的數值。\n應用邊界條件： 根據邊界條件 $Ψ(0)=0$，我們得出 $A=0$，這意味著波函數只包含正弦項： $$ Ψ(x)=B\\sin(kx) $$ 接著，根據邊界條件 $Ψ(a)=0$，我們得出 $k$ 的值必須是： $$ k = \\frac{nπ}{a}, \\quad n=1,2,3,… $$ 其中 $n$ 是整數，代表量子數。\n波函數的最終形式是： $$ Ψ(x)=B\\sin\\left(\\frac{nπx}{a}\\right) $$ 這個推導告訴我們，粒子的能量是量子化的，即粒子只能取某些特定的能量值，這由 $n$ 的值決定。\n第二種推導 背景與邊界條件： 同樣地，我們從無限位能井開始，使用相同的邊界條件 $Ψ(0)=0$ 和 $Ψ(a)=0$ 來限制波函數。\n解方程： 和第一個推導一樣，我們使用正弦函數形式： $$ Ψ(x)=B\\sin\\left(\\frac{nπx}{a}\\right) $$ 來描述波函數。\n正規化波函數： 在這裡，我們進一步要求波函數的平方在區域 $0 \\leq x \\leq a$ 內的積分結果等於 1，這叫做正規化。這意味著粒子在井內的存在機率總和應該是 1。 我們通過積分來找到常數 $B$ 的值： $$ \\int_0^a Ψ(x)^2 dx = 1 $$ 最後，我們得到： $$ B = \\sqrt{\\frac{2}{a}} $$\n正規化後的波函數為： $$ Ψ(x)=\\sqrt{\\frac{2}{a}} \\sin\\left(\\frac{nπx}{a}\\right) $$ 這個推導的好處在於，通過正規化，我們確保波函數描述了粒子在這個區域內的機率分佈，即它告訴我們粒子在任何位置的出現概率是多少。\n綜合比較 特色 第一種推導 第二種推導 目標 找到波函數的形式，說明量子化條件 找到波函數並確定正規化，解釋波函數的物理意義 數學難度 簡單，僅需應用邊界條件來推導波函數 數學稍複雜，需要積分來正規化波函數 物理意義 專注於波函數的數學形式，展示能量量子化的特徵 更進一步，解釋波函數的物理意義和機率分佈 適合對象 適合剛開始學習波函數和量子力學的人 適合希望深入理解波函數正規化和概率分佈的人 優勢 直接，簡潔，易於理解 嚴謹，物理意義完整，確保波函數符合物理規則 缺點 缺少對波函數正規化的處理，物理解釋不夠完整 數學較為複雜，初學者可能需要更多數學知識支持 ","wordCount":"357","inLanguage":"en","datePublished":"2024-09-25T00:36:24+08:00","dateModified":"2024-09-25T00:36:24+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:1313/posts/spd-iintroduction-to-quantum-mechanics/"},"publisher":{"@type":"Organization","name":"LEE CHIEN-WEI","logo":{"@type":"ImageObject","url":"http://localhost:1313/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><script>MathJax={tex:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:["script","noscript","style","textarea","pre"]}},window.addEventListener("load",e=>{document.querySelectorAll("mjx-container").forEach(function(e){e.parentElement.classList+="has-jax"})})</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/ accesskey=h title="LEE CHIEN-WEI (Alt + H)">LEE CHIEN-WEI</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=http://localhost:1313/categories/ title=Categories><span>Categories</span></a></li><li><a href=http://localhost:1313/tags/ title=Tags><span>Tags</span></a></li><li><a href=http://localhost:1313/about/ title=About><span>About</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=http://localhost:1313/>Home</a>&nbsp;»&nbsp;<a href=http://localhost:1313/posts/>Posts</a></div><h1 class="post-title entry-hint-parent">Introduction to Quantum Mechanics</h1><div class=post-meta><span title='2024-09-25 00:36:24 +0800 CST'>September 25, 2024</span></div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"></summary><div class=inner><nav id=TableOfContents><ul><li><a href=#無限位能井中的粒子行為與波函數>無限位能井中的粒子行為與波函數</a><ul><li><a href=#無限位能井的位能分佈>無限位能井的位能分佈</a></li><li><a href=#波函數的行為>波函數的行為</a></li><li><a href=#能量量子化>能量量子化</a></li><li><a href=#波函數的物理意義>波函數的物理意義</a></li></ul></li><li><a href=#無限位能井中的量子化能量>無限位能井中的量子化能量</a><ul><li><a href=#1-量子化的原因邊界條件的限制>1. 量子化的原因：邊界條件的限制</a></li><li><a href=#2-能量公式的推導>2. 能量公式的推導</a></li><li><a href=#3-階梯式能階的概念>3. 階梯式能階的概念</a></li><li><a href=#4-為什麼能量不是連續的>4. 為什麼能量不是連續的？</a></li><li><a href=#5-具體的例子>5. 具體的例子</a></li><li><a href=#綜合比較>綜合比較</a></li><li><a href=#小結>小結</a></li></ul></li><li><a href=#無限位能井的兩種推導>無限位能井的兩種推導</a><ul><li><a href=#第一種推導>第一種推導</a></li><li><a href=#第二種推導>第二種推導</a></li><li><a href=#綜合比較-1>綜合比較</a></li></ul></li></ul></nav></div></details></div><div class=post-content><h2 id=無限位能井中的粒子行為與波函數>無限位能井中的粒子行為與波函數<a hidden class=anchor aria-hidden=true href=#無限位能井中的粒子行為與波函數>#</a></h2><p><img loading=lazy src=/images/infinite-potential-well.png alt=無限位能井></p><p>這張圖展示了無限位能井 (Infinite Potential Well) 的概念，並展示了波函數 (\Psi(x)) 在位能井內部和邊界的行為。</p><ul><li>無限高的位能牆限制了粒子的運動範圍，並且波函數必須滿足井邊界處為零的條件</li><li>在井內，波函數表示粒子的機率分佈，並且能量是量子化的，即粒子只能取特定的離散能量值。</li></ul><h3 id=無限位能井的位能分佈>無限位能井的位能分佈<a hidden class=anchor aria-hidden=true href=#無限位能井的位能分佈>#</a></h3><ul><li>藍色線條表示位能 (V(x)) 的分佈，圖中顯示在 (x = 0) 和 (x = a) 的邊界處，位能 (V(x) = \infty)。</li><li>在井內（即 (0 &lt; x &lt; a)），位能 (V(x) = 0)，這意味著粒子在該區域內不受任何位能的限制，可以自由運動。</li><li>在井外（即 (x \leq 0) 和 (x \geq a)），位能是無限大 (V(x) = \infty)，這表示粒子無法進入井外的區域，也不能穿透這些邊界。因此，波函數 (\Psi(x)) 在井外為零，粒子不存在於這些區域。</li></ul><h3 id=波函數的行為>波函數的行為<a hidden class=anchor aria-hidden=true href=#波函數的行為>#</a></h3><ul><li>黑色虛線表示波函數 (\Psi(x))，描述了粒子在井內不同位置的存在概率。</li><li>在 (x = 0) 和 (x = a) 處，波函數 (\Psi(x) = 0)，這符合邊界條件，因為在這些邊界處粒子無法存在。</li><li>在 (0 &lt; x &lt; a) 的區域內，波函數的形狀為一個正弦波，表示粒子在這個區域內的存在概率分佈。波函數的最大值出現在井的中心，意味著粒子最有可能出現在靠近井中心的位置。</li></ul><h3 id=能量量子化>能量量子化<a hidden class=anchor aria-hidden=true href=#能量量子化>#</a></h3><ul><li>波函數的具體形狀由量子數 (n) 決定，這決定了粒子的能量。對於每個 (n)，波函數會有不同的形狀，並且能量是離散的，不能連續變化。</li><li>由於粒子被限制在這個有限區域內，其能量不是連續的，而是以離散的形式存在。這是量子力學中的能量量子化現象。</li></ul><h3 id=波函數的物理意義>波函數的物理意義<a hidden class=anchor aria-hidden=true href=#波函數的物理意義>#</a></h3><ul><li>波函數 (\Psi(x)) 的絕對值平方 (\lvert \Psi(x) \rvert^2) 代表粒子在位置 (x) 處的存在概率密度。圖中顯示的波函數形狀表明，粒子出現在井中心附近的概率較大，而在靠近邊界處的概率為零。</li><li>此外，波函數的正弦形狀表現出粒子的振動模式，對應不同的能級。高能級時波函數會有更多節點，表示粒子在井內不同位置的出現概率不同。</li></ul><hr><h2 id=無限位能井中的量子化能量>無限位能井中的量子化能量<a hidden class=anchor aria-hidden=true href=#無限位能井中的量子化能量>#</a></h2><p>在無限位能井中，粒子的能量呈現階梯式（離散）而非連續式，這是量子力學中非常重要的一個特徵。以下將說明為何這種表示方式導致能量是離散的，而不是連續的。</p><h3 id=1-量子化的原因邊界條件的限制>1. 量子化的原因：邊界條件的限制<a hidden class=anchor aria-hidden=true href=#1-量子化的原因邊界條件的限制>#</a></h3><p>首先，我們推導出了粒子的波函數：
+$$
+\Psi(x) = B \sin\left(\frac{n\pi x}{a}\right)
+$$
+其中 $n$ 是一個整數，代表不同的量子數。關鍵在於：</p><ul><li>粒子被限制在 $x=0$ 到 $x=a$ 的區域內，無法出現在井外。這些邊界條件迫使波函數在邊界處為零。</li><li>這種邊界條件對波函數施加了嚴格的限制，使其必須呈現特定形式才能滿足這些條件。</li></ul><p>因此，波函數的形狀受到限制，進而限制了對應的能量值。波函數必須在區域內「完全適配」，導致只有某些特定的波長（或波數 $k$）是允許的。</p><h3 id=2-能量公式的推導>2. 能量公式的推導<a hidden class=anchor aria-hidden=true href=#2-能量公式的推導>#</a></h3><p>在量子力學中，粒子的能量與波數 $k$ 之間的關係如下：
+$$
+E = \frac{\hbar^2 k^2}{2m}
+$$
+其中：</p><ul><li>$E$ 是粒子的能量，</li><li>$\hbar$ 是簡化普朗克常數，</li><li>$m$ 是粒子的質量，</li><li>$k$ 是波數，與波長 $\lambda$ 的關係為 $k = \frac{2\pi}{\lambda}$。</li></ul><p>在無限位能井中，波數 $k$ 被邊界條件限制，必須取以下形式：
+$$
+k = \frac{n\pi}{a}
+$$
+其中 $n = 1, 2, 3, \dots$ 是整數量子數。</p><p>將 $k$ 代入能量公式，我們得到：
+$$
+E_n = \frac{\hbar^2}{2m} \left(\frac{n\pi}{a}\right)^2
+$$
+簡化為：
+$$
+E_n = \frac{n^2 \pi^2 \hbar^2}{2ma^2}
+$$
+這裡的 $n$ 表示不同的能級，而 $n$ 只能取正整數（1, 2, 3,&mldr;）。因此，粒子的能量不是連續的，而是離散的，這就是能量量子化的原因。</p><h3 id=3-階梯式能階的概念>3. 階梯式能階的概念<a hidden class=anchor aria-hidden=true href=#3-階梯式能階的概念>#</a></h3><p>從這個能量公式中可以看出：</p><ul><li>每個量子數 $n$ 對應於一個特定的能量 $E_n$。</li><li>當 $n$ 增加時，能量 $E_n$ 也會增加，並且隨著 $n^2$ 的速度增加。</li></ul><p>因此，能量只能取特定的值，這類似於站在階梯上，只能停留在特定的台階位置，而不能站在兩個台階之間。這就是為什麼我們說量子力學中的能量是階梯式的。</p><h3 id=4-為什麼能量不是連續的>4. 為什麼能量不是連續的？<a hidden class=anchor aria-hidden=true href=#4-為什麼能量不是連續的>#</a></h3><p>在經典物理學中，粒子的能量可以是任何值，因為沒有邊界條件的限制，粒子可以自由移動，能量可以平滑變化。然而，在量子力學中，邊界條件對波函數的形狀施加了嚴格的限制，導致波數 $k$ 只能取特定值。</p><p>由於能量和波數是相關的（通過公式 $E = \frac{\hbar^2 k^2}{2m}$），因此波數的限制導致能量只能取離散值，而不是連續的。</p><h3 id=5-具體的例子>5. 具體的例子<a hidden class=anchor aria-hidden=true href=#5-具體的例子>#</a></h3><ul><li>當 $n = 1$ 時，我們得到最低的能量，稱為<strong>基態能量</strong>，這是粒子能擁有的最小能量。</li><li>當 $n = 2$ 時，能量比基態高出一個量級。</li><li>當 $n = 3$ 時，能量會進一步增加，依次類推。</li></ul><p>這些不同的能量對應於粒子在井內不同的「振動模式」或「能量階」。</p><h3 id=綜合比較>綜合比較<a hidden class=anchor aria-hidden=true href=#綜合比較>#</a></h3><ul><li><p><strong>經典物理中的能量</strong>：</p><ul><li>粒子的能量可以是連續的，粒子可以擁有任意能量值。</li><li>沒有邊界條件的限制，粒子的能量隨粒子運動自由變化。</li></ul></li><li><p><strong>量子力學中的能量</strong>：</p><ul><li>由於邊界條件的存在，粒子的能量只能取離散的值，這叫做<strong>能量量子化</strong>。</li><li>波函數的正弦形式和邊界條件決定了波數 $k$ 和能量 $E_n$ 都是量子化的，形成了階梯式的能量圖像。</li></ul></li></ul><h3 id=小結>小結<a hidden class=anchor aria-hidden=true href=#小結>#</a></h3><p>量子力學中的無限位能井模型展示了<strong>能量量子化</strong>現象。由於粒子的波函數必須滿足特定的邊界條件，這直接導致了能量只能取特定值，形成階梯式的能量分佈，而不是連續的。這個現象與經典物理學中的連續能量分佈形成了鮮明對比。</p><hr><h2 id=無限位能井的兩種推導>無限位能井的兩種推導<a hidden class=anchor aria-hidden=true href=#無限位能井的兩種推導>#</a></h2><p>在無限位能井中，粒子的能量呈現階梯式（離散）而非連續式，這是量子力學中非常重要的一個特徵。下面將用簡單易懂的方式來說明，為什麼這種表示方式導致能量是離散的，而不是連續的，並通過兩種推導過程來對比。</p><h3 id=第一種推導>第一種推導<a hidden class=anchor aria-hidden=true href=#第一種推導>#</a></h3><h4 id=問題背景>問題背景：<a hidden class=anchor aria-hidden=true href=#問題背景>#</a></h4><p>粒子被限制在一個長度為 $a$ 的區域內（無限位能井），粒子在這個區域外不能存在，因此我們知道波函數在區域外的值必須是 $0$（即 $Ψ(x)=0$）。</p><h4 id=邊界條件>邊界條件：<a hidden class=anchor aria-hidden=true href=#邊界條件>#</a></h4><p>當 $x=0$ 和 $x=a$ 時，因為粒子無法出現在位能井之外，所以波函數 $Ψ(x)$ 在這些位置的值必須是 $0$。這是邊界條件。</p><h4 id=解方程>解方程：<a hidden class=anchor aria-hidden=true href=#解方程>#</a></h4><p>我們設計一個通解來描述粒子在井內的波函數。這個通解是由正弦和餘弦函數構成的：
+$$
+Ψ(x)=A\cos(kx) + B\sin(kx)
+$$
+這裡的 $A$ 和 $B$ 是未知常數，而 $k$ 是一個和波長有關的數值。</p><h4 id=應用邊界條件>應用邊界條件：<a hidden class=anchor aria-hidden=true href=#應用邊界條件>#</a></h4><p>根據邊界條件 $Ψ(0)=0$，我們得出 $A=0$，這意味著波函數只包含正弦項：
+$$
+Ψ(x)=B\sin(kx)
+$$
+接著，根據邊界條件 $Ψ(a)=0$，我們得出 $k$ 的值必須是：
+$$
+k = \frac{nπ}{a}, \quad n=1,2,3,&mldr;
+$$
+其中 $n$ 是整數，代表量子數。</p><p>波函數的最終形式是：
+$$
+Ψ(x)=B\sin\left(\frac{nπx}{a}\right)
+$$
+這個推導告訴我們，粒子的能量是量子化的，即粒子只能取某些特定的能量值，這由 $n$ 的值決定。</p><hr><h3 id=第二種推導>第二種推導<a hidden class=anchor aria-hidden=true href=#第二種推導>#</a></h3><h4 id=背景與邊界條件>背景與邊界條件：<a hidden class=anchor aria-hidden=true href=#背景與邊界條件>#</a></h4><p>同樣地，我們從無限位能井開始，使用相同的邊界條件 $Ψ(0)=0$ 和 $Ψ(a)=0$ 來限制波函數。</p><h4 id=解方程-1>解方程：<a hidden class=anchor aria-hidden=true href=#解方程-1>#</a></h4><p>和第一個推導一樣，我們使用正弦函數形式：
+$$
+Ψ(x)=B\sin\left(\frac{nπx}{a}\right)
+$$
+來描述波函數。</p><h4 id=正規化波函數>正規化波函數：<a hidden class=anchor aria-hidden=true href=#正規化波函數>#</a></h4><p>在這裡，我們進一步要求波函數的平方在區域 $0 \leq x \leq a$ 內的積分結果等於 1，這叫做<strong>正規化</strong>。這意味著粒子在井內的存在機率總和應該是 1。
+我們通過積分來找到常數 $B$ 的值：
+$$
+\int_0^a Ψ(x)^2 dx = 1
+$$
+最後，我們得到：
+$$
+B = \sqrt{\frac{2}{a}}
+$$</p><p>正規化後的波函數為：
+$$
+Ψ(x)=\sqrt{\frac{2}{a}} \sin\left(\frac{nπx}{a}\right)
+$$
+這個推導的好處在於，通過正規化，我們確保波函數描述了粒子在這個區域內的機率分佈，即它告訴我們粒子在任何位置的出現概率是多少。</p><hr><h3 id=綜合比較-1>綜合比較<a hidden class=anchor aria-hidden=true href=#綜合比較-1>#</a></h3><table><thead><tr><th style=text-align:left>特色</th><th style=text-align:left>第一種推導</th><th style=text-align:left>第二種推導</th></tr></thead><tbody><tr><td style=text-align:left>目標</td><td style=text-align:left>找到波函數的形式，說明量子化條件</td><td style=text-align:left>找到波函數並確定正規化，解釋波函數的物理意義</td></tr><tr><td style=text-align:left>數學難度</td><td style=text-align:left>簡單，僅需應用邊界條件來推導波函數</td><td style=text-align:left>數學稍複雜，需要積分來正規化波函數</td></tr><tr><td style=text-align:left>物理意義</td><td style=text-align:left>專注於波函數的數學形式，展示能量量子化的特徵</td><td style=text-align:left>更進一步，解釋波函數的物理意義和機率分佈</td></tr><tr><td style=text-align:left>適合對象</td><td style=text-align:left>適合剛開始學習波函數和量子力學的人</td><td style=text-align:left>適合希望深入理解波函數正規化和概率分佈的人</td></tr><tr><td style=text-align:left>優勢</td><td style=text-align:left>直接，簡潔，易於理解</td><td style=text-align:left>嚴謹，物理意義完整，確保波函數符合物理規則</td></tr><tr><td style=text-align:left>缺點</td><td style=text-align:left>缺少對波函數正規化的處理，物理解釋不夠完整</td><td style=text-align:left>數學較為複雜，初學者可能需要更多數學知識支持</td></tr></tbody></table></div><footer class=post-footer><ul class=post-tags><li><a href=http://localhost:1313/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%89%A9%E7%90%86%E8%88%87%E5%85%83%E4%BB%B6/>半導體物理與元件</a></li></ul><nav class=paginav><a class=next href=http://localhost:1313/posts/smt-oxidation/><span class=title>Next »</span><br><span>SMT- Oxidation</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2024 <a href=http://localhost:1313/>LEE CHIEN-WEI</a></span> ·<div>Page Views: <span id=busuanzi_page_pv></span> · Visitors: <span id=busuanzi_page_uv></span></div><div>Site Views: <span id=busuanzi_site_pv></span> · Site Visitors: <span id=busuanzi_site_uv></span></div><span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>
