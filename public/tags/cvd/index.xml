@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CVD on LEE CHIEN-WEI</title>
+    <link>https://eujenz.github.io/tags/cvd/</link>
+    <description>Recent content in CVD on LEE CHIEN-WEI</description>
+    <generator>Hugo -- 0.134.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Sep 2024 00:16:24 +0800</lastBuildDate>
+    <atom:link href="https://eujenz.github.io/tags/cvd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deposition</title>
+      <link>https://eujenz.github.io/posts/smt-deposition/</link>
+      <pubDate>Thu, 26 Sep 2024 00:16:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/smt-deposition/</guid>
+      <description>&lt;h2 id=&#34;smt薄膜沉積deposition課堂重點整理&#34;&gt;SMT薄膜沉積（Deposition）課堂重點整理&lt;/h2&gt;
+&lt;p&gt;薄膜沉積技術是半導體製造中不可或缺的步驟，負責在晶圓表面形成多層金屬互連和介電層，實現電氣隔離與導電連接。&lt;/p&gt;
+&lt;h3 id=&#34;1-薄膜沉積deposition&#34;&gt;1. 薄膜沉積（Deposition）&lt;/h3&gt;
+&lt;p&gt;薄膜沉積技術是指在晶圓表面形成極薄的固體膜的過程。這些薄膜包括金屬層和介電層，負責在晶片上實現電氣隔離和導電連接。薄膜沉積是多層金屬化過程中的關鍵步驟，對確保晶片性能、可靠性和製造效率至關重要。主要挑戰包括薄膜的均勻性、步覆蓋性（step coverage）以及其電氣性能。&lt;/p&gt;
+&lt;h3 id=&#34;4-晶圓製造中的製程流程&#34;&gt;4. 晶圓製造中的製程流程&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;擴散（Diffusion）： 在晶圓中引入摻雜物，改變其電性質。&lt;/li&gt;
+&lt;li&gt;蝕刻（Etching）： 去除不需要的材料，形成所需的圖案。&lt;/li&gt;
+&lt;li&gt;光刻（Photolithography）： 使用光掩膜將圖案轉移到晶圓表面。&lt;/li&gt;
+&lt;li&gt;拋光（Polishing）： 通過化學機械平坦化（CMP）技術平滑晶圓表面。&lt;/li&gt;
+&lt;li&gt;薄膜沉積（Deposition）： 在晶圓表面沉積金屬層和介電層。&lt;/li&gt;
+&lt;li&gt;封裝（Packaging）： 將完成的晶圓切割成單個晶片，進行封裝以保護元件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-薄膜層的種類&#34;&gt;5. 薄膜層的種類&lt;/h3&gt;
+&lt;p&gt;薄膜沉積種類主要分為：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;金屬層（Metal Layers）： 用於導電連接，實現晶片內部的電氣互連。常用的金屬材料包括鋁（Al）和銅（Cu）。&lt;/li&gt;
+&lt;li&gt;介電層（Dielectric Layers）： 提供電氣隔離，防止不同金屬層之間的短路。常用的介電材料包括SiO₂和低介電常數材料（low-k dielectrics）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;6-ulsi晶片的多層金屬化結構&#34;&gt;6. ULSI晶片的多層金屬化結構&lt;/h3&gt;
+&lt;p&gt;在ULSI（Ultra Large Scale Integration）晶片中，多層金屬化結構包括多個金屬層（如M1至M4）和介電層（如ILD1至ILD6）的交替排列。
+這些金屬層負責不同層次的電氣互連，而介電層則提供絕緣，防止不同金屬層之間的電氣干擾。低k材料在這些介電層中被廣泛應用，以減少寄生電容，降低RC延遲，從而提高晶片的運行速度和性能。&lt;/p&gt;
+&lt;h3 id=&#34;7-晶片中的金屬層是如何沉積的為什麼從鋁轉向銅&#34;&gt;7. 晶片中的金屬層是如何沉積的？為什麼從鋁轉向銅？&lt;/h3&gt;
+&lt;p&gt;晶片中的金屬層通常通過以下步驟沉積：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;沉積阻擋層（如Ti/TiN）： 防止金屬擴散並提高附著性。
+沉積金屬籽層（如銅籽層）： 提供銅電鍍的基底。
+銅電鍍（Electroplating）： 在籽層上沉積銅，填充導通孔和金屬層。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;早期使用鋁（Al）作為導電層，但隨著技術的發展，銅（Cu）逐漸取代鋁，原因包括：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;較低的電阻： 銅的電阻率低於鋁，能顯著降低電路的電阻。
+更好的電遷移抗性： 銅在高電流下較不易發生電遷移，提高導線的穩定性。
+更高的速度： 銅能夠支持更高的運行速度，滿足現代高性能晶片的需求。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然而，銅的沉積和蝕刻過程較鋁複雜，需要使用先進的技術如Damascene工藝來實現高效沉積和精確蝕刻。&lt;/p&gt;
+&lt;h3 id=&#34;8-薄膜沉積的主要特性&#34;&gt;8. 薄膜沉積的主要特性&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;良好的步覆蓋性（Step Coverage）： 能夠有效覆蓋晶片表面的凹凸不平區域，確保導電層的連續性。
+填充高縱橫比的間隙能力： 能夠在高縱橫比的導通孔和溝槽中均勻填充金屬或介電材料，防止孔洞和缺陷的形成。
+均勻的厚度分佈： 確保整個晶片表面的薄膜厚度一致，避免局部過薄或過厚影響電氣性能。
+高純度： 薄膜材料需具有高純度，避免移動離子和顆粒的污染，確保薄膜的電氣性能和結構完美性。
+低薄膜應力： 控制薄膜沉積過程中的應力，防止晶片翹曲和裂紋的產生。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;這些特性對於確保晶片的可靠性和高性能運行至關重&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

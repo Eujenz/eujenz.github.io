@@ -1,13 +1,6 @@
-+++
-title = 'About'
-date = 2024-09-15T00:12:59+08:00
-draft = false
-+++
-
-
 ## Profile
 
-### LEE CHIEN-WEI  | ` flcm4ftbh@mozmail.com `
+### LEE CHIEN-WEI  | 
 
 擁有5年半的藥廠管理經驗，專注於動物用藥製造廠的品質系統管理與內外部稽核，熟悉無塵無菌製藥產線的設計及確效作業。
 

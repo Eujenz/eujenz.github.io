@@ -6,8 +6,158 @@
     <description>Recent content in 半導體物理與元件 on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Sep 2024 00:36:24 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2024 00:36:24 +0800</lastBuildDate>
     <atom:link href="https://eujenz.github.io/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%89%A9%E7%90%86%E8%88%87%E5%85%83%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Semiconductor in Equilibrium</title>
+      <link>https://eujenz.github.io/posts/spd-the-semiconductor-in-equilibrium/</link>
+      <pubDate>Wed, 02 Oct 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/spd-the-semiconductor-in-equilibrium/</guid>
+      <description>&lt;h2 id=&#34;donor---acceptor-的定性描述&#34;&gt;Donor &amp;amp;  Acceptor 的定性描述&lt;/h2&gt;
+&lt;h3 id=&#34;donor-摻雜的基本機制&#34;&gt;donor 摻雜的基本機制&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;定義&lt;/strong&gt;：donor 是摻雜到半導體中的外來原子，它向半導體提供自由電子，使其成為 n 型半導體。典型例子包括五價元素，如磷（P）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;過程描述&lt;/strong&gt;：
+當 donor 原子（如磷）摻入矽晶格中時，它的外層多餘的一個電子較弱地束縛在原子核周圍，並且這個電子可以很容易地被激發到傳導帶（CB）。當電子釋放到傳導帶時，donor 原子變成正電荷離子 $P^+$，並在半導體中留下自由電子 $e^-$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;donor-的能階結構&#34;&gt;donor 的能階結構&lt;/h3&gt;
+&lt;p&gt;donor 能階 $E_d$ 位於傳導帶底部 $E_c$ 附近，表示這些額外的電子容易獲得能量並躍遷到傳導帶。在室溫下，這些電子容易進入傳導帶，成為自由電子，從而使 n 型半導體的主要載子為電子。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;對導電性的影響：由於自由電子的增加，n 型半導體的導電性顯著增強，導電性主要由這些電子支配。摻雜濃度越高，傳導帶中的自由電子數量越多，導電性越強。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;acceptor-摻雜的基本機制&#34;&gt;acceptor 摻雜的基本機制&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;定義&lt;/strong&gt;：acceptor 是摻雜到半導體中的外來原子，它可以接受價帶中的電子，從而在價帶中產生電洞，使其成為 p 型半導體。典型例子包括三價元素，如硼（B）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;過程描述&lt;/strong&gt;：
+當 acceptor 原子（如硼）摻入矽晶格中時，它會接受價帶中的一個電子，從而在價帶中留下電洞 $h^+$。當電子被捕獲到 acceptor 能階時，acceptor 原子變成負電荷離子 $B^-$，而價帶中的電洞則能夠自由移動，成為主要載子。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;acceptor-的能階結構&#34;&gt;acceptor 的能階結構&lt;/h3&gt;
+&lt;p&gt;acceptor 能階 $E_a$ 位於價帶頂部 $E_v$ 附近，當價帶中的電子躍遷到 acceptor 能階時，會在價帶中留下電洞。電洞作為正電載子，可以在價帶中移動並參與導電。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;對導電性的影響：在 p 型半導體中，主要載子為電洞。隨著 acceptor 摻雜濃度的增加，價帶中的電洞數量也隨之增加，這些電洞參與導電，並成為主要的正電荷載子，增強材料的導電性。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;能階圖的比較&#34;&gt;能階圖的比較&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;donor 摻雜&lt;/strong&gt;：在 n 型半導體中，donor 的能階 $E_d$ 接近傳導帶底部 $E_c$，這意味著 donor 提供的電子可以容易地躍遷到傳導帶，從而增加自由電子的濃度，提升導電性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://eujenz.github.io/images/Equilibrium_02.png&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to Quantum Theory of Solids</title>
+      <link>https://eujenz.github.io/posts/spd-introduction-to-quantum-theory-of-solids/</link>
+      <pubDate>Sat, 28 Sep 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/spd-introduction-to-quantum-theory-of-solids/</guid>
+      <description>&lt;h1 id=&#34;能帶理論與材料導電性&#34;&gt;能帶理論與材料導電性&lt;/h1&gt;
+&lt;h2 id=&#34;能帶價帶與傳導帶&#34;&gt;能帶、價帶與傳導帶&lt;/h2&gt;
+&lt;h3 id=&#34;能帶energy-bands&#34;&gt;能帶（Energy Bands）&lt;/h3&gt;
+&lt;p&gt;在固體材料中，原子的電子能級由於原子間的相互作用而發生分裂，形成一系列非常接近的能級，這些密集排列的能級形成了&lt;strong&gt;能帶&lt;/strong&gt;。能帶的結構決定了材料中電子的行為及其導電性。&lt;/p&gt;
+&lt;h3 id=&#34;價帶valence-band&#34;&gt;價帶（Valence Band）&lt;/h3&gt;
+&lt;p&gt;價帶是由原子中參與化學鍵結的電子所填充的最高能帶。這些電子能量較低，主要負責材料的穩定性和化學性質。在金屬中，價帶中的電子可能部分填滿，為材料提供自由移動的電子。&lt;/p&gt;
+&lt;h3 id=&#34;傳導帶conduction-band&#34;&gt;傳導帶（Conduction Band）&lt;/h3&gt;
+&lt;p&gt;傳導帶位於價帶之上，是電子可以自由運動的能帶。當電子獲得足夠的能量從價帶躍遷到傳導帶後，它們成為自由電子，能在材料中移動，參與導電。&lt;/p&gt;
+&lt;h3 id=&#34;能隙band-gap&#34;&gt;能隙（Band Gap）&lt;/h3&gt;
+&lt;p&gt;價帶頂端與傳導帶底端之間的能量差稱為&lt;strong&gt;能隙&lt;/strong&gt;。能隙的大小是區分材料導電性質的關鍵指標：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;導體&lt;/strong&gt;：能隙為零或價帶與傳導帶重疊。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;半導體&lt;/strong&gt;：能隙較小（約0.5至3 eV）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;絕緣體&lt;/strong&gt;：能隙較大（通常大於3 eV）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;具體量化絕緣體半導體導體的差異&#34;&gt;具體量化絕緣體、半導體、導體的差異&lt;/h2&gt;
+&lt;h3 id=&#34;能隙band-gap的量化&#34;&gt;能隙（Band Gap）的量化&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;材料類型&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;能隙範圍 (Eg)&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;特點&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;絕緣體&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Eg &amp;gt; 3 eV&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;能隙較大，價帶與傳導帶間無法輕易躍遷，導電性極低。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;半導體&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.5 eV &amp;lt; Eg &amp;lt; 3 eV&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;能隙中等，受溫度或摻雜影響，部分電子可躍遷至傳導帶，導電性可調控。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;導體&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Eg = 0 eV 或重疊&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;價帶與傳導帶重疊，存在大量自由電子，導電性高。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;自由電子密度與電導性&#34;&gt;自由電子密度與電導性&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;材料類型&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;自由電子密度 (n)&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;電導率 (σ)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;絕緣體&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;非常低 (~10¹⁰ cm⁻³ 以下)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;非常低，幾乎不導電。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;半導體&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;中等 (~10¹⁶ ~ 10¹⁹ cm⁻³)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;中等且可控，通過摻雜或溫度調節。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;導體&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;非常高 (~10²² cm⁻³)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;高，導電性強。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;溫度對導電性的影響&#34;&gt;溫度對導電性的影響&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;材料類型&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;溫度效應&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;絕緣體&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;溫度變化對導電性影響小。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;半導體&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;溫度升高導電性顯著增加。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;導體&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;溫度升高導電性下降，因為電子-離子碰撞增加。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;電子與電洞行為&#34;&gt;電子與電洞行為&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;絕緣體&lt;/strong&gt;：幾乎沒有自由電子或電洞，導電性極差。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;半導體&lt;/strong&gt;：自由電子和電洞共同參與導電，摻雜可增加其數量。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;導體&lt;/strong&gt;：大量自由電子主導導電，電洞作用不明顯。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;e-k-圖能量-波矢圖&#34;&gt;E-K 圖（能量-波矢圖）&lt;/h2&gt;
+&lt;p&gt;在固態物理中，E-K 圖（能量-波矢圖）展示了電子的能量 $E$ 與波矢 $k$ 之間的關係。E-K 圖的形狀和曲率與材料的電子性質密切相關，特別是能帶結構中的圖形開口（即傳導帶和價帶之間的間距）對於材料的導電性、能隙類型等具有重要意義。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Introduction to Quantum Mechanics</title>
       <link>https://eujenz.github.io/posts/spd-introduction-to-quantum-mechanics/</link>
@@ -53,6 +203,13 @@ $$ \int_{-\infty}^{\infty} |\Psi(x,t)|^2 dx = 1 $$&lt;/li&gt;
 &lt;h3 id=&#34;位能井的形狀&#34;&gt;位能井的形狀&lt;/h3&gt;
 &lt;p&gt;當繪製粒子的位能圖時，在無限位能井模型中，井內的位能通常是 &lt;strong&gt;零&lt;/strong&gt;，而在井外位能則是 &lt;strong&gt;無限大&lt;/strong&gt;。這樣的位能圖表明粒子只能在位能井的內部區域活動，而無法到達井外。&lt;br&gt;
 在這樣的圖形上，位能在井內（即有限區間 $0 &amp;lt; x &amp;lt; a$）是平坦的，這代表粒子在井內可以自由運動，而在井外（$x \leq 0$ 和 $x \geq a$）的位能無限大，表示粒子被完全束縛住無法逃離，位能的形狀看起來就像是一個深井。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Crystal Structure of Solids</title>
+      <link>https://eujenz.github.io/posts/spd-the-crystal-structure-of-solids/</link>
+      <pubDate>Fri, 20 Sep 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/spd-the-crystal-structure-of-solids/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

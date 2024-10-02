@@ -1,0 +1,249 @@
+<!doctype html><html lang=en dir=auto><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><script defer src=https://busuanzi.9420.ltd/js></script><title>SMT- Devices-o2 | LEE CHIEN-WEI</title>
+<meta name=keywords content="半導體製程技術,MOSFET,CMOS"><meta name=description content="類比與數位設備、被動與主動元件與寄生結構
+類比與數位設備
+類比設備（Analog Devices）和數位設備（Digital Devices）是電子設備的兩大類型，分別處理連續信號和離散信號。
+
+
+類比設備：
+
+特點：處理連續信號，能夠放大或處理自然界中的連續信號，通常將物理現象轉換為電子信號。
+應用：廣泛應用於無線電接收器、音頻系統和汽車點火系統等領域，適合處理自然信號的轉換。
+
+
+
+數位設備：
+
+特點：處理離散信號，信號形式為二進制「高」或「低」，主要用於邏輯運算和數據處理，具有精確性和可編程性。
+應用：常見於計算機、計算器等數位邏輯電路。
+
+
+
+被動與主動元件
+電子元件可分為被動元件和主動元件，兩者在電路中相輔相成，但其特性和功能有所不同，寄生結構會影響其性能，尤其是在高頻應用中。
+被動元件（Passive Components）
+
+特點：不需外部電源來工作，無法放大信號。
+常見類型：
+
+電阻（Resistor）：控制電流並分配電壓。
+電容（Capacitor）：儲存和釋放電能，常用於濾波與能量存儲。
+電感（Inductor）：儲存磁能，通常用於電源線路中的濾波。
+
+
+寄生效應：
+
+寄生結構（Parasitic Structures）：被動元件內部不可避免的效應，如寄生電容和寄生電阻，會降低電路性能。例如，寄生電容會引起信號耦合，影響高頻響應。
+
+
+
+主動元件（Active Components）
+
+特點：需要外部電源來工作，能夠放大信號或控制電流。
+常見類型：
+
+二極體（Diode）：允許電流單向流動，控制電流方向。
+雙極性晶體管（BJT）：用於放大信號或作為開關。
+場效應晶體管（FET）：利用電場控制電流，提供更高的輸入阻抗與更低功耗。
+
+
+寄生效應：
+
+寄生結構：主動元件內部的寄生結構，如寄生雙極性晶體管與寄生電容，可能形成非預期的電流路徑，導致漏電、電路不穩定或性能降低，甚至可能引發鎖定效應。
+
+
+
+寄生結構的影響
+寄生結構會降低元件性能，導致功耗增加、信號損耗或電路不穩定。
+
+
+寄生電阻（Parasitic Resistance）：
+
+元件內部材料和接觸點因製程缺陷產生的非理想寄生電阻，增加電路總電阻，導致功耗增加和運行速度下降。
+
+
+
+寄生電容（Parasitic Capacitance）：
+
+電晶體內部不同層間的寄生電容在高頻信號下會導致不必要的耦合或漏電，影響信號的穩定性與性能。
+
+
+
+寄生雙極性晶體管（Parasitic Bipolar Transistor）：
+
+在 MOSFET 中，P 型和 N 型區域可能形成意外的寄生雙極性晶體管，這些寄生晶體管會引發鎖定效應（Latch-up），導致電路短路或失效。
+
+
+
+
+PN 結、正向與反向偏壓
+PN 結的基本概念
+PN 結（PN Junction）是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，N 型材料中的多數載子是電子。當兩者相接時，載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷無法自由移動，導致兩側形成內建電場，進一步阻止多數載子穿過接面。
+PN 結是所有半導體元件（如二極體、電晶體）的核心，具有單向導電性，允許電流在一個方向流動而在另一個方向被阻止。這種特性使其在整流、開關和信號放大等應用中至關重要，也是形成雙極性電晶體（BJT）和場效應電晶體（FET）的基本結構。
+空乏區的形成與內建電場
+當 P 型和 N 型材料相接後，多數載子會跨越接面，電子從 N 型區擴散到 P 型區，電洞從 P 型區擴散到 N 型區。在接面附近再結合，留下帶電的施體離子（N 型區）和受體離子（P 型區），從而形成空乏區。空乏區內沒有可自由移動的載子，並產生了內建電場，形成位能障壁（Barrier Potential），阻止進一步的擴散。"><meta name=author content><link rel=canonical href=http://localhost:1313/posts/smt-devices-o2/><link crossorigin=anonymous href=/assets/css/stylesheet.css rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/favicon.ico><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/favicon-32x32.png><link rel=apple-touch-icon href=http://localhost:1313/apple-touch-icon.png><link rel=mask-icon href=http://localhost:1313/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=http://localhost:1313/posts/smt-devices-o2/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:title" content="SMT- Devices-o2"><meta property="og:description" content="類比與數位設備、被動與主動元件與寄生結構
+類比與數位設備
+類比設備（Analog Devices）和數位設備（Digital Devices）是電子設備的兩大類型，分別處理連續信號和離散信號。
+
+
+類比設備：
+
+特點：處理連續信號，能夠放大或處理自然界中的連續信號，通常將物理現象轉換為電子信號。
+應用：廣泛應用於無線電接收器、音頻系統和汽車點火系統等領域，適合處理自然信號的轉換。
+
+
+
+數位設備：
+
+特點：處理離散信號，信號形式為二進制「高」或「低」，主要用於邏輯運算和數據處理，具有精確性和可編程性。
+應用：常見於計算機、計算器等數位邏輯電路。
+
+
+
+被動與主動元件
+電子元件可分為被動元件和主動元件，兩者在電路中相輔相成，但其特性和功能有所不同，寄生結構會影響其性能，尤其是在高頻應用中。
+被動元件（Passive Components）
+
+特點：不需外部電源來工作，無法放大信號。
+常見類型：
+
+電阻（Resistor）：控制電流並分配電壓。
+電容（Capacitor）：儲存和釋放電能，常用於濾波與能量存儲。
+電感（Inductor）：儲存磁能，通常用於電源線路中的濾波。
+
+
+寄生效應：
+
+寄生結構（Parasitic Structures）：被動元件內部不可避免的效應，如寄生電容和寄生電阻，會降低電路性能。例如，寄生電容會引起信號耦合，影響高頻響應。
+
+
+
+主動元件（Active Components）
+
+特點：需要外部電源來工作，能夠放大信號或控制電流。
+常見類型：
+
+二極體（Diode）：允許電流單向流動，控制電流方向。
+雙極性晶體管（BJT）：用於放大信號或作為開關。
+場效應晶體管（FET）：利用電場控制電流，提供更高的輸入阻抗與更低功耗。
+
+
+寄生效應：
+
+寄生結構：主動元件內部的寄生結構，如寄生雙極性晶體管與寄生電容，可能形成非預期的電流路徑，導致漏電、電路不穩定或性能降低，甚至可能引發鎖定效應。
+
+
+
+寄生結構的影響
+寄生結構會降低元件性能，導致功耗增加、信號損耗或電路不穩定。
+
+
+寄生電阻（Parasitic Resistance）：
+
+元件內部材料和接觸點因製程缺陷產生的非理想寄生電阻，增加電路總電阻，導致功耗增加和運行速度下降。
+
+
+
+寄生電容（Parasitic Capacitance）：
+
+電晶體內部不同層間的寄生電容在高頻信號下會導致不必要的耦合或漏電，影響信號的穩定性與性能。
+
+
+
+寄生雙極性晶體管（Parasitic Bipolar Transistor）：
+
+在 MOSFET 中，P 型和 N 型區域可能形成意外的寄生雙極性晶體管，這些寄生晶體管會引發鎖定效應（Latch-up），導致電路短路或失效。
+
+
+
+
+PN 結、正向與反向偏壓
+PN 結的基本概念
+PN 結（PN Junction）是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，N 型材料中的多數載子是電子。當兩者相接時，載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷無法自由移動，導致兩側形成內建電場，進一步阻止多數載子穿過接面。
+PN 結是所有半導體元件（如二極體、電晶體）的核心，具有單向導電性，允許電流在一個方向流動而在另一個方向被阻止。這種特性使其在整流、開關和信號放大等應用中至關重要，也是形成雙極性電晶體（BJT）和場效應電晶體（FET）的基本結構。
+空乏區的形成與內建電場
+當 P 型和 N 型材料相接後，多數載子會跨越接面，電子從 N 型區擴散到 P 型區，電洞從 P 型區擴散到 N 型區。在接面附近再結合，留下帶電的施體離子（N 型區）和受體離子（P 型區），從而形成空乏區。空乏區內沒有可自由移動的載子，並產生了內建電場，形成位能障壁（Barrier Potential），阻止進一步的擴散。"><meta property="og:type" content="article"><meta property="og:url" content="http://localhost:1313/posts/smt-devices-o2/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2024-09-15T00:36:24+08:00"><meta property="article:modified_time" content="2024-09-15T00:36:24+08:00"><meta property="og:site_name" content="MOSFET Technical Notes"><meta name=twitter:card content="summary"><meta name=twitter:title content="SMT- Devices-o2"><meta name=twitter:description content="類比與數位設備、被動與主動元件與寄生結構
+類比與數位設備
+類比設備（Analog Devices）和數位設備（Digital Devices）是電子設備的兩大類型，分別處理連續信號和離散信號。
+
+
+類比設備：
+
+特點：處理連續信號，能夠放大或處理自然界中的連續信號，通常將物理現象轉換為電子信號。
+應用：廣泛應用於無線電接收器、音頻系統和汽車點火系統等領域，適合處理自然信號的轉換。
+
+
+
+數位設備：
+
+特點：處理離散信號，信號形式為二進制「高」或「低」，主要用於邏輯運算和數據處理，具有精確性和可編程性。
+應用：常見於計算機、計算器等數位邏輯電路。
+
+
+
+被動與主動元件
+電子元件可分為被動元件和主動元件，兩者在電路中相輔相成，但其特性和功能有所不同，寄生結構會影響其性能，尤其是在高頻應用中。
+被動元件（Passive Components）
+
+特點：不需外部電源來工作，無法放大信號。
+常見類型：
+
+電阻（Resistor）：控制電流並分配電壓。
+電容（Capacitor）：儲存和釋放電能，常用於濾波與能量存儲。
+電感（Inductor）：儲存磁能，通常用於電源線路中的濾波。
+
+
+寄生效應：
+
+寄生結構（Parasitic Structures）：被動元件內部不可避免的效應，如寄生電容和寄生電阻，會降低電路性能。例如，寄生電容會引起信號耦合，影響高頻響應。
+
+
+
+主動元件（Active Components）
+
+特點：需要外部電源來工作，能夠放大信號或控制電流。
+常見類型：
+
+二極體（Diode）：允許電流單向流動，控制電流方向。
+雙極性晶體管（BJT）：用於放大信號或作為開關。
+場效應晶體管（FET）：利用電場控制電流，提供更高的輸入阻抗與更低功耗。
+
+
+寄生效應：
+
+寄生結構：主動元件內部的寄生結構，如寄生雙極性晶體管與寄生電容，可能形成非預期的電流路徑，導致漏電、電路不穩定或性能降低，甚至可能引發鎖定效應。
+
+
+
+寄生結構的影響
+寄生結構會降低元件性能，導致功耗增加、信號損耗或電路不穩定。
+
+
+寄生電阻（Parasitic Resistance）：
+
+元件內部材料和接觸點因製程缺陷產生的非理想寄生電阻，增加電路總電阻，導致功耗增加和運行速度下降。
+
+
+
+寄生電容（Parasitic Capacitance）：
+
+電晶體內部不同層間的寄生電容在高頻信號下會導致不必要的耦合或漏電，影響信號的穩定性與性能。
+
+
+
+寄生雙極性晶體管（Parasitic Bipolar Transistor）：
+
+在 MOSFET 中，P 型和 N 型區域可能形成意外的寄生雙極性晶體管，這些寄生晶體管會引發鎖定效應（Latch-up），導致電路短路或失效。
+
+
+
+
+PN 結、正向與反向偏壓
+PN 結的基本概念
+PN 結（PN Junction）是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，N 型材料中的多數載子是電子。當兩者相接時，載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷無法自由移動，導致兩側形成內建電場，進一步阻止多數載子穿過接面。
+PN 結是所有半導體元件（如二極體、電晶體）的核心，具有單向導電性，允許電流在一個方向流動而在另一個方向被阻止。這種特性使其在整流、開關和信號放大等應用中至關重要，也是形成雙極性電晶體（BJT）和場效應電晶體（FET）的基本結構。
+空乏區的形成與內建電場
+當 P 型和 N 型材料相接後，多數載子會跨越接面，電子從 N 型區擴散到 P 型區，電洞從 P 型區擴散到 N 型區。在接面附近再結合，留下帶電的施體離子（N 型區）和受體離子（P 型區），從而形成空乏區。空乏區內沒有可自由移動的載子，並產生了內建電場，形成位能障壁（Barrier Potential），阻止進一步的擴散。"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"http://localhost:1313/posts/"},{"@type":"ListItem","position":2,"name":"SMT- Devices-o2","item":"http://localhost:1313/posts/smt-devices-o2/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"SMT- Devices-o2","name":"SMT- Devices-o2","description":"類比與數位設備、被動與主動元件與寄生結構 類比與數位設備 類比設備（Analog Devices）和數位設備（Digital Devices）是電子設備的兩大類型，分別處理連續信號和離散信號。\n類比設備：\n特點：處理連續信號，能夠放大或處理自然界中的連續信號，通常將物理現象轉換為電子信號。 應用：廣泛應用於無線電接收器、音頻系統和汽車點火系統等領域，適合處理自然信號的轉換。 數位設備：\n特點：處理離散信號，信號形式為二進制「高」或「低」，主要用於邏輯運算和數據處理，具有精確性和可編程性。 應用：常見於計算機、計算器等數位邏輯電路。 被動與主動元件 電子元件可分為被動元件和主動元件，兩者在電路中相輔相成，但其特性和功能有所不同，寄生結構會影響其性能，尤其是在高頻應用中。\n被動元件（Passive Components） 特點：不需外部電源來工作，無法放大信號。 常見類型： 電阻（Resistor）：控制電流並分配電壓。 電容（Capacitor）：儲存和釋放電能，常用於濾波與能量存儲。 電感（Inductor）：儲存磁能，通常用於電源線路中的濾波。 寄生效應： 寄生結構（Parasitic Structures）：被動元件內部不可避免的效應，如寄生電容和寄生電阻，會降低電路性能。例如，寄生電容會引起信號耦合，影響高頻響應。 主動元件（Active Components） 特點：需要外部電源來工作，能夠放大信號或控制電流。 常見類型： 二極體（Diode）：允許電流單向流動，控制電流方向。 雙極性晶體管（BJT）：用於放大信號或作為開關。 場效應晶體管（FET）：利用電場控制電流，提供更高的輸入阻抗與更低功耗。 寄生效應： 寄生結構：主動元件內部的寄生結構，如寄生雙極性晶體管與寄生電容，可能形成非預期的電流路徑，導致漏電、電路不穩定或性能降低，甚至可能引發鎖定效應。 寄生結構的影響 寄生結構會降低元件性能，導致功耗增加、信號損耗或電路不穩定。\n寄生電阻（Parasitic Resistance）：\n元件內部材料和接觸點因製程缺陷產生的非理想寄生電阻，增加電路總電阻，導致功耗增加和運行速度下降。 寄生電容（Parasitic Capacitance）：\n電晶體內部不同層間的寄生電容在高頻信號下會導致不必要的耦合或漏電，影響信號的穩定性與性能。 寄生雙極性晶體管（Parasitic Bipolar Transistor）：\n在 MOSFET 中，P 型和 N 型區域可能形成意外的寄生雙極性晶體管，這些寄生晶體管會引發鎖定效應（Latch-up），導致電路短路或失效。 PN 結、正向與反向偏壓 PN 結的基本概念 PN 結（PN Junction）是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，N 型材料中的多數載子是電子。當兩者相接時，載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷無法自由移動，導致兩側形成內建電場，進一步阻止多數載子穿過接面。\nPN 結是所有半導體元件（如二極體、電晶體）的核心，具有單向導電性，允許電流在一個方向流動而在另一個方向被阻止。這種特性使其在整流、開關和信號放大等應用中至關重要，也是形成雙極性電晶體（BJT）和場效應電晶體（FET）的基本結構。\n空乏區的形成與內建電場 當 P 型和 N 型材料相接後，多數載子會跨越接面，電子從 N 型區擴散到 P 型區，電洞從 P 型區擴散到 N 型區。在接面附近再結合，留下帶電的施體離子（N 型區）和受體離子（P 型區），從而形成空乏區。空乏區內沒有可自由移動的載子，並產生了內建電場，形成位能障壁（Barrier Potential），阻止進一步的擴散。\n","keywords":["半導體製程技術","MOSFET","CMOS"],"articleBody":"類比與數位設備、被動與主動元件與寄生結構 類比與數位設備 類比設備（Analog Devices）和數位設備（Digital Devices）是電子設備的兩大類型，分別處理連續信號和離散信號。\n類比設備：\n特點：處理連續信號，能夠放大或處理自然界中的連續信號，通常將物理現象轉換為電子信號。 應用：廣泛應用於無線電接收器、音頻系統和汽車點火系統等領域，適合處理自然信號的轉換。 數位設備：\n特點：處理離散信號，信號形式為二進制「高」或「低」，主要用於邏輯運算和數據處理，具有精確性和可編程性。 應用：常見於計算機、計算器等數位邏輯電路。 被動與主動元件 電子元件可分為被動元件和主動元件，兩者在電路中相輔相成，但其特性和功能有所不同，寄生結構會影響其性能，尤其是在高頻應用中。\n被動元件（Passive Components） 特點：不需外部電源來工作，無法放大信號。 常見類型： 電阻（Resistor）：控制電流並分配電壓。 電容（Capacitor）：儲存和釋放電能，常用於濾波與能量存儲。 電感（Inductor）：儲存磁能，通常用於電源線路中的濾波。 寄生效應： 寄生結構（Parasitic Structures）：被動元件內部不可避免的效應，如寄生電容和寄生電阻，會降低電路性能。例如，寄生電容會引起信號耦合，影響高頻響應。 主動元件（Active Components） 特點：需要外部電源來工作，能夠放大信號或控制電流。 常見類型： 二極體（Diode）：允許電流單向流動，控制電流方向。 雙極性晶體管（BJT）：用於放大信號或作為開關。 場效應晶體管（FET）：利用電場控制電流，提供更高的輸入阻抗與更低功耗。 寄生效應： 寄生結構：主動元件內部的寄生結構，如寄生雙極性晶體管與寄生電容，可能形成非預期的電流路徑，導致漏電、電路不穩定或性能降低，甚至可能引發鎖定效應。 寄生結構的影響 寄生結構會降低元件性能，導致功耗增加、信號損耗或電路不穩定。\n寄生電阻（Parasitic Resistance）：\n元件內部材料和接觸點因製程缺陷產生的非理想寄生電阻，增加電路總電阻，導致功耗增加和運行速度下降。 寄生電容（Parasitic Capacitance）：\n電晶體內部不同層間的寄生電容在高頻信號下會導致不必要的耦合或漏電，影響信號的穩定性與性能。 寄生雙極性晶體管（Parasitic Bipolar Transistor）：\n在 MOSFET 中，P 型和 N 型區域可能形成意外的寄生雙極性晶體管，這些寄生晶體管會引發鎖定效應（Latch-up），導致電路短路或失效。 PN 結、正向與反向偏壓 PN 結的基本概念 PN 結（PN Junction）是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，N 型材料中的多數載子是電子。當兩者相接時，載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷無法自由移動，導致兩側形成內建電場，進一步阻止多數載子穿過接面。\nPN 結是所有半導體元件（如二極體、電晶體）的核心，具有單向導電性，允許電流在一個方向流動而在另一個方向被阻止。這種特性使其在整流、開關和信號放大等應用中至關重要，也是形成雙極性電晶體（BJT）和場效應電晶體（FET）的基本結構。\n空乏區的形成與內建電場 當 P 型和 N 型材料相接後，多數載子會跨越接面，電子從 N 型區擴散到 P 型區，電洞從 P 型區擴散到 N 型區。在接面附近再結合，留下帶電的施體離子（N 型區）和受體離子（P 型區），從而形成空乏區。空乏區內沒有可自由移動的載子，並產生了內建電場，形成位能障壁（Barrier Potential），阻止進一步的擴散。\nPN 結的操作原理 正向偏壓（Forward Bias） 當 P 型區的電位高於 N 型區時，稱為正向偏壓。此時，PN 結的內建電場減弱，空乏區縮小，多數載子可以克服位能障壁：\n電子從 N 型區流向 P 型區。 電洞從 P 型區流向 N 型區。 當正向電壓超過內建位能障壁時（矽約為 0.7V，鍺約為 0.3V），大電流會通過 PN 結，呈現低阻抗狀態。\n反向偏壓（Reverse Bias） 當 N 型區的電位高於 P 型區時，稱為反向偏壓。此時：\n空乏區擴大，位能障壁增加。 多數載子無法越過 PN 結，幾乎沒有電流通過。 僅有少數載子貢獻極小的反向飽和電流，這些少數載子在反向電場作用下被掃過接面。 當反向偏壓過大時，可能進入崩潰區，導致電流急劇增大。\nPN 結的電流-電壓特性 正向偏壓下的電流：當施加正向電壓時，PN 結導通，電流隨電壓指數上升。 反向偏壓下的電流：施加反向偏壓時，反向電流幾乎保持不變，僅由少數載子貢獻極小的漏電流。當反向電壓達到臨界值時，發生崩潰現象，電流急劇增大。 PN 結的實際應用 PN 結是許多常見半導體元件的基礎：\n二極體：利用 PN 結的單向導電性實現整流功能。 光電二極體：將光能轉換為電能，應用於光檢測。 雙極性電晶體（BJT）：基於兩個 PN 結，應用於信號放大和開關電路中。 PN 結在現代半導體技術中的重要性主要體現在其控制電子與電洞流動的能力，以及在正向與反向偏壓下的不同電流特性和內建電場的作用。\n雙極技術及雙極結型電晶體（BJT）的功能、偏壓、結構與應用 雙極技術概述 **雙極技術（Bipolar Technology）**基於雙極結型電晶體（BJT）的運作機制，利用電子和電洞兩種載子來控制電流。BJT 是半導體元件的核心，特別適用於高速、高電流應用，因其增益特性非常適合放大和開關應用。\n雙極結型電晶體（BJT）結構 發射極（Emitter）：發射載子的區域，摻雜濃度最高，釋放多數載子。 基極（Base）：摻雜濃度低，厚度很薄，控制來自發射極的載子。 集極（Collector）：收集來自發射極的載子。 BJT 有兩種類型：\nNPN 型晶體管：發射極為 N 型，基極為 P 型，集極為 N 型。 PNP 型晶體管：發射極為 P 型，基極為 N 型，集極為 P 型。 BJT 的運作機制與偏壓 BJT 是一種電流控制元件，基極電流大小控制發射極到集極的電流。\n正向偏壓（Active Mode）：\n對 NPN 晶體管，當基極-發射極間施加正向電壓，集極-發射極間施加反向電壓時，晶體管進入放大模式。 基極的少量電流控制集極-發射極的較大電流。 截止模式（Cut-off Mode）：\n基極-發射極間無正向偏壓，BJT 處於截止狀態，幾乎沒有電流流過集極。 飽和模式（Saturation Mode）：\n當基極-發射極和集極-發射極都施加正向偏壓，BJT 進入飽和狀態，集極-發射極電流達到最大值，常用於開關電路。 反向有源模式（Reverse Active Mode）：\n基極-集極間施加正向偏壓，發射極-集極間施加反向偏壓，該模式極少使用。 BJT 的特徵 電流增益：BJT 能放大基極的電流，增益通常以 β（beta）表示，β = IC / IB。 雙極性導電：利用電子和電洞兩種載子來控制電流，與 FET 的單載子導電不同。 高速開關能力：切換速度快，適用於高頻和高速電路。 BJT 的應用 放大電路：廣泛應用於音頻和無線電放大器中，具有高增益和良好頻率響應。 開關電路：在數位邏輯電路中，用於開關，透過在截止模式與飽和模式間切換控制開關狀態。 功率電子元件：在高電流、高功率應用中，因其高增益與電流處理能力被廣泛使用。 BJT 的優勢與劣勢 優勢：\n高增益：實現較大的電流放大。 高速操作：適合高頻操作與開關應用。 雙極性載子運作：同時利用電子與電洞，增強電流控制能力。 劣勢：\n高功耗：需要連續基極電流來保持導通，功耗較高。 熱效應敏感：易受溫度變化影響，可能發生熱失控現象。 CMOS 技術概述 CMOS（Complementary Metal-Oxide-Semiconductor，互補式金屬氧化物半導體）是一種廣泛應用於現代數位電路設計的半導體技術，特別是在微處理器、記憶體和其他邏輯電路中。CMOS 技術以低功耗和高效能著稱，核心在於互補使用 N 型和 P 型場效電晶體（MOSFET）來實現高效運行。\nMOSFET 的基本結構 MOSFET（Metal-Oxide-Semiconductor Field-Effect Transistor，金屬氧化物半導體場效電晶體）是 CMOS 技術的核心元件，由四個主要部分組成：\n閘極（Gate）：控制電流的開關，與半導體層間有一層絕緣層（通常是二氧化矽）。 源極（Source）：電流的進入端，電子或電洞的來源。 汲極（Drain）：電流的流出端，電子或電洞的出口。 基板（Body）：通常與源極連接，作為元件的參考電位。 MOSFET 的工作原理 MOSFET 的工作區域根據 $V_{GS}$ 和 $V_{DS}$ 的不同而變化，影響電流 $I_{DS}$ 的流動狀態，決定 MOSFET 的功能與應用。\n$V_{GS}$（閘極-源極電壓）：決定 MOSFET 是否導通，當 $V_{GS} \u003e V_{th}$，MOSFET 開啟，形成導電通道。 $V_{DS}$（汲極-源極電壓）：決定工作區域，影響 $I_{DS}$ 的大小。 工作區域 區域 條件 解釋 狀態 截止區 $V_{GS} \u003c V_{th}$ 無導電通道形成，$I_{DS}$ 幾乎為零。 MOSFET 關閉，無電流流動。 線性區 $V_{GS} \u003e V_{th}$ 且 $V_{DS} \u003c V_{GS} - V_{th}$ MOSFET 充當可變電阻，$I_{DS}$ 隨 $V_{DS}$ 線性增加。 MOSFET 開啟，電流隨 $V_{DS}$ 增加。 飽和區 $V_{GS} \u003e V_{th}$ 且 $V_{DS} \\geq V_{GS} - V_{th}$ $I_{DS}$ 主要由 $V_{GS}$ 決定，趨於穩定，隨 $V_{DS}$ 增加不再顯著增長。 MOSFET 開啟，電流達飽和值，受 $V_{GS}$ 控制。 注意事項：\n當 $V_D \u003e V_S$ 時，NMOS 為何仍能導通？ 只要 $V_{GS} \u003e V_{th}$，NMOS 就能導通，即使汲極電壓 $V_D$ 大於源極電壓 $V_S$。 NMOS 中靠近汲極的通道變窄原因： $V_{DS}$ 增加時，靠近汲極的通道區域電位升高，導致通道電荷減少，通道變窄，稱為夾斷效應（Pinch-Off Effect），是 MOSFET 進入飽和區的主要原因。 MOSFET 與 CMOS 的關係 MOSFET 是 CMOS 技術的基石。CMOS 電路透過互補組合 nMOSFET 和 pMOSFET，實現低功耗和高效能：\n當一個 MOSFET 導通時，另一個 MOSFET 關閉。 確保在穩態時幾乎沒有電流流過，降低能量消耗。 CMOS 技術的核心元件 MOSFET 類型 主要載子 導通條件 nMOSFET 電子 $V_{GS} \u003e V_{th}$，電子從源極流向汲極。 pMOSFET 電洞 $V_{GS} \u003c V_{th}$，電洞從源極流向汲極。 CMOS 技術透過互補使用 nMOSFET 和 pMOSFET，使電路具有極低的功耗。\n增強型與耗盡型 MOSFET 的區別 增強型 MOSFET（Enhancement Mode）：\n狀態：$V_{GS} = 0 V$ 時關閉。 導通條件： nMOSFET：$V_{GS} \u003e V_{th}$，施加正閘極電壓導通。 pMOSFET：$V_{GS} \u003c V_{th}$，施加負閘極電壓導通。 耗盡型 MOSFET（Depletion Mode）：\n狀態：$V_{GS} = 0 V$ 時導通。 導通條件： nMOSFET：$V_{GS} \u003c V_{th}$，施加負閘極電壓關閉通道。 pMOSFET：$V_{GS} \u003e V_{th}$，施加正閘極電壓關閉通道。 CMOS 反相器（CMOS Inverter） CMOS 反相器是 CMOS 技術中最基本且重要的電路，實現邏輯反轉功能。\n結構：由一個 nMOSFET 和一個 pMOSFET 組成，共用輸入（閘極）和輸出。 運作原理： 輸入低電平：pMOSFET 導通，nMOSFET 關閉，輸出高電平。 輸入高電平：nMOSFET 導通，pMOSFET 關閉，輸出低電平。 這種設計在穩定狀態下，只有一個 MOSFET 導通，另一個關閉，極大地降低了功耗。\nCMOS 技術的優點 低功耗：穩態下無直流電流，僅在狀態切換時有短暫電流，靜態功耗極低。 高密度：支持高密度集成，適合大規模集成電路。 高速：開關速度快，適合高速數位邏輯操作。 BJT 與 MOSFET 的比較 電流驅動 vs 電壓驅動：\nBJT：電流控制元件，需要基極電流維持導通，靜態功耗較高。 MOSFET：電壓控制元件，閘極電壓控制通道開關，靜態功耗極低。 能量消耗：\nBJT：持續的基極電流導致較高能量消耗，開關速度較慢。 MOSFET：僅在閘極充放電時消耗能量，開關速度快，適合高頻應用。 BiCMOS 技術 BiCMOS 技術結合了 CMOS 技術和雙極性接面電晶體（BJT）的優點：\nBJT：提供高增益和強大電流驅動能力。 CMOS：提供低功耗和高密度集成。 適用於需要高速和高驅動能力的應用，如高速運算和模擬/數位混合電路。\n寄生晶體管對 CMOS 鎖定效應的影響 在 CMOS 結構中，P 型和 N 型區域的佈局可能形成寄生雙極性電晶體（BJT），導致鎖定效應（Latch-up），產生不可控的電流迴路，可能損壞電路。\n預防措施：透過優化佈局設計、增加護環結構和改善製程來防止鎖定效應。 ","wordCount":"460","inLanguage":"en","datePublished":"2024-09-15T00:36:24+08:00","dateModified":"2024-09-15T00:36:24+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:1313/posts/smt-devices-o2/"},"publisher":{"@type":"Organization","name":"LEE CHIEN-WEI","logo":{"@type":"ImageObject","url":"http://localhost:1313/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><script>MathJax={tex:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:["script","noscript","style","textarea","pre"]}},window.addEventListener("load",e=>{document.querySelectorAll("mjx-container").forEach(function(e){e.parentElement.classList+="has-jax"})})</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/ accesskey=h title="LEE CHIEN-WEI (Alt + H)">LEE CHIEN-WEI</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=http://localhost:1313/categories/ title=Categories><span>Categories</span></a></li><li><a href=http://localhost:1313/tags/ title=Tags><span>Tags</span></a></li><li><a href=http://localhost:1313/about/ title=About><span>About</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=http://localhost:1313/>Home</a>&nbsp;»&nbsp;<a href=http://localhost:1313/posts/>Posts</a></div><h1 class="post-title entry-hint-parent">SMT- Devices-o2</h1><div class=post-meta><span title='2024-09-15 00:36:24 +0800 CST'>September 15, 2024</span></div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"></summary><div class=inner><nav id=TableOfContents><ul><li><a href=#類比與數位設備被動與主動元件與寄生結構>類比與數位設備、被動與主動元件與寄生結構</a><ul><li><a href=#類比與數位設備>類比與數位設備</a></li><li><a href=#被動與主動元件>被動與主動元件</a></li><li><a href=#寄生結構的影響>寄生結構的影響</a></li></ul></li><li><a href=#pn-結正向與反向偏壓>PN 結、正向與反向偏壓</a><ul><li><a href=#pn-結的基本概念>PN 結的基本概念</a></li><li><a href=#空乏區的形成與內建電場>空乏區的形成與內建電場</a></li><li><a href=#pn-結的操作原理>PN 結的操作原理</a></li><li><a href=#pn-結的電流-電壓特性>PN 結的電流-電壓特性</a></li><li><a href=#pn-結的實際應用>PN 結的實際應用</a></li></ul></li><li><a href=#雙極技術及雙極結型電晶體bjt的功能偏壓結構與應用>雙極技術及雙極結型電晶體（BJT）的功能、偏壓、結構與應用</a><ul><li><a href=#雙極技術概述>雙極技術概述</a></li><li><a href=#雙極結型電晶體bjt結構>雙極結型電晶體（BJT）結構</a></li><li><a href=#bjt-的運作機制與偏壓>BJT 的運作機制與偏壓</a></li><li><a href=#bjt-的特徵>BJT 的特徵</a></li><li><a href=#bjt-的應用>BJT 的應用</a></li><li><a href=#bjt-的優勢與劣勢>BJT 的優勢與劣勢</a></li></ul></li><li><a href=#cmos-技術概述>CMOS 技術概述</a><ul><li><a href=#mosfet-的基本結構>MOSFET 的基本結構</a></li><li><a href=#mosfet-的工作原理>MOSFET 的工作原理</a></li><li><a href=#mosfet-與-cmos-的關係>MOSFET 與 CMOS 的關係</a></li><li><a href=#cmos-技術的核心元件>CMOS 技術的核心元件</a></li><li><a href=#增強型與耗盡型-mosfet-的區別>增強型與耗盡型 MOSFET 的區別</a></li><li><a href=#cmos-反相器cmos-inverter>CMOS 反相器（CMOS Inverter）</a></li><li><a href=#cmos-技術的優點>CMOS 技術的優點</a></li><li><a href=#bjt-與-mosfet-的比較>BJT 與 MOSFET 的比較</a></li><li><a href=#bicmos-技術>BiCMOS 技術</a></li><li><a href=#寄生晶體管對-cmos-鎖定效應的影響>寄生晶體管對 CMOS 鎖定效應的影響</a></li></ul></li></ul></nav></div></details></div><div class=post-content><h2 id=類比與數位設備被動與主動元件與寄生結構>類比與數位設備、被動與主動元件與寄生結構<a hidden class=anchor aria-hidden=true href=#類比與數位設備被動與主動元件與寄生結構>#</a></h2><h3 id=類比與數位設備>類比與數位設備<a hidden class=anchor aria-hidden=true href=#類比與數位設備>#</a></h3><p>類比設備（<strong>Analog Devices</strong>）和數位設備（<strong>Digital Devices</strong>）是電子設備的兩大類型，分別處理連續信號和離散信號。</p><ul><li><p><strong>類比設備</strong>：</p><ul><li><strong>特點</strong>：處理連續信號，能夠放大或處理自然界中的連續信號，通常將物理現象轉換為電子信號。</li><li><strong>應用</strong>：廣泛應用於無線電接收器、音頻系統和汽車點火系統等領域，適合處理自然信號的轉換。</li></ul></li><li><p><strong>數位設備</strong>：</p><ul><li><strong>特點</strong>：處理離散信號，信號形式為二進制「高」或「低」，主要用於邏輯運算和數據處理，具有精確性和可編程性。</li><li><strong>應用</strong>：常見於計算機、計算器等數位邏輯電路。</li></ul></li></ul><h3 id=被動與主動元件>被動與主動元件<a hidden class=anchor aria-hidden=true href=#被動與主動元件>#</a></h3><p>電子元件可分為被動元件和主動元件，兩者在電路中相輔相成，但其特性和功能有所不同，寄生結構會影響其性能，尤其是在高頻應用中。</p><h4 id=被動元件passive-components>被動元件（Passive Components）<a hidden class=anchor aria-hidden=true href=#被動元件passive-components>#</a></h4><ul><li><strong>特點</strong>：不需外部電源來工作，無法放大信號。</li><li><strong>常見類型</strong>：<ul><li><strong>電阻（Resistor）</strong>：控制電流並分配電壓。</li><li><strong>電容（Capacitor）</strong>：儲存和釋放電能，常用於濾波與能量存儲。</li><li><strong>電感（Inductor）</strong>：儲存磁能，通常用於電源線路中的濾波。</li></ul></li><li><strong>寄生效應</strong>：<ul><li><strong>寄生結構（Parasitic Structures）</strong>：被動元件內部不可避免的效應，如寄生電容和寄生電阻，會降低電路性能。例如，寄生電容會引起信號耦合，影響高頻響應。</li></ul></li></ul><h4 id=主動元件active-components>主動元件（Active Components）<a hidden class=anchor aria-hidden=true href=#主動元件active-components>#</a></h4><ul><li><strong>特點</strong>：需要外部電源來工作，能夠放大信號或控制電流。</li><li><strong>常見類型</strong>：<ul><li><strong>二極體（Diode）</strong>：允許電流單向流動，控制電流方向。</li><li><strong>雙極性晶體管（BJT）</strong>：用於放大信號或作為開關。</li><li><strong>場效應晶體管（FET）</strong>：利用電場控制電流，提供更高的輸入阻抗與更低功耗。</li></ul></li><li><strong>寄生效應</strong>：<ul><li><strong>寄生結構</strong>：主動元件內部的寄生結構，如寄生雙極性晶體管與寄生電容，可能形成非預期的電流路徑，導致漏電、電路不穩定或性能降低，甚至可能引發鎖定效應。</li></ul></li></ul><h3 id=寄生結構的影響>寄生結構的影響<a hidden class=anchor aria-hidden=true href=#寄生結構的影響>#</a></h3><p>寄生結構會降低元件性能，導致功耗增加、信號損耗或電路不穩定。</p><ul><li><p><strong>寄生電阻（Parasitic Resistance）</strong>：</p><ul><li>元件內部材料和接觸點因製程缺陷產生的非理想寄生電阻，增加電路總電阻，導致功耗增加和運行速度下降。</li></ul></li><li><p><strong>寄生電容（Parasitic Capacitance）</strong>：</p><ul><li>電晶體內部不同層間的寄生電容在高頻信號下會導致不必要的耦合或漏電，影響信號的穩定性與性能。</li></ul></li><li><p><strong>寄生雙極性晶體管（Parasitic Bipolar Transistor）</strong>：</p><ul><li>在 MOSFET 中，P 型和 N 型區域可能形成意外的寄生雙極性晶體管，這些寄生晶體管會引發鎖定效應（Latch-up），導致電路短路或失效。</li></ul></li></ul><hr><h2 id=pn-結正向與反向偏壓>PN 結、正向與反向偏壓<a hidden class=anchor aria-hidden=true href=#pn-結正向與反向偏壓>#</a></h2><h3 id=pn-結的基本概念>PN 結的基本概念<a hidden class=anchor aria-hidden=true href=#pn-結的基本概念>#</a></h3><p>PN 結（<strong>PN Junction</strong>）是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，N 型材料中的多數載子是電子。當兩者相接時，載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了<strong>空乏區（Depletion Region）</strong>，即一個幾乎沒有自由載子的區域。這個區域的電荷無法自由移動，導致兩側形成內建電場，進一步阻止多數載子穿過接面。</p><p>PN 結是所有半導體元件（如二極體、電晶體）的核心，具有單向導電性，允許電流在一個方向流動而在另一個方向被阻止。這種特性使其在整流、開關和信號放大等應用中至關重要，也是形成雙極性電晶體（BJT）和場效應電晶體（FET）的基本結構。</p><h3 id=空乏區的形成與內建電場>空乏區的形成與內建電場<a hidden class=anchor aria-hidden=true href=#空乏區的形成與內建電場>#</a></h3><p>當 P 型和 N 型材料相接後，多數載子會跨越接面，電子從 N 型區擴散到 P 型區，電洞從 P 型區擴散到 N 型區。在接面附近再結合，留下帶電的施體離子（N 型區）和受體離子（P 型區），從而形成空乏區。空乏區內沒有可自由移動的載子，並產生了內建電場，形成位能障壁（Barrier Potential），阻止進一步的擴散。</p><h3 id=pn-結的操作原理>PN 結的操作原理<a hidden class=anchor aria-hidden=true href=#pn-結的操作原理>#</a></h3><h4 id=正向偏壓forward-bias>正向偏壓（Forward Bias）<a hidden class=anchor aria-hidden=true href=#正向偏壓forward-bias>#</a></h4><p>當 P 型區的電位高於 N 型區時，稱為正向偏壓。此時，PN 結的內建電場減弱，空乏區縮小，多數載子可以克服位能障壁：</p><ul><li><strong>電子</strong>從 N 型區流向 P 型區。</li><li><strong>電洞</strong>從 P 型區流向 N 型區。</li></ul><p>當正向電壓超過內建位能障壁時（矽約為 0.7V，鍺約為 0.3V），大電流會通過 PN 結，呈現低阻抗狀態。</p><h4 id=反向偏壓reverse-bias>反向偏壓（Reverse Bias）<a hidden class=anchor aria-hidden=true href=#反向偏壓reverse-bias>#</a></h4><p>當 N 型區的電位高於 P 型區時，稱為反向偏壓。此時：</p><ul><li>空乏區擴大，位能障壁增加。</li><li>多數載子無法越過 PN 結，幾乎沒有電流通過。</li><li>僅有少數載子貢獻極小的反向飽和電流，這些少數載子在反向電場作用下被掃過接面。</li></ul><p>當反向偏壓過大時，可能進入<strong>崩潰區</strong>，導致電流急劇增大。</p><h3 id=pn-結的電流-電壓特性>PN 結的電流-電壓特性<a hidden class=anchor aria-hidden=true href=#pn-結的電流-電壓特性>#</a></h3><ul><li><strong>正向偏壓下的電流</strong>：當施加正向電壓時，PN 結導通，電流隨電壓指數上升。</li><li><strong>反向偏壓下的電流</strong>：施加反向偏壓時，反向電流幾乎保持不變，僅由少數載子貢獻極小的漏電流。當反向電壓達到臨界值時，發生崩潰現象，電流急劇增大。</li></ul><h3 id=pn-結的實際應用>PN 結的實際應用<a hidden class=anchor aria-hidden=true href=#pn-結的實際應用>#</a></h3><p>PN 結是許多常見半導體元件的基礎：</p><ul><li><strong>二極體</strong>：利用 PN 結的單向導電性實現整流功能。</li><li><strong>光電二極體</strong>：將光能轉換為電能，應用於光檢測。</li><li><strong>雙極性電晶體（BJT）</strong>：基於兩個 PN 結，應用於信號放大和開關電路中。</li></ul><p>PN 結在現代半導體技術中的重要性主要體現在其控制電子與電洞流動的能力，以及在正向與反向偏壓下的不同電流特性和內建電場的作用。</p><hr><h2 id=雙極技術及雙極結型電晶體bjt的功能偏壓結構與應用>雙極技術及雙極結型電晶體（BJT）的功能、偏壓、結構與應用<a hidden class=anchor aria-hidden=true href=#雙極技術及雙極結型電晶體bjt的功能偏壓結構與應用>#</a></h2><h3 id=雙極技術概述>雙極技術概述<a hidden class=anchor aria-hidden=true href=#雙極技術概述>#</a></h3><p>**雙極技術（Bipolar Technology）**基於雙極結型電晶體（BJT）的運作機制，利用電子和電洞兩種載子來控制電流。BJT 是半導體元件的核心，特別適用於高速、高電流應用，因其增益特性非常適合放大和開關應用。</p><h3 id=雙極結型電晶體bjt結構>雙極結型電晶體（BJT）結構<a hidden class=anchor aria-hidden=true href=#雙極結型電晶體bjt結構>#</a></h3><ul><li><strong>發射極（Emitter）</strong>：發射載子的區域，摻雜濃度最高，釋放多數載子。</li><li><strong>基極（Base）</strong>：摻雜濃度低，厚度很薄，控制來自發射極的載子。</li><li><strong>集極（Collector）</strong>：收集來自發射極的載子。</li></ul><p>BJT 有兩種類型：</p><ul><li><strong>NPN 型晶體管</strong>：發射極為 N 型，基極為 P 型，集極為 N 型。</li><li><strong>PNP 型晶體管</strong>：發射極為 P 型，基極為 N 型，集極為 P 型。</li></ul><h3 id=bjt-的運作機制與偏壓>BJT 的運作機制與偏壓<a hidden class=anchor aria-hidden=true href=#bjt-的運作機制與偏壓>#</a></h3><p>BJT 是一種電流控制元件，基極電流大小控制發射極到集極的電流。</p><ul><li><p><strong>正向偏壓（Active Mode）</strong>：</p><ul><li>對 NPN 晶體管，當基極-發射極間施加正向電壓，集極-發射極間施加反向電壓時，晶體管進入放大模式。</li><li><strong>基極的少量電流</strong>控制<strong>集極-發射極的較大電流</strong>。</li></ul></li><li><p><strong>截止模式（Cut-off Mode）</strong>：</p><ul><li>基極-發射極間無正向偏壓，BJT 處於截止狀態，幾乎沒有電流流過集極。</li></ul></li><li><p><strong>飽和模式（Saturation Mode）</strong>：</p><ul><li>當基極-發射極和集極-發射極都施加正向偏壓，BJT 進入飽和狀態，集極-發射極電流達到最大值，常用於開關電路。</li></ul></li><li><p><strong>反向有源模式（Reverse Active Mode）</strong>：</p><ul><li>基極-集極間施加正向偏壓，發射極-集極間施加反向偏壓，該模式極少使用。</li></ul></li></ul><h3 id=bjt-的特徵>BJT 的特徵<a hidden class=anchor aria-hidden=true href=#bjt-的特徵>#</a></h3><ul><li><strong>電流增益</strong>：BJT 能放大基極的電流，增益通常以 β（beta）表示，β = IC / IB。</li><li><strong>雙極性導電</strong>：利用電子和電洞兩種載子來控制電流，與 FET 的單載子導電不同。</li><li><strong>高速開關能力</strong>：切換速度快，適用於高頻和高速電路。</li></ul><h3 id=bjt-的應用>BJT 的應用<a hidden class=anchor aria-hidden=true href=#bjt-的應用>#</a></h3><ul><li><strong>放大電路</strong>：廣泛應用於音頻和無線電放大器中，具有高增益和良好頻率響應。</li><li><strong>開關電路</strong>：在數位邏輯電路中，用於開關，透過在截止模式與飽和模式間切換控制開關狀態。</li><li><strong>功率電子元件</strong>：在高電流、高功率應用中，因其高增益與電流處理能力被廣泛使用。</li></ul><h3 id=bjt-的優勢與劣勢>BJT 的優勢與劣勢<a hidden class=anchor aria-hidden=true href=#bjt-的優勢與劣勢>#</a></h3><ul><li><p><strong>優勢</strong>：</p><ul><li><strong>高增益</strong>：實現較大的電流放大。</li><li><strong>高速操作</strong>：適合高頻操作與開關應用。</li><li><strong>雙極性載子運作</strong>：同時利用電子與電洞，增強電流控制能力。</li></ul></li><li><p><strong>劣勢</strong>：</p><ul><li><strong>高功耗</strong>：需要連續基極電流來保持導通，功耗較高。</li><li><strong>熱效應敏感</strong>：易受溫度變化影響，可能發生熱失控現象。</li></ul></li></ul><hr><h2 id=cmos-技術概述>CMOS 技術概述<a hidden class=anchor aria-hidden=true href=#cmos-技術概述>#</a></h2><p><strong>CMOS</strong>（Complementary Metal-Oxide-Semiconductor，互補式金屬氧化物半導體）是一種廣泛應用於現代數位電路設計的半導體技術，特別是在微處理器、記憶體和其他邏輯電路中。CMOS 技術以低功耗和高效能著稱，核心在於互補使用 N 型和 P 型場效電晶體（MOSFET）來實現高效運行。</p><h3 id=mosfet-的基本結構>MOSFET 的基本結構<a hidden class=anchor aria-hidden=true href=#mosfet-的基本結構>#</a></h3><p><strong>MOSFET</strong>（Metal-Oxide-Semiconductor Field-Effect Transistor，金屬氧化物半導體場效電晶體）是 CMOS 技術的核心元件，由四個主要部分組成：</p><ul><li><strong>閘極（Gate）</strong>：控制電流的開關，與半導體層間有一層絕緣層（通常是二氧化矽）。</li><li><strong>源極（Source）</strong>：電流的進入端，電子或電洞的來源。</li><li><strong>汲極（Drain）</strong>：電流的流出端，電子或電洞的出口。</li><li><strong>基板（Body）</strong>：通常與源極連接，作為元件的參考電位。</li></ul><h3 id=mosfet-的工作原理>MOSFET 的工作原理<a hidden class=anchor aria-hidden=true href=#mosfet-的工作原理>#</a></h3><p>MOSFET 的工作區域根據 $V_{GS}$ 和 $V_{DS}$ 的不同而變化，影響電流 $I_{DS}$ 的流動狀態，決定 MOSFET 的功能與應用。</p><ul><li><strong>$V_{GS}$（閘極-源極電壓）</strong>：決定 MOSFET 是否導通，當 $V_{GS} > V_{th}$，MOSFET 開啟，形成導電通道。</li><li><strong>$V_{DS}$（汲極-源極電壓）</strong>：決定工作區域，影響 $I_{DS}$ 的大小。</li></ul><h4 id=工作區域>工作區域<a hidden class=anchor aria-hidden=true href=#工作區域>#</a></h4><table><thead><tr><th style=text-align:left>區域</th><th style=text-align:left>條件</th><th style=text-align:left>解釋</th><th style=text-align:left>狀態</th></tr></thead><tbody><tr><td style=text-align:left><strong>截止區</strong></td><td style=text-align:left>$V_{GS} &lt; V_{th}$</td><td style=text-align:left>無導電通道形成，$I_{DS}$ 幾乎為零。</td><td style=text-align:left>MOSFET 關閉，無電流流動。</td></tr><tr><td style=text-align:left><strong>線性區</strong></td><td style=text-align:left>$V_{GS} > V_{th}$ 且 $V_{DS} &lt; V_{GS} - V_{th}$</td><td style=text-align:left>MOSFET 充當可變電阻，$I_{DS}$ 隨 $V_{DS}$ 線性增加。</td><td style=text-align:left>MOSFET 開啟，電流隨 $V_{DS}$ 增加。</td></tr><tr><td style=text-align:left><strong>飽和區</strong></td><td style=text-align:left>$V_{GS} > V_{th}$ 且 $V_{DS} \geq V_{GS} - V_{th}$</td><td style=text-align:left>$I_{DS}$ 主要由 $V_{GS}$ 決定，趨於穩定，隨 $V_{DS}$ 增加不再顯著增長。</td><td style=text-align:left>MOSFET 開啟，電流達飽和值，受 $V_{GS}$ 控制。</td></tr></tbody></table><p><strong>注意事項</strong>：</p><ul><li>當 $V_D > V_S$ 時，<strong>NMOS 為何仍能導通</strong>？<ul><li>只要 $V_{GS} > V_{th}$，NMOS 就能導通，即使汲極電壓 $V_D$ 大於源極電壓 $V_S$。</li></ul></li><li><strong>NMOS 中靠近汲極的通道變窄原因</strong>：<ul><li>$V_{DS}$ 增加時，靠近汲極的通道區域電位升高，導致通道電荷減少，通道變窄，稱為<strong>夾斷效應（Pinch-Off Effect）</strong>，是 MOSFET 進入飽和區的主要原因。</li></ul></li></ul><h3 id=mosfet-與-cmos-的關係>MOSFET 與 CMOS 的關係<a hidden class=anchor aria-hidden=true href=#mosfet-與-cmos-的關係>#</a></h3><p>MOSFET 是 CMOS 技術的基石。CMOS 電路透過互補組合 nMOSFET 和 pMOSFET，實現低功耗和高效能：</p><ul><li>當一個 MOSFET 導通時，另一個 MOSFET 關閉。</li><li>確保在穩態時幾乎沒有電流流過，降低能量消耗。</li></ul><h3 id=cmos-技術的核心元件>CMOS 技術的核心元件<a hidden class=anchor aria-hidden=true href=#cmos-技術的核心元件>#</a></h3><table><thead><tr><th style=text-align:left><strong>MOSFET 類型</strong></th><th style=text-align:left><strong>主要載子</strong></th><th style=text-align:left><strong>導通條件</strong></th></tr></thead><tbody><tr><td style=text-align:left><strong>nMOSFET</strong></td><td style=text-align:left>電子</td><td style=text-align:left>$V_{GS} > V_{th}$，電子從源極流向汲極。</td></tr><tr><td style=text-align:left><strong>pMOSFET</strong></td><td style=text-align:left>電洞</td><td style=text-align:left>$V_{GS} &lt; V_{th}$，電洞從源極流向汲極。</td></tr></tbody></table><p>CMOS 技術透過互補使用 nMOSFET 和 pMOSFET，使電路具有極低的功耗。</p><h3 id=增強型與耗盡型-mosfet-的區別>增強型與耗盡型 MOSFET 的區別<a hidden class=anchor aria-hidden=true href=#增強型與耗盡型-mosfet-的區別>#</a></h3><ul><li><p><strong>增強型 MOSFET（Enhancement Mode）</strong>：</p><ul><li><strong>狀態</strong>：$V_{GS} = 0 V$ 時關閉。</li><li><strong>導通條件</strong>：<ul><li>nMOSFET：$V_{GS} > V_{th}$，施加正閘極電壓導通。</li><li>pMOSFET：$V_{GS} &lt; V_{th}$，施加負閘極電壓導通。</li></ul></li></ul></li><li><p><strong>耗盡型 MOSFET（Depletion Mode）</strong>：</p><ul><li><strong>狀態</strong>：$V_{GS} = 0 V$ 時導通。</li><li><strong>導通條件</strong>：<ul><li>nMOSFET：$V_{GS} &lt; V_{th}$，施加負閘極電壓關閉通道。</li><li>pMOSFET：$V_{GS} > V_{th}$，施加正閘極電壓關閉通道。</li></ul></li></ul></li></ul><h3 id=cmos-反相器cmos-inverter>CMOS 反相器（CMOS Inverter）<a hidden class=anchor aria-hidden=true href=#cmos-反相器cmos-inverter>#</a></h3><p><strong>CMOS 反相器</strong>是 CMOS 技術中最基本且重要的電路，實現邏輯反轉功能。</p><ul><li><strong>結構</strong>：由一個 nMOSFET 和一個 pMOSFET 組成，共用輸入（閘極）和輸出。</li><li><strong>運作原理</strong>：<ul><li><strong>輸入低電平</strong>：pMOSFET 導通，nMOSFET 關閉，輸出高電平。</li><li><strong>輸入高電平</strong>：nMOSFET 導通，pMOSFET 關閉，輸出低電平。</li></ul></li></ul><p>這種設計在穩定狀態下，只有一個 MOSFET 導通，另一個關閉，極大地降低了功耗。</p><h3 id=cmos-技術的優點>CMOS 技術的優點<a hidden class=anchor aria-hidden=true href=#cmos-技術的優點>#</a></h3><ul><li><strong>低功耗</strong>：穩態下無直流電流，僅在狀態切換時有短暫電流，靜態功耗極低。</li><li><strong>高密度</strong>：支持高密度集成，適合大規模集成電路。</li><li><strong>高速</strong>：開關速度快，適合高速數位邏輯操作。</li></ul><h3 id=bjt-與-mosfet-的比較>BJT 與 MOSFET 的比較<a hidden class=anchor aria-hidden=true href=#bjt-與-mosfet-的比較>#</a></h3><ul><li><p><strong>電流驅動 vs 電壓驅動</strong>：</p><ul><li><strong>BJT</strong>：電流控制元件，需要基極電流維持導通，靜態功耗較高。</li><li><strong>MOSFET</strong>：電壓控制元件，閘極電壓控制通道開關，靜態功耗極低。</li></ul></li><li><p><strong>能量消耗</strong>：</p><ul><li><strong>BJT</strong>：持續的基極電流導致較高能量消耗，開關速度較慢。</li><li><strong>MOSFET</strong>：僅在閘極充放電時消耗能量，開關速度快，適合高頻應用。</li></ul></li></ul><h3 id=bicmos-技術>BiCMOS 技術<a hidden class=anchor aria-hidden=true href=#bicmos-技術>#</a></h3><p><strong>BiCMOS 技術</strong>結合了 CMOS 技術和雙極性接面電晶體（BJT）的優點：</p><ul><li><strong>BJT</strong>：提供高增益和強大電流驅動能力。</li><li><strong>CMOS</strong>：提供低功耗和高密度集成。</li></ul><p>適用於需要高速和高驅動能力的應用，如高速運算和模擬/數位混合電路。</p><h3 id=寄生晶體管對-cmos-鎖定效應的影響>寄生晶體管對 CMOS 鎖定效應的影響<a hidden class=anchor aria-hidden=true href=#寄生晶體管對-cmos-鎖定效應的影響>#</a></h3><p>在 CMOS 結構中，P 型和 N 型區域的佈局可能形成寄生雙極性電晶體（BJT），導致<strong>鎖定效應（Latch-up）</strong>，產生不可控的電流迴路，可能損壞電路。</p><ul><li><strong>預防措施</strong>：透過優化佈局設計、增加護環結構和改善製程來防止鎖定效應。</li></ul></div><footer class=post-footer><ul class=post-tags><li><a href=http://localhost:1313/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%A3%BD%E7%A8%8B%E6%8A%80%E8%A1%93/>半導體製程技術</a></li><li><a href=http://localhost:1313/tags/mosfet/>MOSFET</a></li><li><a href=http://localhost:1313/tags/cmos/>CMOS</a></li></ul><nav class=paginav><a class=prev href=http://localhost:1313/posts/smt-devices-o1/><span class=title>« Prev</span><br><span>SMT- Devices-o1</span>
+</a><a class=next href=http://localhost:1313/posts/smt-course-outline/><span class=title>Next »</span><br><span>SMT- 半導體製程技術課程大綱</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2024 <a href=http://localhost:1313/>LEE CHIEN-WEI</a></span> ·<div>Page Views: <span id=busuanzi_page_pv></span> · Visitors: <span id=busuanzi_page_uv></span></div><div>Site Views: <span id=busuanzi_site_pv></span> · Site Visitors: <span id=busuanzi_site_uv></span></div><span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

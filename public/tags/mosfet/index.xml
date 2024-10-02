@@ -13,97 +13,51 @@
       <link>https://eujenz.github.io/posts/smt-devices/</link>
       <pubDate>Sun, 15 Sep 2024 00:36:24 +0800</pubDate>
       <guid>https://eujenz.github.io/posts/smt-devices/</guid>
-      <description>&lt;h2 id=&#34;類比與數位設備被動與主動元件與寄生結構&#34;&gt;類比與數位設備、被動與主動元件與寄生結構&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;電子電路基礎筆記整理&#34;&gt;電子電路基礎筆記整理&lt;/h1&gt;
+&lt;p&gt;以下筆記整理為問答形式，涵蓋類比與數位設備、被動與主動元件、寄生結構、PN 結及其偏壓、雙極技術與雙極結型晶體管（BJT）、以及 CMOS 技術等主題。各個段落的小結已整合至相關內容中，以便更好地理解每個主題的核心概念。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;類比與數位設備被動與主動元件與寄生結構&#34;&gt;類比與數位設備、被動與主動元件與寄生結構&lt;/h2&gt;
 &lt;h3 id=&#34;類比與數位設備&#34;&gt;類比與數位設備&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;類比設備（Analog Devices）&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;處理連續信號，應用於無線電接收器、音頻系統和汽車點火系統。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;特點&lt;/strong&gt;: 類比設備能夠放大或處理自然界中的連續信號，通常將物理現象轉換為電子信號。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;數位設備（Digital Devices）&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;處理離散信號，信號形式為二進制「高」或「低」，常見於計算機、計算器等數位邏輯電路。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;特點&lt;/strong&gt;: 數位設備處理開/關的二進制狀態，主要用於邏輯運算和數據處理，具有精確性和可編程性。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h4 id=&#34;什麼是類比設備analog-devices&#34;&gt;什麼是類比設備（Analog Devices）？&lt;/h4&gt;
+&lt;p&gt;類比設備處理連續信號，常應用於無線電接收器、音頻系統和汽車點火系統等領域。&lt;strong&gt;特點&lt;/strong&gt;包括能夠放大或處理自然界中的連續信號，通常將物理現象轉換為電子信號。這使得類比設備多用於自然信號的轉換和處理。&lt;/p&gt;
+&lt;h4 id=&#34;什麼是數位設備digital-devices&#34;&gt;什麼是數位設備（Digital Devices）？&lt;/h4&gt;
+&lt;p&gt;數位設備處理離散信號，信號形式為二進制的「高」或「低」，常見於計算機、計算器等數位邏輯電路。&lt;strong&gt;特點&lt;/strong&gt;包括處理開/關的二進制狀態，主要用於邏輯運算和數據處理，具有精確性和可編程性。數位設備主要應用於邏輯運算和數據處理。&lt;/p&gt;
+&lt;h4 id=&#34;類比與數位設備有何不同&#34;&gt;類比與數位設備有何不同？&lt;/h4&gt;
+&lt;p&gt;類比設備處理連續信號，適用於自然信號的轉換，而數位設備處理離散的二進制信號，適用於邏輯運算和數據處理。兩者在應用領域和信號處理方式上有明顯區別，且各自具有獨特的優勢。&lt;/p&gt;
 &lt;h3 id=&#34;被動與主動元件&#34;&gt;被動與主動元件&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;被動元件（Passive Components）&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不需外部電源來工作，無法放大信號，常見被動元件有：
+&lt;h4 id=&#34;什麼是被動元件passive-components&#34;&gt;什麼是被動元件（Passive Components）？&lt;/h4&gt;
+&lt;p&gt;被動元件不需外部電源來工作，無法放大信號，常見的被動元件包括：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;電阻（Resistor）&lt;/strong&gt;: 控制電流並分配電壓。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;電容（Capacitor）&lt;/strong&gt;: 儲存和釋放電能，常用於濾波與能量存儲。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;電感（Inductor）&lt;/strong&gt;: 儲存磁能，通常用於電源線路中的濾波。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;寄生效應&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;寄生結構（Parasitic Structures）&lt;/strong&gt;: 被動元件內部不可避免的效應，如寄生電容和寄生電阻，這些效應會降低電路性能。例如，寄生電容會引起信號耦合，影響高頻響應。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;主動元件（Active Components）&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;需要外部電源來工作，能夠放大信號或控制電流，常見主動元件有：
+&lt;p&gt;被動元件在電路中無法放大信號，但在控制電流、儲存能量和濾波等方面起著重要作用。&lt;/p&gt;
+&lt;h4 id=&#34;什麼是主動元件active-components&#34;&gt;什麼是主動元件（Active Components）？&lt;/h4&gt;
+&lt;p&gt;主動元件需要外部電源來工作，能夠放大信號或控制電流，常見的主動元件包括：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;二極體（Diode）&lt;/strong&gt;: 允許電流單向流動，控制電流方向。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;雙極性晶體管（BJT）&lt;/strong&gt;: 用於放大信號或作為開關。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;場效應晶體管（FET）&lt;/strong&gt;: 利用電場控制電流，提供更高的輸入阻抗與更低功耗。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;寄生效應&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;寄生結構&lt;/strong&gt;: 主動元件內部的寄生結構，如寄生雙極性晶體管與寄生電容，可能會形成非預期的電流路徑，導致漏電、電路不穩定或性能降低。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;主動元件在電路中能夠放大信號或控制電流流動，是實現信號處理和控制的重要元件。&lt;/p&gt;
+&lt;h4 id=&#34;被動與主動元件有何不同&#34;&gt;被動與主動元件有何不同？&lt;/h4&gt;
+&lt;p&gt;被動元件無法放大信號，主要用於控制電流、儲存能量和濾波，而主動元件能夠放大信號或控制電流，適用於信號處理和控制。兩者在電路中相輔相成，共同實現複雜的功能。&lt;/p&gt;
 &lt;h3 id=&#34;寄生結構的影響&#34;&gt;寄生結構的影響&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;寄生電阻（Parasitic Resistance）&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;元件內部材料和接觸點因製程缺陷產生的非理想寄生電阻，增加電路總電阻，導致功耗增加和運行速度下降。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;寄生電容（Parasitic Capacitance）&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;電晶體內部不同層間的寄生電容在高頻信號下會導致不必要的耦合或漏電，影響信號的穩定性與性能。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;寄生雙極性晶體管（Parasitic Bipolar Transistor）&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;在 MOSFET 中，P 型和 N 型區域可能形成意外的寄生雙極性晶體管，這些寄生晶體管會引發鎖定效應（Latch-up），導致電路短路或失效。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;小結&#34;&gt;小結&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;類比與數位設備&lt;/strong&gt;: 類比設備處理連續信號，數位設備處理二進制信號。類比設備多用於自然信號的轉換，數位設備則主要應用於邏輯運算和數據處理。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;被動與主動元件&lt;/strong&gt;: 被動元件無法放大信號，而主動元件可以放大信號或控制電流。兩者在電路中相輔相成，但寄生結構會影響其性能，尤其是在高頻應用中。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;寄生結構的影響&lt;/strong&gt;: 寄生電阻、寄生電容和寄生晶體管會降低元件性能，導致功耗增加、信號損耗或電路不穩定，甚至可能引發鎖定效應。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h4 id=&#34;什麼是寄生結構parasitic-structures&#34;&gt;什麼是寄生結構（Parasitic Structures）？&lt;/h4&gt;
+&lt;p&gt;寄生結構是指被動或主動元件內部不可避免的效應，如寄生電容和寄生電阻，這些效應會降低電路性能。例如，寄生電容會引起信號耦合，影響高頻響應；寄生電阻則增加電路總電阻，導致功耗增加和運行速度下降。&lt;/p&gt;
+&lt;h4 id=&#34;寄生結構如何影響被動元件&#34;&gt;寄生結構如何影響被動元件？&lt;/h4&gt;
+&lt;p&gt;被動元件內部的寄生電容和寄生電阻會降低其性能。例如，寄生電容會在高頻信號下引起不必要的耦合，影響濾波效果；寄生電阻則增加電路的總電阻，導致功耗增加和運行速度下降。&lt;/p&gt;
+&lt;h4 id=&#34;寄生結構如何影響主動元件&#34;&gt;寄生結構如何影響主動元件？&lt;/h4&gt;
+&lt;p&gt;主動元件內部的寄生結構，如寄生雙極性晶體管與寄生電容，可能會形成非預期的電流路徑，導致漏電、電路不穩定或性能降低。例如，在 MOSFET 中，寄生雙極性晶體管可能引發鎖定效應（Latch-up），導致電路短路或失效。&lt;/p&gt;
+&lt;h4 id=&#34;寄生結構的總體影響&#34;&gt;寄生結構的總體影響&lt;/h4&gt;
+&lt;p&gt;寄生電阻、寄生電容和寄生雙極性晶體管會降低元件性能，導致功耗增加、信號損耗或電路不穩定，甚至可能引發鎖定效應。這些寄生效應在高頻應用中特別顯著，需在設計中加以考慮和抑制。&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;pn-junction正向與反向偏壓&#34;&gt;PN Junction、正向與反向偏壓&lt;/h2&gt;
+&lt;p&gt;PN Junction 在現代半導體技術中的重要性主要體現在其控制電子與電洞流動的能力、正向與反向偏壓下的不同電流特性以及內建電場的作用。這些基礎知識對理解半導體元件如二極體、電晶體和場效應電晶體至關重要。&lt;/p&gt;
 &lt;h3 id=&#34;pn-junction-的基本概念&#34;&gt;PN Junction 的基本概念&lt;/h3&gt;
-&lt;p&gt;PN Junction是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，而 N 型材料中的多數載子是電子。這些載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷不再能自由移動，導致兩側形成內建電場，並進一步阻止多數載子穿過接面。&lt;/p&gt;</description>
+&lt;h4 id=&#34;什麼是-pn-junction&#34;&gt;什麼是 PN Junction？&lt;/h4&gt;
+&lt;p&gt;PN Junction 是由 P 型半導體和 N 型半導體材料相接而形成的界面。P 型材料中多數載子是電洞，而 N 型材料中的多數載子是電子。這些載子在接面附近相互擴散，電子與電洞在接面區域再結合，形成了空乏區（Depletion Region），即一個幾乎沒有自由載子的區域。這個區域的電荷不再能自由移動，導致兩側形成內建電場，並進一步阻止多數載子穿過接面。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

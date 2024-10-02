@@ -1,0 +1,347 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><script defer src=https://busuanzi.9420.ltd/js></script><title>Introduction to Quantum Theory of Solids | LEE CHIEN-WEI</title>
+<meta name=keywords content="半導體物理與元件"><meta name=description content="能帶理論與材料導電性
+能帶、價帶與傳導帶
+能帶（Energy Bands）
+在固體材料中，原子的電子能級由於原子間的相互作用而發生分裂，形成一系列非常接近的能級，這些密集排列的能級形成了能帶。能帶的結構決定了材料中電子的行為及其導電性。
+價帶（Valence Band）
+價帶是由原子中參與化學鍵結的電子所填充的最高能帶。這些電子能量較低，主要負責材料的穩定性和化學性質。在金屬中，價帶中的電子可能部分填滿，為材料提供自由移動的電子。
+傳導帶（Conduction Band）
+傳導帶位於價帶之上，是電子可以自由運動的能帶。當電子獲得足夠的能量從價帶躍遷到傳導帶後，它們成為自由電子，能在材料中移動，參與導電。
+能隙（Band Gap）
+價帶頂端與傳導帶底端之間的能量差稱為能隙。能隙的大小是區分材料導電性質的關鍵指標：
+
+導體：能隙為零或價帶與傳導帶重疊。
+半導體：能隙較小（約0.5至3 eV）。
+絕緣體：能隙較大（通常大於3 eV）。
+
+具體量化絕緣體、半導體、導體的差異
+能隙（Band Gap）的量化
+
+  
+      
+          材料類型
+          能隙範圍 (Eg)
+          特點
+      
+  
+  
+      
+          絕緣體
+          Eg > 3 eV
+          能隙較大，價帶與傳導帶間無法輕易躍遷，導電性極低。
+      
+      
+          半導體
+          0.5 eV < Eg < 3 eV
+          能隙中等，受溫度或摻雜影響，部分電子可躍遷至傳導帶，導電性可調控。
+      
+      
+          導體
+          Eg = 0 eV 或重疊
+          價帶與傳導帶重疊，存在大量自由電子，導電性高。
+      
+  
+
+自由電子密度與電導性
+
+  
+      
+          材料類型
+          自由電子密度 (n)
+          電導率 (σ)
+      
+  
+  
+      
+          絕緣體
+          非常低 (~10¹⁰ cm⁻³ 以下)
+          非常低，幾乎不導電。
+      
+      
+          半導體
+          中等 (~10¹⁶ ~ 10¹⁹ cm⁻³)
+          中等且可控，通過摻雜或溫度調節。
+      
+      
+          導體
+          非常高 (~10²² cm⁻³)
+          高，導電性強。
+      
+  
+
+溫度對導電性的影響
+
+  
+      
+          材料類型
+          溫度效應
+      
+  
+  
+      
+          絕緣體
+          溫度變化對導電性影響小。
+      
+      
+          半導體
+          溫度升高導電性顯著增加。
+      
+      
+          導體
+          溫度升高導電性下降，因為電子-離子碰撞增加。
+      
+  
+
+電子與電洞行為
+
+絕緣體：幾乎沒有自由電子或電洞，導電性極差。
+半導體：自由電子和電洞共同參與導電，摻雜可增加其數量。
+導體：大量自由電子主導導電，電洞作用不明顯。
+
+E-K 圖（能量-波矢圖）
+在固態物理中，E-K 圖（能量-波矢圖）展示了電子的能量 $E$ 與波矢 $k$ 之間的關係。E-K 圖的形狀和曲率與材料的電子性質密切相關，特別是能帶結構中的圖形開口（即傳導帶和價帶之間的間距）對於材料的導電性、能隙類型等具有重要意義。"><meta name=author content><link rel=canonical href=https://eujenz.github.io/posts/spd-introduction-to-quantum-theory-of-solids/><link crossorigin=anonymous href=/assets/css/stylesheet.css rel="preload stylesheet" as=style><link rel=icon href=https://eujenz.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://eujenz.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://eujenz.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://eujenz.github.io/apple-touch-icon.png><link rel=mask-icon href=https://eujenz.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://eujenz.github.io/posts/spd-introduction-to-quantum-theory-of-solids/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:title" content="Introduction to Quantum Theory of Solids"><meta property="og:description" content="能帶理論與材料導電性
+能帶、價帶與傳導帶
+能帶（Energy Bands）
+在固體材料中，原子的電子能級由於原子間的相互作用而發生分裂，形成一系列非常接近的能級，這些密集排列的能級形成了能帶。能帶的結構決定了材料中電子的行為及其導電性。
+價帶（Valence Band）
+價帶是由原子中參與化學鍵結的電子所填充的最高能帶。這些電子能量較低，主要負責材料的穩定性和化學性質。在金屬中，價帶中的電子可能部分填滿，為材料提供自由移動的電子。
+傳導帶（Conduction Band）
+傳導帶位於價帶之上，是電子可以自由運動的能帶。當電子獲得足夠的能量從價帶躍遷到傳導帶後，它們成為自由電子，能在材料中移動，參與導電。
+能隙（Band Gap）
+價帶頂端與傳導帶底端之間的能量差稱為能隙。能隙的大小是區分材料導電性質的關鍵指標：
+
+導體：能隙為零或價帶與傳導帶重疊。
+半導體：能隙較小（約0.5至3 eV）。
+絕緣體：能隙較大（通常大於3 eV）。
+
+具體量化絕緣體、半導體、導體的差異
+能隙（Band Gap）的量化
+
+  
+      
+          材料類型
+          能隙範圍 (Eg)
+          特點
+      
+  
+  
+      
+          絕緣體
+          Eg > 3 eV
+          能隙較大，價帶與傳導帶間無法輕易躍遷，導電性極低。
+      
+      
+          半導體
+          0.5 eV < Eg < 3 eV
+          能隙中等，受溫度或摻雜影響，部分電子可躍遷至傳導帶，導電性可調控。
+      
+      
+          導體
+          Eg = 0 eV 或重疊
+          價帶與傳導帶重疊，存在大量自由電子，導電性高。
+      
+  
+
+自由電子密度與電導性
+
+  
+      
+          材料類型
+          自由電子密度 (n)
+          電導率 (σ)
+      
+  
+  
+      
+          絕緣體
+          非常低 (~10¹⁰ cm⁻³ 以下)
+          非常低，幾乎不導電。
+      
+      
+          半導體
+          中等 (~10¹⁶ ~ 10¹⁹ cm⁻³)
+          中等且可控，通過摻雜或溫度調節。
+      
+      
+          導體
+          非常高 (~10²² cm⁻³)
+          高，導電性強。
+      
+  
+
+溫度對導電性的影響
+
+  
+      
+          材料類型
+          溫度效應
+      
+  
+  
+      
+          絕緣體
+          溫度變化對導電性影響小。
+      
+      
+          半導體
+          溫度升高導電性顯著增加。
+      
+      
+          導體
+          溫度升高導電性下降，因為電子-離子碰撞增加。
+      
+  
+
+電子與電洞行為
+
+絕緣體：幾乎沒有自由電子或電洞，導電性極差。
+半導體：自由電子和電洞共同參與導電，摻雜可增加其數量。
+導體：大量自由電子主導導電，電洞作用不明顯。
+
+E-K 圖（能量-波矢圖）
+在固態物理中，E-K 圖（能量-波矢圖）展示了電子的能量 $E$ 與波矢 $k$ 之間的關係。E-K 圖的形狀和曲率與材料的電子性質密切相關，特別是能帶結構中的圖形開口（即傳導帶和價帶之間的間距）對於材料的導電性、能隙類型等具有重要意義。"><meta property="og:type" content="article"><meta property="og:url" content="https://eujenz.github.io/posts/spd-introduction-to-quantum-theory-of-solids/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2024-09-28T00:36:24+08:00"><meta property="article:modified_time" content="2024-09-28T00:36:24+08:00"><meta property="og:site_name" content="MOSFET Technical Notes"><meta name=twitter:card content="summary"><meta name=twitter:title content="Introduction to Quantum Theory of Solids"><meta name=twitter:description content="能帶理論與材料導電性
+能帶、價帶與傳導帶
+能帶（Energy Bands）
+在固體材料中，原子的電子能級由於原子間的相互作用而發生分裂，形成一系列非常接近的能級，這些密集排列的能級形成了能帶。能帶的結構決定了材料中電子的行為及其導電性。
+價帶（Valence Band）
+價帶是由原子中參與化學鍵結的電子所填充的最高能帶。這些電子能量較低，主要負責材料的穩定性和化學性質。在金屬中，價帶中的電子可能部分填滿，為材料提供自由移動的電子。
+傳導帶（Conduction Band）
+傳導帶位於價帶之上，是電子可以自由運動的能帶。當電子獲得足夠的能量從價帶躍遷到傳導帶後，它們成為自由電子，能在材料中移動，參與導電。
+能隙（Band Gap）
+價帶頂端與傳導帶底端之間的能量差稱為能隙。能隙的大小是區分材料導電性質的關鍵指標：
+
+導體：能隙為零或價帶與傳導帶重疊。
+半導體：能隙較小（約0.5至3 eV）。
+絕緣體：能隙較大（通常大於3 eV）。
+
+具體量化絕緣體、半導體、導體的差異
+能隙（Band Gap）的量化
+
+  
+      
+          材料類型
+          能隙範圍 (Eg)
+          特點
+      
+  
+  
+      
+          絕緣體
+          Eg > 3 eV
+          能隙較大，價帶與傳導帶間無法輕易躍遷，導電性極低。
+      
+      
+          半導體
+          0.5 eV < Eg < 3 eV
+          能隙中等，受溫度或摻雜影響，部分電子可躍遷至傳導帶，導電性可調控。
+      
+      
+          導體
+          Eg = 0 eV 或重疊
+          價帶與傳導帶重疊，存在大量自由電子，導電性高。
+      
+  
+
+自由電子密度與電導性
+
+  
+      
+          材料類型
+          自由電子密度 (n)
+          電導率 (σ)
+      
+  
+  
+      
+          絕緣體
+          非常低 (~10¹⁰ cm⁻³ 以下)
+          非常低，幾乎不導電。
+      
+      
+          半導體
+          中等 (~10¹⁶ ~ 10¹⁹ cm⁻³)
+          中等且可控，通過摻雜或溫度調節。
+      
+      
+          導體
+          非常高 (~10²² cm⁻³)
+          高，導電性強。
+      
+  
+
+溫度對導電性的影響
+
+  
+      
+          材料類型
+          溫度效應
+      
+  
+  
+      
+          絕緣體
+          溫度變化對導電性影響小。
+      
+      
+          半導體
+          溫度升高導電性顯著增加。
+      
+      
+          導體
+          溫度升高導電性下降，因為電子-離子碰撞增加。
+      
+  
+
+電子與電洞行為
+
+絕緣體：幾乎沒有自由電子或電洞，導電性極差。
+半導體：自由電子和電洞共同參與導電，摻雜可增加其數量。
+導體：大量自由電子主導導電，電洞作用不明顯。
+
+E-K 圖（能量-波矢圖）
+在固態物理中，E-K 圖（能量-波矢圖）展示了電子的能量 $E$ 與波矢 $k$ 之間的關係。E-K 圖的形狀和曲率與材料的電子性質密切相關，特別是能帶結構中的圖形開口（即傳導帶和價帶之間的間距）對於材料的導電性、能隙類型等具有重要意義。"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://eujenz.github.io/posts/"},{"@type":"ListItem","position":2,"name":"Introduction to Quantum Theory of Solids","item":"https://eujenz.github.io/posts/spd-introduction-to-quantum-theory-of-solids/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Introduction to Quantum Theory of Solids","name":"Introduction to Quantum Theory of Solids","description":"能帶理論與材料導電性 能帶、價帶與傳導帶 能帶（Energy Bands） 在固體材料中，原子的電子能級由於原子間的相互作用而發生分裂，形成一系列非常接近的能級，這些密集排列的能級形成了能帶。能帶的結構決定了材料中電子的行為及其導電性。\n價帶（Valence Band） 價帶是由原子中參與化學鍵結的電子所填充的最高能帶。這些電子能量較低，主要負責材料的穩定性和化學性質。在金屬中，價帶中的電子可能部分填滿，為材料提供自由移動的電子。\n傳導帶（Conduction Band） 傳導帶位於價帶之上，是電子可以自由運動的能帶。當電子獲得足夠的能量從價帶躍遷到傳導帶後，它們成為自由電子，能在材料中移動，參與導電。\n能隙（Band Gap） 價帶頂端與傳導帶底端之間的能量差稱為能隙。能隙的大小是區分材料導電性質的關鍵指標：\n導體：能隙為零或價帶與傳導帶重疊。 半導體：能隙較小（約0.5至3 eV）。 絕緣體：能隙較大（通常大於3 eV）。 具體量化絕緣體、半導體、導體的差異 能隙（Band Gap）的量化 材料類型 能隙範圍 (Eg) 特點 絕緣體 Eg \u0026gt; 3 eV 能隙較大，價帶與傳導帶間無法輕易躍遷，導電性極低。 半導體 0.5 eV \u0026lt; Eg \u0026lt; 3 eV 能隙中等，受溫度或摻雜影響，部分電子可躍遷至傳導帶，導電性可調控。 導體 Eg = 0 eV 或重疊 價帶與傳導帶重疊，存在大量自由電子，導電性高。 自由電子密度與電導性 材料類型 自由電子密度 (n) 電導率 (σ) 絕緣體 非常低 (~10¹⁰ cm⁻³ 以下) 非常低，幾乎不導電。 半導體 中等 (~10¹⁶ ~ 10¹⁹ cm⁻³) 中等且可控，通過摻雜或溫度調節。 導體 非常高 (~10²² cm⁻³) 高，導電性強。 溫度對導電性的影響 材料類型 溫度效應 絕緣體 溫度變化對導電性影響小。 半導體 溫度升高導電性顯著增加。 導體 溫度升高導電性下降，因為電子-離子碰撞增加。 電子與電洞行為 絕緣體：幾乎沒有自由電子或電洞，導電性極差。 半導體：自由電子和電洞共同參與導電，摻雜可增加其數量。 導體：大量自由電子主導導電，電洞作用不明顯。 E-K 圖（能量-波矢圖） 在固態物理中，E-K 圖（能量-波矢圖）展示了電子的能量 $E$ 與波矢 $k$ 之間的關係。E-K 圖的形狀和曲率與材料的電子性質密切相關，特別是能帶結構中的圖形開口（即傳導帶和價帶之間的間距）對於材料的導電性、能隙類型等具有重要意義。\n","keywords":["半導體物理與元件"],"articleBody":"能帶理論與材料導電性 能帶、價帶與傳導帶 能帶（Energy Bands） 在固體材料中，原子的電子能級由於原子間的相互作用而發生分裂，形成一系列非常接近的能級，這些密集排列的能級形成了能帶。能帶的結構決定了材料中電子的行為及其導電性。\n價帶（Valence Band） 價帶是由原子中參與化學鍵結的電子所填充的最高能帶。這些電子能量較低，主要負責材料的穩定性和化學性質。在金屬中，價帶中的電子可能部分填滿，為材料提供自由移動的電子。\n傳導帶（Conduction Band） 傳導帶位於價帶之上，是電子可以自由運動的能帶。當電子獲得足夠的能量從價帶躍遷到傳導帶後，它們成為自由電子，能在材料中移動，參與導電。\n能隙（Band Gap） 價帶頂端與傳導帶底端之間的能量差稱為能隙。能隙的大小是區分材料導電性質的關鍵指標：\n導體：能隙為零或價帶與傳導帶重疊。 半導體：能隙較小（約0.5至3 eV）。 絕緣體：能隙較大（通常大於3 eV）。 具體量化絕緣體、半導體、導體的差異 能隙（Band Gap）的量化 材料類型 能隙範圍 (Eg) 特點 絕緣體 Eg \u003e 3 eV 能隙較大，價帶與傳導帶間無法輕易躍遷，導電性極低。 半導體 0.5 eV \u003c Eg \u003c 3 eV 能隙中等，受溫度或摻雜影響，部分電子可躍遷至傳導帶，導電性可調控。 導體 Eg = 0 eV 或重疊 價帶與傳導帶重疊，存在大量自由電子，導電性高。 自由電子密度與電導性 材料類型 自由電子密度 (n) 電導率 (σ) 絕緣體 非常低 (~10¹⁰ cm⁻³ 以下) 非常低，幾乎不導電。 半導體 中等 (~10¹⁶ ~ 10¹⁹ cm⁻³) 中等且可控，通過摻雜或溫度調節。 導體 非常高 (~10²² cm⁻³) 高，導電性強。 溫度對導電性的影響 材料類型 溫度效應 絕緣體 溫度變化對導電性影響小。 半導體 溫度升高導電性顯著增加。 導體 溫度升高導電性下降，因為電子-離子碰撞增加。 電子與電洞行為 絕緣體：幾乎沒有自由電子或電洞，導電性極差。 半導體：自由電子和電洞共同參與導電，摻雜可增加其數量。 導體：大量自由電子主導導電，電洞作用不明顯。 E-K 圖（能量-波矢圖） 在固態物理中，E-K 圖（能量-波矢圖）展示了電子的能量 $E$ 與波矢 $k$ 之間的關係。E-K 圖的形狀和曲率與材料的電子性質密切相關，特別是能帶結構中的圖形開口（即傳導帶和價帶之間的間距）對於材料的導電性、能隙類型等具有重要意義。\nE-K 圖的基本解釋 在 E-K 圖中，縱軸表示電子的能量 $E$，橫軸表示波矢 $k$，它與電子的動量 $p$ 成正比： $$ p = \\hbar k $$ E-K 圖的形狀展示了價帶頂部和傳導帶底部的能量分佈情況。\nE-K 圖中的開口（能隙）的涵義 能隙（Energy Gap, $E_g$）：E-K 圖中的開口即為材料的能隙，是價帶最高能量與傳導帶最低能量之間的能量差距。這個能隙決定了電子從價帶躍遷到傳導帶所需的最小能量，能隙大小是區分導體、半導體和絕緣體的重要因素。\n半導體：在半導體中，能隙通常較小（例如，矽的能隙約為 1.12 eV，砷化鎵的能隙約為 1.42 eV）。這意味著，在室溫下，部分價帶中的電子可以獲得足夠能量躍遷到傳導帶，從而形成自由電子並參與導電。\n絕緣體：在絕緣體中，能隙非常大（通常大於 3 eV），電子很難跨越這個能隙進入傳導帶，因此這些材料在常溫下幾乎不導電。\n導體：在金屬中，價帶和傳導帶重疊，沒有明顯的能隙，因此電子可以自由移動，這就是導體具有良好導電性的原因。\nE-K 圖中能隙的類型 直接能隙（Direct Band Gap）： 在直接帶隙半導體（如砷化鎵 GaAs）中，E-K 圖的傳導帶最低點與價帶最高點在相同的波矢 $k$ 值處（通常在 $k=0$ 處）。這意味著電子從價帶躍遷到傳導帶時，不需要改變波矢（即動量），這使得電子能夠直接發射或吸收光子，因此直接帶隙材料適合用於光電應用，如發光二極體（LED）和激光二極體。\n圖形表示：E-K 圖中，傳導帶底部和價帶頂部對應於相同的 $k$ 值，能量差就是直接能隙。\n間接能隙（Indirect Band Gap）： 在間接帶隙半導體（如矽 Si）中，E-K 圖的傳導帶最低點與價帶最高點處於不同的波矢 $k$ 值處。這意味著電子從價帶躍遷到傳導帶時，除了能量外，還需要通過聲子來補償動量的差異。這種躍遷過程需要同時改變電子的能量和動量，因此效率較低，特別是在光電應用中（如太陽能電池和 LED 中），間接帶隙材料的光電轉換效率不如直接帶隙材料高。\n圖形表示：在 E-K 圖中，間接能隙的傳導帶最低點和價帶最高點處於不同的 $k$ 值，形成非垂直的“開口”。\nE-K 圖的曲率與等效質量 E-K 圖的曲線曲率與材料中的等效質量有直接關聯。曲線的曲率決定了電子的運動特性，尤其是電子和電洞的等效質量。\n曲率較大：如果 E-K 圖的曲線曲率較大，表示等效質量較小，電子或電洞在晶格中運動更加靈活，具有較高的移動性。\n曲率較小：如果 E-K 圖的曲線曲率較小，表示等效質量較大，電子或電洞的運動受到較大慣性影響，移動性較差。\n等效質量：電子或電洞在半導體晶體中運動時受到原子晶格的影響，表現出的慣性質量與自由空間中的質量不同。我們使用等效質量 $m^*$ 來描述這個現象。\nE-K 圖的應用與意義 電子移動性與導電性：E-K 圖中的曲率直接影響電子或電洞的等效質量。材料中電子的移動性越大，其導電性越好。例如，砷化鎵（GaAs）具有較大的 E-K 圖曲率，因此其電子移動性較高，適合用於高速電子元件。\n光電應用：具有直接帶隙的材料（如砷化鎵 GaAs）在 LED、激光器和光電探測器等光電器件中具有重要應用。這是因為電子在直接帶隙半導體中躍遷時可以有效地發射或吸收光子，而不需要借助聲子來改變動量。間接帶隙材料（如矽）則更適合用於太陽能電池。\n器件設計：E-K 圖提供了設計半導體器件（如 FET、MOSFET 和光電二極體）所需的關鍵信息。工程師可以根據 E-K 圖來選擇適合應用的材料，確保其能隙、等效質量和導電性符合特定需求。例如，在高速電子元件中，選擇具有小等效質量和大移動性的材料至關重要。\nE-K 圖的開口反映了價帶和傳導帶之間的能隙。能隙的大小和類型（直接或間接）決定了材料的光電性質、導電性以及應用場合。E-K 圖的曲率還決定了電子或電洞的等效質量，這進而影響材料的導電性和移動性。曲率越大，等效質量越小，材料的電子移動性和導電性越強。 等效質量（Effective Mass） 在半導體物理學中，電子或電洞的運動受晶格結構的影響，因此它們的行為與自由空間中的粒子不同。等效質量（Effective Mass）是用來描述電子或電洞在晶格中運動時的慣性質量，這是量化電子與晶格交互作用後的有效質量。E-K 圖則展示了電子的能量與波矢之間的關係，這些概念對理解半導體中的電荷載體行為和器件應用至關重要。\n等效質量的定義與概念 等效質量：電子或電洞在半導體晶體中運動時受到原子晶格的影響，表現出的慣性質量與自由空間中的質量不同。我們使用等效質量 $m^*$ 來描述這個現象。\n在半導體材料中，電子受到晶格電場的影響，使得它在受到外力作用時顯示出與自由電子不同的運動特性。因此，等效質量反映了電子在材料中的有效慣性。 體物理學中，能量 $E$ 和波矢 $k$ 的關係可以從薛定諤方程或布洛赫定理中推導出來。這個關係的曲線就是 E-K 圖的曲線形式。\n等效質量的定義 電子或電洞的等效質量 $m^*$ 是由 E-K 圖中能量曲線的曲率決定的。這個關係由下式表示：\n$$ m^* = \\hbar^2 \\left( \\frac{d^2 E}{dk^2} \\right)^{-1} $$\n其中：\n$m^*$ 是電子的等效質量。 $\\hbar$ 是簡化普朗克常數。 $\\frac{d^2 E}{dk^2}$ 是能量 $E$ 對波矢 $k$ 的二階導數，即能量曲線的曲率。 曲率對等效質量的影響 曲率較大時： 如果 E-K 圖的曲線曲率較大，表示二階導數 $\\frac{d^2 E}{dk^2}$ 值較大。 根據等效質量的公式 $m^* = \\hbar^2 \\left( \\frac{d^2 E}{dk^2} \\right)^{-1}$，當 $\\frac{d^2 E}{dk^2}$ 較大時，等效質量 $m^*$ 較小。 這意味著電子的運動更加靈活，容易加速，導電性較好。 曲率較小時： 如果 E-K 圖的曲線曲率較小，表示二階導數 $\\frac{d^2 E}{dk^2}$ 值較小。 當 $\\frac{d^2 E}{dk^2}$ 較小時，根據公式，等效質量 $m^*$ 較大。 這意味著電子的運動受到較大的慣性影響，不容易加速，導電性較差。 等效質量的實際應用 在許多半導體材料中，例如矽（Si）、砷化鎵（GaAs）等，電子和電洞的等效質量不同，這是由它們的 E-K 圖曲率決定的。 對於砷化鎵（GaAs），電子的 E-K 圖曲率較大，因此其等效質量較小（約 $0.067m_0$，其中 $m_0$ 是電子的自由質量），這使得砷化鎵適合用於高速器件。 相比之下，矽（Si）的電子等效質量較大，約 $0.26m_0$，因此它的電子運動性不如砷化鎵高。 總結數學式： $$ m^* = \\hbar^2 \\left( \\frac{d^2 E}{dk^2} \\right)^{-1} $$\n曲率 $\\frac{d^2 E}{dk^2}$ 越大，等效質量 $m^*$ 越小，電子運動更靈活，導電性能更好。 曲率 $\\frac{d^2 E}{dk^2}$ 越小，等效質量 $m^*$ 越大，電子運動不靈活，導電性能較差。 這個數學關係揭示了 E-K 圖曲率對材料導電性的重要影響。\n費米-狄拉克分布（Fermi-Dirac distribution） 費米-狄拉克分布是量子統計學中用來描述費米子（如電子）在不同能量狀態下的佔據概率的分佈。它主要應用於描述在有限溫度下的半導體和金屬中的電子行為。費米子是具有半整數自旋的粒子，遵循包立不相容原理，即每個量子態最多只能有一個電子佔據。\n費米-狄拉克分布公式 費米-狄拉克分布描述在溫度 $T$ 下，能量為 $E$ 的能態被電子佔據的概率 $f_F(E)$： $$ f_F(E) = \\frac{1}{1 + \\exp\\left(\\frac{E - E_F}{kT}\\right)} $$\n其中：\n$E$ 是能量， $E_F$ 是費米能量，即在 $T=0$ K 時，電子填充的最高能量水準， $k$ 是波茲曼常數， $T$ 是絕對溫度。 物理意義 在 $T=0$ K 時： 當溫度為絕對零度時，所有電子佔據的能量狀態低於費米能量 $E_F$，即： $$ f_F(E) = 1 \\quad \\text{當} \\quad E \u003c E_F $$ 且 $$ f_F(E) = 0 \\quad \\text{當} \\quad E \u003e E_F $$ 這意味著在絕對零度，所有能量低於 $E_F$ 的能態都被填滿，而高於 $E_F$ 的能態是空的。\n在 $T \u003e 0$ K 時： 當溫度增加，費米-狄拉克分布會變得更平滑，表明部分電子可以從低能態被激發到高能態。靠近 $E_F$ 附近的能態會出現部分填充或空置的情況，隨著溫度上升，這種現象變得更加明顯。\n$f_F(E)$ 表示能量 $E$ 的量子態被電子佔據的機率，機率範圍在 0 到 1 之間。\n應用 費米-狄拉克分布廣泛應用於半導體中，來描述電子和電洞在不同能態下的分佈。它對於分析半導體器件（如二極體、晶體管）的載流子濃度、電流-電壓特性以及溫度對材料性質的影響具有關鍵作用。 室溫下半導體材料中電子的典型熱能大小 室溫條件下的熱能($T = 300K$ 與 $kT = 0.0259 \\ eV$) 溫度 $T$ 是與粒子的熱運動相關的重要參數。電子的熱能與溫度相關聯，並通過波茲曼常數 $k$ 和溫度 $T$ 相乘來計算，這就是 $kT$ 的物理意義。\n在室溫 $T=300 \\ K$ 下，波茲曼常數 $k$ 為 $1.38 \\times 10^{-23} \\ J/K$。為了將能量轉換為電子伏特（eV），我們可以進行以下計算：\n$$ kT = \\frac{(1.38 \\times 10^{-23} \\ J/K) \\times (300 \\ K)}{1.6 \\times 10^{-19} \\ J/eV} = 0.0259 \\ eV $$\n在半導體物理中，$T = 300K$ 與 $kT = 0.0259 \\ eV$ 被視為常識，這兩個數值代表了室溫（約 27°C）下半導體材料中電子的典型熱能大小。\n熱能和費米-狄拉克分布的關係 $kT$ 代表了電子在特定溫度下的平均熱能。在半導體中，載流子的分佈服從費米-狄拉克分布，這個分佈由 $kT$ 控制。費米-狄拉克分布告訴我們在某一能量 $E$ 下的能階被填充的機率： $$ f_F(E) = \\frac{1}{1 + \\exp\\left(\\frac{E - E_F}{kT}\\right)} $$\n當溫度升高，費米-狄拉克分布會變得更加平滑，這意味著更多的電子可以跨越能隙，從價帶躍遷到傳導帶。300K 對應的 $kT \\approx 0.0259 \\ eV$ 是常見的室溫下的能量尺度，這對分析半導體器件的性能至關重要。\n與半導體能隙的比較 半導體材料如矽的能隙（約 1.12 eV）遠大於室溫下的 $kT \\approx 0.0259 \\ eV$，但這個能量足夠激發部分電子躍遷到傳導帶，並影響載流子的數量和導電性。\n對於半導體來說，這樣的能量量級解釋了為何半導體能在室溫下具有有限的載流子濃度，且其導電性可以通過改變溫度或摻雜來調控。\n300K 作為標準參數 半導體的性能和行為通常在室溫300K下進行分析，因為這是最常見的工作溫度。由於半導體的電子、電洞行為強烈依賴於熱激發，因此在室溫條件下，分析 $kT = 0.0259 \\ eV$ 能夠提供有效的預測和設計指導。\n$T = 300K$ 和 $kT = 0.0259 \\ eV$ ，代表了室溫下電子的典型熱能，並直接影響半導體材料中的載流子濃度、能階填充和導電性能。這個數值用於預測和設計半導體器件的行為，是半導體物理中的重要基礎。\n3kT 原則 在半導體物理中，3kT 原則是一種用來簡化費米-狄拉克分布的近似方法。當能量 $E$ 與費米能量 $E_F$ 的差值超過 $3kT$ 時，可以使用簡化的波茲曼分布來近似費米-狄拉克分布。\n3kT 原則的基本概念 當 $E - E_F \u003e 3kT$ 時，費米-狄拉克分布可以被簡化為波茲曼分布\n費米-狄拉克分布： $$ f_F(E) = \\frac{1}{1 + \\exp\\left(\\frac{E - E_F}{kT}\\right)} $$\n當 $E - E_F \u003e 3kT$ 時，可以近似為波茲曼分布： $$ f_B(E) = \\exp\\left(-\\frac{E - E_F}{kT}\\right) $$\n在這種情況下，近似誤差小於 5%，因此這種簡化通常是可接受的。 實際上，能量差值愈大，誤差愈小。 此近似是為了後續方便做積分運算 物理意義 費米-狄拉克分布用於描述在特定溫度下，某個能量 $E$ 的電子態被佔據的機率。在高於費米能量 $E_F$ 很多的情況下（即 $E - E_F \u003e 3kT$），高能態的佔據機率非常小，因此費米-狄拉克分布可以用波茲曼分布進行近似。這意味著在高能量區域（如傳導帶內的電子），佔據機率可以根據波茲曼分布進行估算，而不需要使用複雜的費米-狄拉克分布。\n3kT 原則在半導體中的應用 載子(charge carrier)濃度的計算： 在半導體中，導電是由價帶中的電洞和傳導帶中的電子實現的。傳導帶中的電子數量依賴於費米-狄拉克分布來計算。在 $E \u003e E_F + 3kT$ 的區域，波茲曼近似可以用來計算傳導帶中電子的數量： $$ n_c = N_c \\exp\\left(-\\frac{E_c - E_F}{kT}\\right) $$ 其中，$N_c$ 是傳導帶的有效態密度，$E_c$ 是傳導帶的底部能量。這種簡化加快了對電子濃度的估算。\n高溫條件下的近似： 在高溫環境下，半導體中很多電子被激發到傳導帶，導致 $E - E_F$ 大於 $3kT$。這時，可以使用波茲曼分布來估算電子的行為，這對於計算高溫下半導體的導電性或載流子濃度是非常實用的。\n簡化積分運算： 在進行與能量相關的積分計算時，若能量 $E$ 遠大於費米能量 $E_F$，使用波茲曼分布可以簡化積分運算，這在計算載子分佈和熱擴散過程中非常有效。\n3kT 原則提供了一種在高於費米能量很多的區域簡化費米-狄拉克分布的方法，利用波茲曼分布進行近似計算。這在處理半導體中的高能態電子行為時，能夠有效地簡化計算，特別是對載流子濃度的估算和高溫條件下的應用。\n","wordCount":"600","inLanguage":"en","datePublished":"2024-09-28T00:36:24+08:00","dateModified":"2024-09-28T00:36:24+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://eujenz.github.io/posts/spd-introduction-to-quantum-theory-of-solids/"},"publisher":{"@type":"Organization","name":"LEE CHIEN-WEI","logo":{"@type":"ImageObject","url":"https://eujenz.github.io/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><script>MathJax={tex:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:["script","noscript","style","textarea","pre"]}},window.addEventListener("load",e=>{document.querySelectorAll("mjx-container").forEach(function(e){e.parentElement.classList+="has-jax"})})</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script><header class=header><nav class=nav><div class=logo><a href=https://eujenz.github.io/ accesskey=h title="LEE CHIEN-WEI (Alt + H)">LEE CHIEN-WEI</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://eujenz.github.io/categories/ title=Categories><span>Categories</span></a></li><li><a href=https://eujenz.github.io/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://eujenz.github.io/about/ title=About><span>About</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://eujenz.github.io/>Home</a>&nbsp;»&nbsp;<a href=https://eujenz.github.io/posts/>Posts</a></div><h1 class="post-title entry-hint-parent">Introduction to Quantum Theory of Solids</h1><div class=post-meta><span title='2024-09-28 00:36:24 +0800 CST'>September 28, 2024</span></div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"></summary><div class=inner><nav id=TableOfContents><ul><li><a href=#能帶價帶與傳導帶>能帶、價帶與傳導帶</a><ul><li><a href=#能帶energy-bands>能帶（Energy Bands）</a></li><li><a href=#價帶valence-band>價帶（Valence Band）</a></li><li><a href=#傳導帶conduction-band>傳導帶（Conduction Band）</a></li><li><a href=#能隙band-gap>能隙（Band Gap）</a></li></ul></li><li><a href=#具體量化絕緣體半導體導體的差異>具體量化絕緣體、半導體、導體的差異</a><ul><li><a href=#能隙band-gap的量化>能隙（Band Gap）的量化</a></li><li><a href=#自由電子密度與電導性>自由電子密度與電導性</a></li><li><a href=#溫度對導電性的影響>溫度對導電性的影響</a></li><li><a href=#電子與電洞行為>電子與電洞行為</a></li></ul></li><li><a href=#e-k-圖能量-波矢圖>E-K 圖（能量-波矢圖）</a><ul><li><a href=#e-k-圖的基本解釋>E-K 圖的基本解釋</a></li><li><a href=#e-k-圖中的開口能隙的涵義>E-K 圖中的開口（能隙）的涵義</a></li><li><a href=#e-k-圖中能隙的類型>E-K 圖中能隙的類型</a></li><li><a href=#e-k-圖的曲率與等效質量>E-K 圖的曲率與等效質量</a></li><li><a href=#e-k-圖的應用與意義>E-K 圖的應用與意義</a></li></ul></li><li><a href=#等效質量effective-mass>等效質量（Effective Mass）</a><ul><li><a href=#等效質量的定義與概念>等效質量的定義與概念</a></li><li><a href=#等效質量的定義>等效質量的定義</a></li><li><a href=#曲率對等效質量的影響>曲率對等效質量的影響</a></li><li><a href=#等效質量的實際應用>等效質量的實際應用</a></li><li><a href=#總結數學式>總結數學式：</a></li></ul></li><li><a href=#費米-狄拉克分布fermi-dirac-distribution>費米-狄拉克分布（Fermi-Dirac distribution）</a><ul><li><a href=#費米-狄拉克分布公式>費米-狄拉克分布公式</a></li><li><a href=#物理意義>物理意義</a></li><li><a href=#應用>應用</a></li></ul></li><li><a href=#室溫下半導體材料中電子的典型熱能大小>室溫下半導體材料中電子的典型熱能大小</a><ul><li><a href=#室溫條件下的熱能t--300k-與-kt--00259--ev>室溫條件下的熱能($T = 300K$ 與 $kT = 0.0259 \ eV$)</a></li><li><a href=#熱能和費米-狄拉克分布的關係>熱能和費米-狄拉克分布的關係</a></li><li><a href=#與半導體能隙的比較>與半導體能隙的比較</a></li><li><a href=#300k-作為標準參數>300K 作為標準參數</a></li></ul></li><li><a href=#3kt-原則>3kT 原則</a><ul><li></li></ul></li></ul></nav></div></details></div><div class=post-content><h1 id=能帶理論與材料導電性>能帶理論與材料導電性<a hidden class=anchor aria-hidden=true href=#能帶理論與材料導電性>#</a></h1><h2 id=能帶價帶與傳導帶>能帶、價帶與傳導帶<a hidden class=anchor aria-hidden=true href=#能帶價帶與傳導帶>#</a></h2><h3 id=能帶energy-bands>能帶（Energy Bands）<a hidden class=anchor aria-hidden=true href=#能帶energy-bands>#</a></h3><p>在固體材料中，原子的電子能級由於原子間的相互作用而發生分裂，形成一系列非常接近的能級，這些密集排列的能級形成了<strong>能帶</strong>。能帶的結構決定了材料中電子的行為及其導電性。</p><h3 id=價帶valence-band>價帶（Valence Band）<a hidden class=anchor aria-hidden=true href=#價帶valence-band>#</a></h3><p>價帶是由原子中參與化學鍵結的電子所填充的最高能帶。這些電子能量較低，主要負責材料的穩定性和化學性質。在金屬中，價帶中的電子可能部分填滿，為材料提供自由移動的電子。</p><h3 id=傳導帶conduction-band>傳導帶（Conduction Band）<a hidden class=anchor aria-hidden=true href=#傳導帶conduction-band>#</a></h3><p>傳導帶位於價帶之上，是電子可以自由運動的能帶。當電子獲得足夠的能量從價帶躍遷到傳導帶後，它們成為自由電子，能在材料中移動，參與導電。</p><h3 id=能隙band-gap>能隙（Band Gap）<a hidden class=anchor aria-hidden=true href=#能隙band-gap>#</a></h3><p>價帶頂端與傳導帶底端之間的能量差稱為<strong>能隙</strong>。能隙的大小是區分材料導電性質的關鍵指標：</p><ul><li><strong>導體</strong>：能隙為零或價帶與傳導帶重疊。</li><li><strong>半導體</strong>：能隙較小（約0.5至3 eV）。</li><li><strong>絕緣體</strong>：能隙較大（通常大於3 eV）。</li></ul><h2 id=具體量化絕緣體半導體導體的差異>具體量化絕緣體、半導體、導體的差異<a hidden class=anchor aria-hidden=true href=#具體量化絕緣體半導體導體的差異>#</a></h2><h3 id=能隙band-gap的量化>能隙（Band Gap）的量化<a hidden class=anchor aria-hidden=true href=#能隙band-gap的量化>#</a></h3><table><thead><tr><th style=text-align:left>材料類型</th><th style=text-align:left>能隙範圍 (Eg)</th><th style=text-align:left>特點</th></tr></thead><tbody><tr><td style=text-align:left>絕緣體</td><td style=text-align:left>Eg > 3 eV</td><td style=text-align:left>能隙較大，價帶與傳導帶間無法輕易躍遷，導電性極低。</td></tr><tr><td style=text-align:left>半導體</td><td style=text-align:left>0.5 eV &lt; Eg &lt; 3 eV</td><td style=text-align:left>能隙中等，受溫度或摻雜影響，部分電子可躍遷至傳導帶，導電性可調控。</td></tr><tr><td style=text-align:left>導體</td><td style=text-align:left>Eg = 0 eV 或重疊</td><td style=text-align:left>價帶與傳導帶重疊，存在大量自由電子，導電性高。</td></tr></tbody></table><h3 id=自由電子密度與電導性>自由電子密度與電導性<a hidden class=anchor aria-hidden=true href=#自由電子密度與電導性>#</a></h3><table><thead><tr><th style=text-align:left>材料類型</th><th style=text-align:left>自由電子密度 (n)</th><th style=text-align:left>電導率 (σ)</th></tr></thead><tbody><tr><td style=text-align:left>絕緣體</td><td style=text-align:left>非常低 (~10¹⁰ cm⁻³ 以下)</td><td style=text-align:left>非常低，幾乎不導電。</td></tr><tr><td style=text-align:left>半導體</td><td style=text-align:left>中等 (~10¹⁶ ~ 10¹⁹ cm⁻³)</td><td style=text-align:left>中等且可控，通過摻雜或溫度調節。</td></tr><tr><td style=text-align:left>導體</td><td style=text-align:left>非常高 (~10²² cm⁻³)</td><td style=text-align:left>高，導電性強。</td></tr></tbody></table><h3 id=溫度對導電性的影響>溫度對導電性的影響<a hidden class=anchor aria-hidden=true href=#溫度對導電性的影響>#</a></h3><table><thead><tr><th style=text-align:left>材料類型</th><th style=text-align:left>溫度效應</th></tr></thead><tbody><tr><td style=text-align:left>絕緣體</td><td style=text-align:left>溫度變化對導電性影響小。</td></tr><tr><td style=text-align:left>半導體</td><td style=text-align:left>溫度升高導電性顯著增加。</td></tr><tr><td style=text-align:left>導體</td><td style=text-align:left>溫度升高導電性下降，因為電子-離子碰撞增加。</td></tr></tbody></table><h3 id=電子與電洞行為>電子與電洞行為<a hidden class=anchor aria-hidden=true href=#電子與電洞行為>#</a></h3><ul><li><strong>絕緣體</strong>：幾乎沒有自由電子或電洞，導電性極差。</li><li><strong>半導體</strong>：自由電子和電洞共同參與導電，摻雜可增加其數量。</li><li><strong>導體</strong>：大量自由電子主導導電，電洞作用不明顯。</li></ul><h2 id=e-k-圖能量-波矢圖>E-K 圖（能量-波矢圖）<a hidden class=anchor aria-hidden=true href=#e-k-圖能量-波矢圖>#</a></h2><p>在固態物理中，E-K 圖（能量-波矢圖）展示了電子的能量 $E$ 與波矢 $k$ 之間的關係。E-K 圖的形狀和曲率與材料的電子性質密切相關，特別是能帶結構中的圖形開口（即傳導帶和價帶之間的間距）對於材料的導電性、能隙類型等具有重要意義。</p><h3 id=e-k-圖的基本解釋>E-K 圖的基本解釋<a hidden class=anchor aria-hidden=true href=#e-k-圖的基本解釋>#</a></h3><p>在 E-K 圖中，縱軸表示電子的能量 $E$，橫軸表示波矢 $k$，它與電子的動量 $p$ 成正比：
+$$
+p = \hbar k
+$$
+E-K 圖的形狀展示了價帶頂部和傳導帶底部的能量分佈情況。</p><h3 id=e-k-圖中的開口能隙的涵義>E-K 圖中的開口（能隙）的涵義<a hidden class=anchor aria-hidden=true href=#e-k-圖中的開口能隙的涵義>#</a></h3><p><strong>能隙（Energy Gap, $E_g$）</strong>：E-K 圖中的開口即為材料的能隙，是價帶最高能量與傳導帶最低能量之間的能量差距。這個能隙決定了電子從價帶躍遷到傳導帶所需的最小能量，能隙大小是區分導體、半導體和絕緣體的重要因素。</p><ul><li><p><strong>半導體</strong>：在半導體中，能隙通常較小（例如，矽的能隙約為 1.12 eV，砷化鎵的能隙約為 1.42 eV）。這意味著，在室溫下，部分價帶中的電子可以獲得足夠能量躍遷到傳導帶，從而形成自由電子並參與導電。</p></li><li><p><strong>絕緣體</strong>：在絕緣體中，能隙非常大（通常大於 3 eV），電子很難跨越這個能隙進入傳導帶，因此這些材料在常溫下幾乎不導電。</p></li><li><p><strong>導體</strong>：在金屬中，價帶和傳導帶重疊，沒有明顯的能隙，因此電子可以自由移動，這就是導體具有良好導電性的原因。</p></li></ul><h3 id=e-k-圖中能隙的類型>E-K 圖中能隙的類型<a hidden class=anchor aria-hidden=true href=#e-k-圖中能隙的類型>#</a></h3><ul><li><p><strong>直接能隙（Direct Band Gap）</strong>：
+在直接帶隙半導體（如砷化鎵 GaAs）中，E-K 圖的傳導帶最低點與價帶最高點在相同的波矢 $k$ 值處（通常在 $k=0$ 處）。這意味著電子從價帶躍遷到傳導帶時，不需要改變波矢（即動量），這使得電子能夠直接發射或吸收光子，因此直接帶隙材料適合用於光電應用，如發光二極體（LED）和激光二極體。</p><p><strong>圖形表示</strong>：E-K 圖中，傳導帶底部和價帶頂部對應於相同的 $k$ 值，能量差就是直接能隙。</p></li><li><p><strong>間接能隙（Indirect Band Gap）</strong>：
+在間接帶隙半導體（如矽 Si）中，E-K 圖的傳導帶最低點與價帶最高點處於不同的波矢 $k$ 值處。這意味著電子從價帶躍遷到傳導帶時，除了能量外，還需要通過聲子來補償動量的差異。這種躍遷過程需要同時改變電子的能量和動量，因此效率較低，特別是在光電應用中（如太陽能電池和 LED 中），間接帶隙材料的光電轉換效率不如直接帶隙材料高。</p><p><strong>圖形表示</strong>：在 E-K 圖中，間接能隙的傳導帶最低點和價帶最高點處於不同的 $k$ 值，形成非垂直的“開口”。</p></li></ul><h3 id=e-k-圖的曲率與等效質量>E-K 圖的曲率與等效質量<a hidden class=anchor aria-hidden=true href=#e-k-圖的曲率與等效質量>#</a></h3><p>E-K 圖的曲線曲率與材料中的等效質量有直接關聯。曲線的曲率決定了電子的運動特性，尤其是電子和電洞的等效質量。</p><ul><li><p><strong>曲率較大</strong>：如果 E-K 圖的曲線曲率較大，表示等效質量較小，電子或電洞在晶格中運動更加靈活，具有較高的移動性。</p></li><li><p><strong>曲率較小</strong>：如果 E-K 圖的曲線曲率較小，表示等效質量較大，電子或電洞的運動受到較大慣性影響，移動性較差。</p></li></ul><blockquote><p><strong>等效質量</strong>：電子或電洞在半導體晶體中運動時受到原子晶格的影響，表現出的慣性質量與自由空間中的質量不同。我們使用等效質量 $m^*$ 來描述這個現象。</p></blockquote><h3 id=e-k-圖的應用與意義>E-K 圖的應用與意義<a hidden class=anchor aria-hidden=true href=#e-k-圖的應用與意義>#</a></h3><ul><li><p><strong>電子移動性與導電性</strong>：E-K 圖中的曲率直接影響電子或電洞的等效質量。材料中電子的移動性越大，其導電性越好。例如，砷化鎵（GaAs）具有較大的 E-K 圖曲率，因此其電子移動性較高，適合用於高速電子元件。</p></li><li><p><strong>光電應用</strong>：具有直接帶隙的材料（如砷化鎵 GaAs）在 LED、激光器和光電探測器等光電器件中具有重要應用。這是因為電子在直接帶隙半導體中躍遷時可以有效地發射或吸收光子，而不需要借助聲子來改變動量。間接帶隙材料（如矽）則更適合用於太陽能電池。</p></li><li><p><strong>器件設計</strong>：E-K 圖提供了設計半導體器件（如 FET、MOSFET 和光電二極體）所需的關鍵信息。工程師可以根據 E-K 圖來選擇適合應用的材料，確保其能隙、等效質量和導電性符合特定需求。例如，在高速電子元件中，選擇具有小等效質量和大移動性的材料至關重要。</p></li></ul><blockquote><ul><li>E-K 圖的開口反映了價帶和傳導帶之間的能隙。能隙的大小和類型（直接或間接）決定了材料的光電性質、導電性以及應用場合。E-K 圖的曲率還決定了電子或電洞的等效質量，這進而影響材料的導電性和移動性。曲率越大，等效質量越小，材料的電子移動性和導電性越強。</li></ul></blockquote><h2 id=等效質量effective-mass>等效質量（Effective Mass）<a hidden class=anchor aria-hidden=true href=#等效質量effective-mass>#</a></h2><p>在半導體物理學中，電子或電洞的運動受晶格結構的影響，因此它們的行為與自由空間中的粒子不同。<strong>等效質量</strong>（Effective Mass）是用來描述電子或電洞在晶格中運動時的慣性質量，這是量化電子與晶格交互作用後的有效質量。<strong>E-K 圖</strong>則展示了電子的能量與波矢之間的關係，這些概念對理解半導體中的電荷載體行為和器件應用至關重要。</p><h3 id=等效質量的定義與概念>等效質量的定義與概念<a hidden class=anchor aria-hidden=true href=#等效質量的定義與概念>#</a></h3><p><strong>等效質量</strong>：電子或電洞在半導體晶體中運動時受到原子晶格的影響，表現出的慣性質量與自由空間中的質量不同。我們使用等效質量 $m^*$ 來描述這個現象。</p><ul><li>在半導體材料中，電子受到晶格電場的影響，使得它在受到外力作用時顯示出與自由電子不同的運動特性。因此，等效質量反映了電子在材料中的有效慣性。</li></ul><p>體物理學中，能量 $E$ 和波矢 $k$ 的關係可以從薛定諤方程或布洛赫定理中推導出來。這個關係的曲線就是 E-K 圖的曲線形式。</p><h3 id=等效質量的定義>等效質量的定義<a hidden class=anchor aria-hidden=true href=#等效質量的定義>#</a></h3><p>電子或電洞的等效質量 $m^*$ 是由 E-K 圖中能量曲線的曲率決定的。這個關係由下式表示：</p><p>$$
+m^* = \hbar^2 \left( \frac{d^2 E}{dk^2} \right)^{-1}
+$$</p><p>其中：</p><ul><li>$m^*$ 是電子的等效質量。</li><li>$\hbar$ 是簡化普朗克常數。</li><li>$\frac{d^2 E}{dk^2}$ 是能量 $E$ 對波矢 $k$ 的二階導數，即能量曲線的曲率。</li></ul><h3 id=曲率對等效質量的影響>曲率對等效質量的影響<a hidden class=anchor aria-hidden=true href=#曲率對等效質量的影響>#</a></h3><h4 id=曲率較大時>曲率較大時：<a hidden class=anchor aria-hidden=true href=#曲率較大時>#</a></h4><ul><li>如果 E-K 圖的曲線曲率較大，表示二階導數 $\frac{d^2 E}{dk^2}$ 值較大。</li><li>根據等效質量的公式 $m^* = \hbar^2 \left( \frac{d^2 E}{dk^2} \right)^{-1}$，當 $\frac{d^2 E}{dk^2}$ 較大時，等效質量 $m^*$ 較小。</li><li>這意味著電子的運動更加靈活，容易加速，導電性較好。</li></ul><h4 id=曲率較小時>曲率較小時：<a hidden class=anchor aria-hidden=true href=#曲率較小時>#</a></h4><ul><li>如果 E-K 圖的曲線曲率較小，表示二階導數 $\frac{d^2 E}{dk^2}$ 值較小。</li><li>當 $\frac{d^2 E}{dk^2}$ 較小時，根據公式，等效質量 $m^*$ 較大。</li><li>這意味著電子的運動受到較大的慣性影響，不容易加速，導電性較差。</li></ul><h3 id=等效質量的實際應用>等效質量的實際應用<a hidden class=anchor aria-hidden=true href=#等效質量的實際應用>#</a></h3><ul><li>在許多半導體材料中，例如矽（Si）、砷化鎵（GaAs）等，電子和電洞的等效質量不同，這是由它們的 E-K 圖曲率決定的。</li><li>對於砷化鎵（GaAs），電子的 E-K 圖曲率較大，因此其等效質量較小（約 $0.067m_0$，其中 $m_0$ 是電子的自由質量），這使得砷化鎵適合用於高速器件。</li><li>相比之下，矽（Si）的電子等效質量較大，約 $0.26m_0$，因此它的電子運動性不如砷化鎵高。</li></ul><h3 id=總結數學式>總結數學式：<a hidden class=anchor aria-hidden=true href=#總結數學式>#</a></h3><p>$$
+m^* = \hbar^2 \left( \frac{d^2 E}{dk^2} \right)^{-1}
+$$</p><ul><li>曲率 $\frac{d^2 E}{dk^2}$ 越大，等效質量 $m^*$ 越小，電子運動更靈活，導電性能更好。</li><li>曲率 $\frac{d^2 E}{dk^2}$ 越小，等效質量 $m^*$ 越大，電子運動不靈活，導電性能較差。</li></ul><blockquote><p>這個數學關係揭示了 E-K 圖曲率對材料導電性的重要影響。</p></blockquote><h2 id=費米-狄拉克分布fermi-dirac-distribution>費米-狄拉克分布（Fermi-Dirac distribution）<a hidden class=anchor aria-hidden=true href=#費米-狄拉克分布fermi-dirac-distribution>#</a></h2><p>費米-狄拉克分布是量子統計學中用來描述費米子（如電子）在不同能量狀態下的佔據概率的分佈。它主要應用於描述在有限溫度下的半導體和金屬中的電子行為。費米子是具有半整數自旋的粒子，遵循包立不相容原理，即每個量子態最多只能有一個電子佔據。</p><h3 id=費米-狄拉克分布公式>費米-狄拉克分布公式<a hidden class=anchor aria-hidden=true href=#費米-狄拉克分布公式>#</a></h3><p>費米-狄拉克分布描述在溫度 $T$ 下，能量為 $E$ 的能態被電子佔據的概率 $f_F(E)$：
+$$
+f_F(E) = \frac{1}{1 + \exp\left(\frac{E - E_F}{kT}\right)}
+$$</p><p>其中：</p><ul><li>$E$ 是能量，</li><li>$E_F$ 是費米能量，即在 $T=0$ K 時，電子填充的最高能量水準，</li><li>$k$ 是波茲曼常數，</li><li>$T$ 是絕對溫度。</li></ul><h3 id=物理意義>物理意義<a hidden class=anchor aria-hidden=true href=#物理意義>#</a></h3><ul><li><p><strong>在 $T=0$ K 時</strong>：
+當溫度為絕對零度時，所有電子佔據的能量狀態低於費米能量 $E_F$，即：
+$$
+f_F(E) = 1 \quad \text{當} \quad E &lt; E_F
+$$
+且
+$$
+f_F(E) = 0 \quad \text{當} \quad E > E_F
+$$
+這意味著在絕對零度，所有能量低於 $E_F$ 的能態都被填滿，而高於 $E_F$ 的能態是空的。</p></li><li><p><strong>在 $T > 0$ K 時</strong>：
+當溫度增加，費米-狄拉克分布會變得更平滑，表明部分電子可以從低能態被激發到高能態。靠近 $E_F$ 附近的能態會出現部分填充或空置的情況，隨著溫度上升，這種現象變得更加明顯。</p><p>$f_F(E)$ 表示能量 $E$ 的量子態被電子佔據的機率，機率範圍在 0 到 1 之間。</p></li></ul><h3 id=應用>應用<a hidden class=anchor aria-hidden=true href=#應用>#</a></h3><ul><li>費米-狄拉克分布廣泛應用於半導體中，來描述電子和電洞在不同能態下的分佈。它對於分析半導體器件（如二極體、晶體管）的載流子濃度、電流-電壓特性以及溫度對材料性質的影響具有關鍵作用。</li></ul><h2 id=室溫下半導體材料中電子的典型熱能大小>室溫下半導體材料中電子的典型熱能大小<a hidden class=anchor aria-hidden=true href=#室溫下半導體材料中電子的典型熱能大小>#</a></h2><h3 id=室溫條件下的熱能t--300k-與-kt--00259--ev>室溫條件下的熱能($T = 300K$ 與 $kT = 0.0259 \ eV$)<a hidden class=anchor aria-hidden=true href=#室溫條件下的熱能t--300k-與-kt--00259--ev>#</a></h3><p>溫度 $T$ 是與粒子的熱運動相關的重要參數。電子的熱能與溫度相關聯，並通過波茲曼常數 $k$ 和溫度 $T$ 相乘來計算，這就是 $kT$ 的物理意義。</p><p>在室溫 $T=300 \ K$ 下，波茲曼常數 $k$ 為 $1.38 \times 10^{-23} \ J/K$。為了將能量轉換為電子伏特（eV），我們可以進行以下計算：</p><p>$$
+kT = \frac{(1.38 \times 10^{-23} \ J/K) \times (300 \ K)}{1.6 \times 10^{-19} \ J/eV} = 0.0259 \ eV
+$$</p><p>在半導體物理中，$T = 300K$ 與 $kT = 0.0259 \ eV$ 被視為常識，這兩個數值代表了室溫（約 27°C）下半導體材料中電子的典型熱能大小。</p><h3 id=熱能和費米-狄拉克分布的關係>熱能和費米-狄拉克分布的關係<a hidden class=anchor aria-hidden=true href=#熱能和費米-狄拉克分布的關係>#</a></h3><p>$kT$ 代表了電子在特定溫度下的平均熱能。在半導體中，載流子的分佈服從費米-狄拉克分布，這個分佈由 $kT$ 控制。費米-狄拉克分布告訴我們在某一能量 $E$ 下的能階被填充的機率：
+$$
+f_F(E) = \frac{1}{1 + \exp\left(\frac{E - E_F}{kT}\right)}
+$$</p><p>當溫度升高，費米-狄拉克分布會變得更加平滑，這意味著更多的電子可以跨越能隙，從價帶躍遷到傳導帶。300K 對應的 $kT \approx 0.0259 \ eV$ 是常見的室溫下的能量尺度，這對分析半導體器件的性能至關重要。</p><h3 id=與半導體能隙的比較>與半導體能隙的比較<a hidden class=anchor aria-hidden=true href=#與半導體能隙的比較>#</a></h3><p>半導體材料如矽的能隙（約 1.12 eV）遠大於室溫下的 $kT \approx 0.0259 \ eV$，但這個能量足夠激發部分電子躍遷到傳導帶，並影響載流子的數量和導電性。</p><p>對於半導體來說，這樣的能量量級解釋了為何半導體能在室溫下具有有限的載流子濃度，且其導電性可以通過改變溫度或摻雜來調控。</p><h3 id=300k-作為標準參數>300K 作為標準參數<a hidden class=anchor aria-hidden=true href=#300k-作為標準參數>#</a></h3><p>半導體的性能和行為通常在<strong>室溫300K</strong>下進行分析，因為這是最常見的工作溫度。由於半導體的電子、電洞行為強烈依賴於熱激發，因此在室溫條件下，分析 $kT = 0.0259 \ eV$ 能夠提供有效的預測和設計指導。</p><blockquote><p>$T = 300K$ 和 $kT = 0.0259 \ eV$ ，代表了室溫下電子的典型熱能，並直接影響半導體材料中的載流子濃度、能階填充和導電性能。這個數值用於預測和設計半導體器件的行為，是半導體物理中的重要基礎。</p></blockquote><h2 id=3kt-原則>3kT 原則<a hidden class=anchor aria-hidden=true href=#3kt-原則>#</a></h2><p>在半導體物理中，3kT 原則是一種用來簡化費米-狄拉克分布的近似方法。當能量 $E$ 與費米能量 $E_F$ 的差值超過 $3kT$ 時，可以使用簡化的波茲曼分布來近似費米-狄拉克分布。</p><h4 id=3kt-原則的基本概念>3kT 原則的基本概念<a hidden class=anchor aria-hidden=true href=#3kt-原則的基本概念>#</a></h4><p>當 $E - E_F > 3kT$ 時，費米-狄拉克分布可以被簡化為波茲曼分布</p><ul><li><p><strong>費米-狄拉克分布</strong>：
+$$
+f_F(E) = \frac{1}{1 + \exp\left(\frac{E - E_F}{kT}\right)}
+$$</p></li><li><p>當 $E - E_F > 3kT$ 時，可以近似為波茲曼分布：
+$$
+f_B(E) = \exp\left(-\frac{E - E_F}{kT}\right)
+$$</p></li></ul><blockquote><ul><li>在這種情況下，近似誤差小於 5%，因此這種簡化通常是可接受的。</li><li>實際上，能量差值愈大，誤差愈小。</li><li>此近似是為了後續方便做積分運算</li></ul></blockquote><h4 id=物理意義-1>物理意義<a hidden class=anchor aria-hidden=true href=#物理意義-1>#</a></h4><p>費米-狄拉克分布用於描述在特定溫度下，某個能量 $E$ 的電子態被佔據的機率。在高於費米能量 $E_F$ 很多的情況下（即 $E - E_F > 3kT$），高能態的佔據機率非常小，因此費米-狄拉克分布可以用波茲曼分布進行近似。這意味著在高能量區域（如傳導帶內的電子），佔據機率可以根據波茲曼分布進行估算，而不需要使用複雜的費米-狄拉克分布。</p><h4 id=3kt-原則在半導體中的應用>3kT 原則在半導體中的應用<a hidden class=anchor aria-hidden=true href=#3kt-原則在半導體中的應用>#</a></h4><ul><li><p><strong>載子(charge carrier)濃度的計算</strong>：
+在半導體中，導電是由價帶中的電洞和傳導帶中的電子實現的。傳導帶中的電子數量依賴於費米-狄拉克分布來計算。在 $E > E_F + 3kT$ 的區域，波茲曼近似可以用來計算傳導帶中電子的數量：
+$$
+n_c = N_c \exp\left(-\frac{E_c - E_F}{kT}\right)
+$$
+其中，$N_c$ 是傳導帶的有效態密度，$E_c$ 是傳導帶的底部能量。這種簡化加快了對電子濃度的估算。</p></li><li><p><strong>高溫條件下的近似</strong>：
+在高溫環境下，半導體中很多電子被激發到傳導帶，導致 $E - E_F$ 大於 $3kT$。這時，可以使用波茲曼分布來估算電子的行為，這對於計算高溫下半導體的導電性或載流子濃度是非常實用的。</p></li><li><p><strong>簡化積分運算</strong>：
+在進行與能量相關的積分計算時，若能量 $E$ 遠大於費米能量 $E_F$，使用波茲曼分布可以簡化積分運算，這在計算載子分佈和熱擴散過程中非常有效。</p></li></ul><blockquote><p>3kT 原則提供了一種在高於費米能量很多的區域簡化費米-狄拉克分布的方法，利用波茲曼分布進行近似計算。這在處理半導體中的高能態電子行為時，能夠有效地簡化計算，特別是對載流子濃度的估算和高溫條件下的應用。</p></blockquote></div><footer class=post-footer><ul class=post-tags><li><a href=https://eujenz.github.io/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%89%A9%E7%90%86%E8%88%87%E5%85%83%E4%BB%B6/>半導體物理與元件</a></li></ul><nav class=paginav><a class=prev href=https://eujenz.github.io/posts/smt-photolithography/><span class=title>« Prev</span><br><span>SMT- Photolithography</span>
+</a><a class=next href=https://eujenz.github.io/posts/smt-metallization/><span class=title>Next »</span><br><span>SMT- Metallization</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2024 <a href=https://eujenz.github.io/>LEE CHIEN-WEI</a></span> ·<div>Page Views: <span id=busuanzi_page_pv></span> · Visitors: <span id=busuanzi_page_uv></span></div><div>Site Views: <span id=busuanzi_site_pv></span> · Site Visitors: <span id=busuanzi_site_uv></span></div><span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>
