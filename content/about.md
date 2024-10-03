@@ -1,58 +1,69 @@
-## Profile
+## LEE CHIEN-WEI
 
-### LEE CHIEN-WEI  | 
-
-擁有5年半的藥廠管理經驗，專注於動物用藥製造廠的品質系統管理與內外部稽核，熟悉無塵無菌製藥產線的設計及確效作業。
+**LinkedIn:** https://www.linkedin.com/in/lee-c-910526186/
 
 ---
 
-## Work Experience
+### Professional Summary
 
-### 監製藥師 | 華達化學製藥廠股份有限公司 | 2018 - 2024
-
-- **製藥品質系統管理**：
-  - 負責文件控制與員工培訓，確保人員及藥品製造流程的全程管制。
-  - 監督生產流程，提高人員對於SOP的遵循，批次製造文件錯誤率降低 30%，確保製程與成品持續符合規範。
-
-- **審核製造紀錄**：
-  - 審核每批次的原物料進料檢驗、製程品管及出貨檢驗，提升產品不良率的管控能力，違規事件減少 15%。
-
-- **內外部稽核**：
-  - 帶領 2 次動物用藥廠GMP查廠，確保藥廠符合GMP規範，連續5年無重大缺失。
-
-- **新生產線建立**：
-  - 負責無塵無菌製程純化水系統與空調系統的設計及確效，並通過動物用藥廠GMP查廠，順利取得新生產區認證。
+Licensed pharmacist with over 5 years of experience in pharmaceutical quality management, specializing in GMP compliance, production oversight, and auditing within the Taiwanese market. Proficient in leveraging Python to enhance quality control and automate processes, with a strong background in standardizing and digitalizing SOPs for improved compliance and efficiency. Experienced in managing cold-chain storage for sterile products and ensuring GDP compliance through comprehensive GMP audits, facilitating regulatory adherence in distribution. Demonstrated leadership in cross-functional projects and effective communication with local regulatory authorities.
 
 ---
 
-### 負責藥師 | 安信藥局 | 2016 - 2018
+### Work Experience
 
-- 制訂藥局標準作業流程，確保作業制度化。
-- 掌握藥品庫存與管理及ERP使用，定期撰寫新藥藥訊。
-- 規劃新進藥師以及助理訓練課程並進行培訓。
+#### Authorized Person | Huata Chemical & Pharmaceutical Co., Ltd. | 2018 - 2024
 
-### 藥師 | 羅東博愛醫院 | 2013 - 2016
+- **Managed GMP Compliance Audits**: Executed internal and external audits, achieving 0 major findings for 5 consecutive years. Coordinated with local regulatory authorities during audits to ensure full compliance with Taiwanese pharmaceutical regulations.
+- **Familiar with GDP Compliance**: Participated in GDP evaluations as part of GMP audits, ensuring adherence to distribution and warehousing regulations.
+- **Cold Chain Management**: Managed the storage of cold-chain sterile products within the facility, ensuring product integrity and compliance with regulatory standards.
+- **Standardized and Digitalized SOPs**: Led the transition to a unified electronic SOP format, enhancing document consistency and regulatory compliance.
+- **Supervised Production Processes**: Improved SOP adherence and quality control processes, reducing production errors by 30%.
+- **Handled International Customer Complaints**: Managed product deviation reports and notifications for Japanese clients, ensuring timely resolution and compliance with regulatory standards.
+- **Implemented CAPA Procedures**: Developed and managed CAPA processes to address product deviations and ensure compliance with quality standards, contributing to continuous improvement in quality management.
+- **Developed New Sterile Production Line**: Led the design and implementation of a new sterile production line, including the qualification and validation of purified water systems and clean room HVAC systems, in accordance with ISO 22519, ISO 14644, and USP standards.
+- **Digitized Team Collaboration**: Introduced Trello for cloud-based task management, transitioning from paper-based systems and reducing manual reporting by 50%.
+- **Automation & Digital Tools**: Utilized Python to automate quality control processes and streamline workflows, enhancing overall efficiency.
 
-- 執行藥品療效檢測、不良反應監控，提供臨床藥品諮詢服務。
-- 協助籌備藥局再造計劃，優化工作流程。
-- 擔任社區用藥教育課程講師，推廣病患用藥安全。
+#### Pharmacist | An-Xin Pharmacy | 2016 - 2018
+
+- Developed and implemented SOPs for pharmacy operations, ensuring regulatory compliance and improving efficiency.
+- Managed pharmacy inventory using ERP systems, reducing overstock and improving stock accuracy.
+- Trained and mentored newly recruited pharmacists and assistants, ensuring adherence to professional standards and operational procedures.
+
+#### Pharmacist | Lotung Poh-Ai Hospital | 2013 - 2016
+
+- Conducted pharmaceutical quality control, monitoring drug efficacy and adverse reactions to ensure patient safety.
+- Assisted in optimizing pharmacy workflows and implementing process improvements.
+- Led community outreach programs on medication safety, educating patients on proper drug usage.
 
 ---
 
-## Key Competencies
+### Education
 
-- 動物用藥製藥廠GMP
-- SOP撰寫及維護
-- 純化水系統確效作業 & ISO22519
-- 無塵室空調確效作業 & ISO14644
-- Trello、Notion 
+**Bachelor of Pharmacy (B.Pharm)**  
+Taipei Medical University | 2007 – 2011
 
 ---
 
-## Education & Certifications
+### Certifications & Training
 
-### 台北醫學大學 | 藥學系 | 2007–2011
-- **陽明交大雷射系統研究中心 - 半導體與 AI 應用專業人才養成班**  |  202409-202411
-- **藥品管理技術人員專門職業證書**| 2018
-- **藥師證書**| 2012
+- Licensed Pharmacist | Taiwan Pharmacist Certification | 2012
+- Pharmaceutical Management Specialist | 2018
+- Semiconductor and AI Applications Professional Training Program | National Yang Ming Chiao Tung University | 2024 (Ongoing)
 
+---
+
+### Languages
+
+- **English**: Fluent (spoken and written)
+- **Mandarin**: Native proficiency
+- **Taiwanese**: Native proficiency
+
+---
+
+### Tools & Technology
+
+- **Python**: For automation and data-driven quality management.
+- **Digital Tools**: Trello, Notion, Miro, Slack, Canva, ChatGPT, Git.
+- **Quality Management Systems**: USP, GMP, GDP, ISO standards.
