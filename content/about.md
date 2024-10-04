@@ -4,9 +4,15 @@
 
 ---
 
-### Professional Summary
+### Summary
 
-Licensed pharmacist with over 5 years of experience in pharmaceutical quality management, specializing in GMP compliance, production oversight, and auditing within the Taiwanese market. Proficient in leveraging Python to enhance quality control and automate processes, with a strong background in standardizing and digitalizing SOPs for improved compliance and efficiency. Experienced in managing cold-chain storage for sterile products and ensuring GDP compliance through comprehensive GMP audits, facilitating regulatory adherence in distribution. Demonstrated leadership in cross-functional projects and effective communication with local regulatory authorities.
+- 5+ years of experience in pharmaceutical quality management, specializing in GMP compliance, production oversight, and auditing within the Taiwanese market.
+- 4+ years of expertise in communicating with local regulatory authorities to ensure compliance and address audit findings.
+- 4+ years of experience in standardizing and digitalizing SOPs, enhancing compliance and operational efficiency.
+- 4+ years of leadership in cross-functional projects, coordinating teams to achieve quality and compliance goals.
+- 3+ years ensuring GDP compliance through comprehensive GMP audits, facilitating regulatory adherence in distribution.
+- 3+ years managing cold-chain storage for sterile products, maintaining product integrity and regulatory standards.
+- 2+ years of proficiency in Python, leveraging it to automate quality control processes and enhance data-driven decision-making.
 
 ---
 
@@ -14,7 +20,7 @@ Licensed pharmacist with over 5 years of experience in pharmaceutical quality ma
 
 #### Authorized Person | Huata Chemical & Pharmaceutical Co., Ltd. | 2018 - 2024
 
-- **Managed GMP Compliance Audits**: Executed internal and external audits, achieving 0 major findings for 5 consecutive years. Coordinated with local regulatory authorities during audits to ensure full compliance with Taiwanese pharmaceutical regulations.
+- **Managed GMP Compliance Audits**: Executed internal and external audits, achieving 0 major findings for 5+ consecutive years. Coordinated with local regulatory authorities during audits to ensure full compliance with Taiwanese pharmaceutical regulations.
 - **Familiar with GDP Compliance**: Participated in GDP evaluations as part of GMP audits, ensuring adherence to distribution and warehousing regulations.
 - **Cold Chain Management**: Managed the storage of cold-chain sterile products within the facility, ensuring product integrity and compliance with regulatory standards.
 - **Standardized and Digitalized SOPs**: Led the transition to a unified electronic SOP format, enhancing document consistency and regulatory compliance.
@@ -23,7 +29,7 @@ Licensed pharmacist with over 5 years of experience in pharmaceutical quality ma
 - **Implemented CAPA Procedures**: Developed and managed CAPA processes to address product deviations and ensure compliance with quality standards, contributing to continuous improvement in quality management.
 - **Developed New Sterile Production Line**: Led the design and implementation of a new sterile production line, including the qualification and validation of purified water systems and clean room HVAC systems, in accordance with ISO 22519, ISO 14644, and USP standards.
 - **Digitized Team Collaboration**: Introduced Trello for cloud-based task management, transitioning from paper-based systems and reducing manual reporting by 50%.
-- **Automation & Digital Tools**: Utilized Python to automate quality control processes and streamline workflows, enhancing overall efficiency.
+- **Automation & Productivity Tools**: Utilized Python and productivity tools to automate quality control processes and streamline workflows, enhancing overall efficiency.
 
 #### Pharmacist | An-Xin Pharmacy | 2016 - 2018
 
@@ -41,22 +47,35 @@ Licensed pharmacist with over 5 years of experience in pharmaceutical quality ma
 
 ### Education
 
-**Bachelor of Pharmacy (B.Pharm)**  
-Taipei Medical University | 2007 – 2011
+**Bachelor of Pharmacy**  
+Taipei Medical University, Taipei, Taiwan | 2007 – 2011
 
 ---
 
-### Certifications & Training
+### CERTIFICATIONS
 
-- Licensed Pharmacist | Taiwan Pharmacist Certification | 2012
-- Pharmaceutical Management Specialist | 2018
-- Semiconductor and AI Applications Professional Training Program | National Yang Ming Chiao Tung University | 2024 (Ongoing)
+- **Licensed Pharmacist** |  Ministry of Health and Welfare, Taiwan | 2012
+- **Veterinary Pharmaceutical Management Specialist** | Ministry of Agriculture, Taiwan | 2018
+
+### PROFESSIONAL DEVELOPMENT
+
+#### Training Camps
+
+- **Semiconductor and AI Applications Professional Training Program** | *244-hour training camp* | National Yang Ming Chiao Tung University, Taiwan | September 2024 
+- **Comprehensive Dosage Form Development and Practical Case Studies**  | *48-hour training camp* | Biotech Industrial Academy, Taiwan | August 2020
+
+#### Workshops & Seminars
+
+- **Deviation Management Process in the Pharmaceutical Industry**  | Veterinary Research Institute, Ministry of Agriculture, Taiwan | August 2022
+- **Quality Risk Management in Pharmaceutical Industry** | Veterinary Research Institute, Ministry of Agriculture, Taiwan | September 2021
+- **Introduction to GMP/GDP** | Medical and Pharmaceutical Industry Technology and Development Center, Taiwan | March 2021
+- **Transport of dangerous goods** | Centers for Disease Control, Ministry of Health and Welfare, Taiwan | October 2020
 
 ---
 
 ### Languages
 
-- **English**: Fluent (spoken and written)
+- **English**: Fluent 
 - **Mandarin**: Native proficiency
 - **Taiwanese**: Native proficiency
 
@@ -65,5 +84,5 @@ Taipei Medical University | 2007 – 2011
 ### Tools & Technology
 
 - **Python**: For automation and data-driven quality management.
-- **Digital Tools**: Trello, Notion, Miro, Slack, Canva, ChatGPT, Git.
-- **Quality Management Systems**: USP, GMP, GDP, ISO standards.
+- **Productivity Tools**: Proficient in using Trello, Notion, Miro, Slack, Canva, ChatGPT, and Git for project management and collaboration.
+- **Quality Management Systems**: Experienced with USP, GMP, GDP, FDA 21 CFR Part 11 and ISO standards for maintaining regulatory compliance.
