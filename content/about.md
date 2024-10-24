@@ -27,7 +27,7 @@
 - **Supervised Production Processes**: Improved SOP adherence and quality control processes, reducing production errors by 30%.
 - **Handled International Customer Complaints**: Managed product deviation reports and notifications for Japanese clients, ensuring timely resolution and compliance with regulatory standards.
 - **Implemented CAPA Procedures**: Developed and managed CAPA processes to address product deviations and ensure compliance with quality standards, contributing to continuous improvement in quality management.
-- **Developed New Sterile Production Line**: Led the design and implementation of a new sterile production line, including the qualification and validation of purified water systems and clean room HVAC systems, in accordance with ISO 22519, ISO 14644, and USP standards.
+- **Developed New Sterile Production Line**: Led the design and implementation of a new sterile production line, including the qualification and validation of purified water systems and clean room HVAC systems, in accordance with GMP, ISO 22519, ISO 14644 and USP standards.
 - **Digitized Team Collaboration**: Introduced Trello for cloud-based task management, transitioning from paper-based systems and reducing manual reporting by 50%.
 - **Automation & Productivity Tools**: Utilized Python and productivity tools to automate quality control processes and streamline workflows, enhancing overall efficiency.
 
@@ -85,4 +85,4 @@ Taipei Medical University, Taipei, Taiwan | 2007 – 2011
 
 - **Python**: For automation and data-driven quality management.
 - **Productivity Tools**: Proficient in using Trello, Notion, Miro, Slack, Canva, ChatGPT, and Git for project management and collaboration.
-- **Quality Management Systems**: Experienced with USP, GMP, GDP, FDA 21 CFR Part 11 and ISO standards for maintaining regulatory compliance.
+- **Quality Management Systems**: Experienced with USP, GMP, GDP FDA 21 CFR Part 11 and ISO standards for maintaining regulatory compliance.

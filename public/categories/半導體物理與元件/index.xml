@@ -6,14 +6,101 @@
     <description>Recent content in 半導體物理與元件 on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Oct 2024 00:36:24 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2024 00:36:24 +0800</lastBuildDate>
     <atom:link href="https://eujenz.github.io/categories/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%89%A9%E7%90%86%E8%88%87%E5%85%83%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>智能影像檢測 - AOI介紹</title>
+      <link>https://eujenz.github.io/posts/aoi/</link>
+      <pubDate>Thu, 24 Oct 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/aoi/</guid>
+      <description>&lt;h2 id=&#34;自動光學檢測aoiautomated-optical-inspection&#34;&gt;自動光學檢測（AOI，Automated Optical Inspection）&lt;/h2&gt;
+&lt;p&gt;AOI是一種透過光學影像技術自動檢測產品是否符合規範的技術，主要應用於半導體製程、印刷電路板（PCB）、電子元件等領域。AOI的基本原理是通過比對待測物的影像與標準影像，來檢測瑕疵或偏差，並依此判斷產品的品質。隨著技術的發展，AOI系統已經發展出1D、2D、3D視覺系統，並結合機器視覺，實現更高效和精確的自動化檢測。&lt;/p&gt;
+&lt;h3 id=&#34;1d視覺系統&#34;&gt;1D視覺系統&lt;/h3&gt;
+&lt;p&gt;1D視覺系統主要用於分析掃描線的數位訊號，而非觀察整個圖像。系統會逐條掃描，並將最新的數據與之前的數據進行比較，以檢測是否有缺陷或異常。該技術特別適合於連續生產的材料檢測，如紙張、金屬、塑膠或非紡織材料。1D視覺系統能夠有效地識別材料中的微小缺陷，並對缺陷進行分類。&lt;/p&gt;
+&lt;h4 id=&#34;應用範圍&#34;&gt;應用範圍：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;紙張連續生產線&lt;/li&gt;
+&lt;li&gt;金屬薄片檢測&lt;/li&gt;
+&lt;li&gt;塑膠或其他連續製造材料的檢測&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2d視覺系統&#34;&gt;2D視覺系統&lt;/h3&gt;
+&lt;p&gt;2D視覺系統是AOI檢測技術中最常見的技術之一，使用面陣掃描或線掃描技術來捕捉2D影像。面陣掃描系統能夠拍攝產品的2D快照，適合靜態或局部檢測。而線掃描系統逐條掃描產品表面，將數據拼接成完整的2D圖像。這些系統通常應用於高精度檢測場景，尤其是在檢測需要高解析度的產品時，例如印刷電路板（PCB）和精密電子元件。&lt;/p&gt;
+&lt;h4 id=&#34;應用範圍-1&#34;&gt;應用範圍：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;印刷電路板（PCB）製造與檢測&lt;/li&gt;
+&lt;li&gt;精密電子元件的外觀檢測&lt;/li&gt;
+&lt;li&gt;平面結構產品的瑕疵檢測&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3d視覺系統&#34;&gt;3D視覺系統&lt;/h3&gt;
+&lt;p&gt;3D視覺系統由多台相機或雷射位移感測器組成，這些設備能夠捕捉產品的3D資訊，如高度、深度和表面結構。3D視覺技術能夠捕捉產品的立體形狀，適合於需要高精度輪廓分析和體積測量的檢測應用中。這些系統能夠精確檢測產品的高度變化及表面不平整度，並且可以檢測複雜的立體結構，如芯片上的微小瑕疵。&lt;/p&gt;
+&lt;h4 id=&#34;應用範圍-2&#34;&gt;應用範圍：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;測產品的高度或表面缺陷，例如芯片表面的瑕疵&lt;/li&gt;
+&lt;li&gt;對立體形狀產品的檢測，如精密機械元件&lt;/li&gt;
+&lt;li&gt;高精度的體積測量與檢測，尤其適合不規則形狀的元件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;優勢&#34;&gt;優勢：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;能提供產品的高度、深度及立體輪廓信息&lt;/li&gt;
+&lt;li&gt;特別適合不規則形狀或立體結構的元件檢測&lt;/li&gt;
+&lt;li&gt;可以應用於複雜的三維產品結構，如芯片、焊點等，提供高精度檢測結果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;機器視覺&#34;&gt;機器視覺&lt;/h3&gt;
+&lt;p&gt;在機器視覺應用中，AOI技術結合了多台相機或光學設備，能夠檢測並對比元件的位置與方向，確保其安裝的準確性與角度。在2D或3D空間中，這些系統可以自動向機器人提供元件的精確定位信息，並將組件精確對位到指定位置。&lt;/p&gt;
+&lt;h4 id=&#34;應用範例&#34;&gt;應用範例：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;系統可以定義組件的位置和方向，並與標準規定的公差進行比較，確保組件的裝配是否正確。&lt;/li&gt;
+&lt;li&gt;機器視覺還需要圖案匹配技術來協助定位元件，特別是在應對角度或尺寸變化時。&lt;/li&gt;
+&lt;li&gt;引導系統中的機器視覺能夠將測量結果反饋給機器控制器，完成自動校準或調整。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;優勢-1&#34;&gt;優勢：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;高效的機器視覺系統可實現準確的組件定位與對位，減少人工干預&lt;/li&gt;
+&lt;li&gt;能應對較大的對比度變化、光線變化和角度旋轉等問題，保證測量準確性&lt;/li&gt;
+&lt;li&gt;適合於需要高精度定位的自動化生產線&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;aoi硬體構成&#34;&gt;AOI硬體構成&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://eujenz.github.io/images/AOI01.png&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;AOI系統的硬體由多個關鍵組件組成，這些部件密切協作，保證檢測過程的高效性和準確性。從上圖中我們可以看到，AOI硬體系統包括以下部分：&lt;/p&gt;
+&lt;h3 id=&#34;光源系統illumination&#34;&gt;光源系統（Illumination）&lt;/h3&gt;
+&lt;p&gt;光源的質量對影像的清晰度和對比度有著直接的影響，能夠確保檢測物體的每個細節被充分捕捉。光源通常包括LED光源和雷射光源，通過不同角度和波長的照射來減少陰影或光澤的干擾。&lt;/p&gt;
+&lt;h3 id=&#34;相機與鏡頭camera-and-lens&#34;&gt;相機與鏡頭（Camera and Lens）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;相機（Camera）&lt;/strong&gt;： 高解析度的相機負責捕捉待測物的影像。相機解析度越高，檢測到的細節越多，能夠精確檢測到微小的瑕疵。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;鏡頭（Lens）&lt;/strong&gt;： 鏡頭則幫助精確對焦待測物，確保拍攝到的影像清晰且無失真。不同焦距和類型的鏡頭會根據檢測對象進行選擇，以滿足特定的檢測需求。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;微處理器microprocessor&#34;&gt;微處理器（Microprocessor）&lt;/h3&gt;
+&lt;p&gt;微處理器是AOI系統的核心，負責處理來自相機的影像數據，並進行必要的數據運算。這一過程中涉及大量的影像預處理（Preprocessing）和演算法分析，這是AOI檢測系統快速、精確運作的關鍵。&lt;/p&gt;
+&lt;h3 id=&#34;影像處理和分析image-processing-and-algorithms&#34;&gt;影像處理和分析（Image Processing and Algorithms）&lt;/h3&gt;
+&lt;p&gt;檢測到的影像經過預處理後，進一步通過專業的軟體工具和演算法進行分析，以比對標準範本並檢測是否有瑕疵。演算法會對影像中的缺陷進行分類，並決定是否符合規範。這個過程通常涉及形狀識別、尺寸測量、對比分析等技術。&lt;/p&gt;
+&lt;h3 id=&#34;顯示與報告系統display-and-reporting&#34;&gt;顯示與報告系統（Display and Reporting）&lt;/h3&gt;
+&lt;p&gt;檢測結果會以圖像或數據報表的形式即時呈現給操作員，系統會自動將檢測過程中的NG（不良品）和OK（合格品）進行分類，並輸出結果文件（如圖中顯示的CSV文件格式），以便進行品質追蹤或進一步分析。&lt;/p&gt;
+&lt;h3 id=&#34;aoi硬體系統的運作流程&#34;&gt;AOI硬體系統的運作流程&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;影像構成（Image Formation）&lt;/strong&gt;： 光源系統提供照明，相機與鏡頭捕捉目標物的清晰影像。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;影像捕捉（Image Capture）&lt;/strong&gt;： 捕捉到的影像傳送至微處理器進行數據分析。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;影像預處理（Image Preprocessing）&lt;/strong&gt;： 影像經過預處理，去除噪點，強化對比度等操作。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;影像分析（Image Processing）&lt;/strong&gt;： 使用演算法對影像進行比對，判斷瑕疵並分類。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;結果呈現（Result Display）&lt;/strong&gt;： 將結果以即時顯示方式呈現給操作員，並生成報告文件供後續使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fovwd-和感光元件尺寸的關係&#34;&gt;FOV、WD 和感光元件尺寸的關係&lt;/h2&gt;
+&lt;p&gt;在選擇AOI系統的相機及鏡頭時，必須根據產品的檢測需求和特性綜合考慮FOV、WD、感光元件大小、焦距以及解析度。視野範圍決定了相機能夠觀察到的範圍，工作距離則影響成像的細節程度。根據具體應用，應合理平衡視野與解析度之間的關係，確保檢測的效率和準確性。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The PN Junction</title>
+      <link>https://eujenz.github.io/posts/spd-the-pn-junction/</link>
+      <pubDate>Mon, 21 Oct 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/spd-the-pn-junction/</guid>
+      <description></description>
+    </item>
     <item>
       <title>The Semiconductor in Equilibrium</title>
       <link>https://eujenz.github.io/posts/spd-the-semiconductor-in-equilibrium/</link>
       <pubDate>Wed, 02 Oct 2024 00:36:24 +0800</pubDate>
       <guid>https://eujenz.github.io/posts/spd-the-semiconductor-in-equilibrium/</guid>
-      <description>&lt;h2 id=&#34;donor---acceptor-的定性描述&#34;&gt;Donor &amp;amp;  Acceptor 的定性描述&lt;/h2&gt;
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;donor---acceptor-的定性描述&#34;&gt;Donor &amp;amp;  Acceptor 的定性描述&lt;/h2&gt;
 &lt;h3 id=&#34;donor-摻雜的基本機制&#34;&gt;donor 摻雜的基本機制&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
