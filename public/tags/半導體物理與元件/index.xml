@@ -6,8 +6,159 @@
     <description>Recent content in 半導體物理與元件 on LEE CHIEN-WEI</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Oct 2024 00:36:24 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Oct 2024 10:36:24 +0800</lastBuildDate>
     <atom:link href="https://eujenz.github.io/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%89%A9%E7%90%86%E8%88%87%E5%85%83%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GaN RF元件與製程整合</title>
+      <link>https://eujenz.github.io/posts/ganrf/</link>
+      <pubDate>Fri, 25 Oct 2024 10:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/ganrf/</guid>
+      <description>&lt;h2 id=&#34;課程大綱&#34;&gt;課程大綱&lt;/h2&gt;
+&lt;h3 id=&#34;part-1-5g應用&#34;&gt;PART 1: 5G應用&lt;/h3&gt;
+&lt;p&gt;在 5G 技術中，GaN（氮化鎵）元件因其高頻、高功率和高效率的特性而發揮了關鍵作用。5G 通訊需要更高的頻譜效率和更大的帶寬，GaN 元件由於材料優勢，能提供比傳統矽基材料更好的性能。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;高功率放大器（PA）應用&lt;/strong&gt;：GaN 提供高功率密度和優越的轉換效率，特別適用於 5G 無線基站的功率放大器。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;小型化與高效率&lt;/strong&gt;：GaN 元件的高頻特性支持其在較小空間內實現高效放大，減少元件尺寸，提升效率，推動 5G 小型化設備的發展。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;part-2-gan材料與gan-rf元件dc和rf測量&#34;&gt;PART 2: GaN材料與GaN RF元件，DC和RF測量&lt;/h3&gt;
+&lt;p&gt;本部分探討 GaN 材料在射頻（RF）元件中的具體應用，以及如何進行直流（DC）和射頻（RF）性能的測試與測量。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GaN材料特性&lt;/strong&gt;：GaN 材料具備寬能隙（3.4 eV）和高擊穿電壓，使其在高電壓、高頻和高溫下擁有卓越性能。與 SiC（碳化矽）等材料相比，GaN 在微波和毫米波頻段具有更佳的增益與效率。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DC和RF測量&lt;/strong&gt;：為確保 GaN 元件的穩定性與性能，需要進行一系列 DC 和 RF 測試。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;直流測量（DC）&lt;/strong&gt;：測試元件的閘極電壓、閘極電流、汲極電流與電壓等基本電性參數。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;射頻測量（RF）&lt;/strong&gt;：測試高頻下的增益、功率、效率和頻率響應，這對於 5G 應用中的高頻運行至關重要。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;part-3-提升元件頻率的方法及功率放大器測量&#34;&gt;PART 3: 提升元件頻率的方法及功率放大器測量&lt;/h3&gt;
+&lt;p&gt;探討提升 GaN 元件頻率性能的方法和功率放大器的具體測量技術。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;提升頻率性能的方法&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;縮小閘極長度&lt;/strong&gt;：縮短元件的閘極長度能有效提升頻率響應。GaN HEMT（高電子遷移率電晶體）通常設計成極短閘極以提高工作頻率。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;場板技術（Field Plate）&lt;/strong&gt;：場板技術減少電場集中，提升元件擊穿電壓，並增強高頻穩定性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;材料與製程改進&lt;/strong&gt;：採用 AlGaN/GaN 異質結構和先進的微影、蝕刻技術，可顯著提升元件的頻率性能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;功率放大器測量&lt;/strong&gt;：在 5G 中，功率放大器的效率、功率密度和線性度是核心指標。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;輸入與輸出匹配測試&lt;/strong&gt;：確保功率放大器達到最佳工作點，實現最大增益與效率。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;增益與效率測試&lt;/strong&gt;：測試不同功率輸出下的增益、功率附加效率（PAE）等，這對於 5G 基地台的高效運行至關重要。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;總結&#34;&gt;總結&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GaN 元件應用與優勢&lt;/strong&gt;：GaN 材料的高功率、高頻性能使其在 5G 和射頻元件中展現極大潛力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;材料與製程技術&lt;/strong&gt;：通過縮小閘極長度、使用場板技術等先進技術，提升元件頻率響應和功率性能。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;測試與驗證&lt;/strong&gt;：透過 DC 和 RF 測量，確保元件在實際應用中的穩定性與高效性，尤其在 5G 和射頻應用中表現卓越。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;課堂-q--a&#34;&gt;課堂 Q &amp;amp; A&lt;/h2&gt;
+&lt;h3 id=&#34;5g-相較於-4g-的優勢&#34;&gt;5G 相較於 4G 的優勢：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;更高的速度&lt;/strong&gt;：5G 的傳輸速度比 4G 快數十倍，理論上可達到每秒 10 Gbps，能快速傳輸大量數據。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更低的延遲&lt;/strong&gt;：5G 延遲時間比 4G 大幅降低，理論上可低至 1 毫秒，非常適合即時應用，如自駕車和遠程醫療。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更高的容量&lt;/strong&gt;：5G 的頻譜資源更大，能同時支援更多設備連接，非常適合物聯網 (IoT) 等應用場景。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更高的頻譜效率&lt;/strong&gt;：5G 可在相同頻寬下傳輸更多數據，提升了傳輸效率。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;「G」的意義&lt;/strong&gt;：此處「G」代表「Generation」，即「世代」，5G 為第五代行動通信技術。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;微波通訊系統中應用的五個設備範例&#34;&gt;微波通訊系統中應用的五個設備範例：&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;功率放大器 (Power Amplifier, PA)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;低噪放大器 (Low Noise Amplifier, LNA)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;混頻器 (Mixer)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;濾波器 (Filter)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;天線 (Antenna)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;微波應用的三個設備範例&#34;&gt;微波應用的三個設備範例：&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;微波爐 (Microwave Oven)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;雷達 (Radar)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;無線局域網 (WLAN) 及 Wi-Fi 路由器&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;gan-材料相較於-si-和-gaas-的優勢是什麼&#34;&gt;GaN 材料相較於 Si 和 GaAs 的優勢是什麼？&lt;/h3&gt;
+&lt;h4 id=&#34;高能隙energy-bandgap&#34;&gt;&lt;strong&gt;高能隙（Energy Bandgap）&lt;/strong&gt;：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;GaN 具有 3.39 eV 的寬能隙，明顯高於 Si（1.12 eV）和 GaAs（1.43 eV），更適合在高功率、高溫環境中使用，因為其電子較不易因熱激發而逸出。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;高臨界擊穿電場critical-breakdown-field&#34;&gt;&lt;strong&gt;高臨界擊穿電場（Critical Breakdown Field）&lt;/strong&gt;：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;GaN 擁有 3 MV/cm 的高擊穿電場，是 Si（0.25 MV/cm）和 GaAs（0.4 MV/cm）的數倍，使其能承受更高的電壓。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;高飽和電子速度peak-saturation-velocity&#34;&gt;&lt;strong&gt;高飽和電子速度（Peak Saturation Velocity）&lt;/strong&gt;：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;GaN 的電子飽和速度為 $2.7 \times 10^7$ cm/s，高於 Si（$1.0 \times 10^7$ cm/s）和 GaAs（$2.1 \times 10^7$ cm/s），特別適合高頻和高速應用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;良好的熱導率thermal-conductivity&#34;&gt;&lt;strong&gt;良好的熱導率（Thermal Conductivity）&lt;/strong&gt;：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;GaN 的熱導率優於 GaAs，散熱效率更高，特別在高功率應用中具有優勢。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;描述-gan-hemts-中通道的形成方式&#34;&gt;描述 GaN HEMTs 中通道的形成方式&lt;/h3&gt;
+&lt;p&gt;在AlGaN/GaN HEMT結構中，因為AlGaN和GaN材料間的晶格失配，會產生極化現象，進而在界面處產生強烈的電子濃度區，這稱為2DEG（兩維電子氣）。這些電子被限制在很窄的通道內，並能以極高的速度移動，因此在高功率與高速應用上非常具有優勢。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CMOS 材料與記憶體整合</title>
+      <link>https://eujenz.github.io/posts/cmosmemory-/</link>
+      <pubDate>Fri, 25 Oct 2024 00:36:24 +0800</pubDate>
+      <guid>https://eujenz.github.io/posts/cmosmemory-/</guid>
+      <description>&lt;h2 id=&#34;金屬-半導體接面工作原理&#34;&gt;金屬-半導體接面工作原理&lt;/h2&gt;
+&lt;h3 id=&#34;蕭特基接觸-schottky-contact&#34;&gt;蕭特基接觸 (Schottky contact)&lt;/h3&gt;
+&lt;p&gt;當金屬與半導體接觸時，會形成蕭特基勢壘（Schottky barrier），其高度由金屬的功函數 $\phi_m$ 和半導體的電子親和力 $\chi$ 決定。蕭特基接觸通常出現在蕭特基二極體或高頻元件中，對於不同的半導體類型，蕭特基勢壘高度的公式如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;對於 &lt;strong&gt;n型半導體&lt;/strong&gt;，蕭特基勢壘高度為：
+$$ q\phi_{Bn0} = q(\phi_m - \chi) $$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;對於 &lt;strong&gt;p型半導體&lt;/strong&gt;，蕭特基勢壘高度為：
+$$ q\phi_{Bp0} = q(\phi_m - \chi) $$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這些公式表明，當金屬與半導體接觸時，根據金屬的功函數和半導體的電子親和力的不同，所形成的勢壘高度會影響電子的傳輸行為。高的勢壘會抑制電子的流動，而低的勢壘則會促進電子穿越。&lt;/p&gt;
+&lt;h3 id=&#34;歐姆接觸-ohmic-contact&#34;&gt;歐姆接觸 (Ohmic contact)&lt;/h3&gt;
+&lt;p&gt;與蕭特基接觸不同，歐姆接觸不會形成勢壘，因此允許電流自由流動。歐姆接觸通常用於元件的源極和汲極位置。在能帶圖中，歐姆接觸的能帶是平坦的，這意味著電子可以無障礙地通過接面，不會受到勢壘的阻擋。&lt;/p&gt;
+&lt;h3 id=&#34;歐姆接觸的作用&#34;&gt;歐姆接觸的作用：&lt;/h3&gt;
+&lt;p&gt;歐姆接觸是指金屬與半導體之間的一種接觸方式，在這種接觸下，電流可以無障礙地通過接觸界面，不會形成蕭特基勢壘。理想的歐姆接觸具有低阻抗，並能有效傳輸電流，因此在半導體元件的源極與汲極常需要歐姆接觸。&lt;/p&gt;
+&lt;h4 id=&#34;退火與歐姆接觸&#34;&gt;退火與歐姆接觸：&lt;/h4&gt;
+&lt;p&gt;退火（annealing）是一種高溫處理過程，能改善金屬與半導體接觸界面的品質。當金屬沉積在半導體表面後，可能會有界面缺陷或不理想的結構，導致接觸阻抗過高。退火能夠幫助金屬原子擴散進入半導體，形成更好的接觸，減少接觸電阻。&lt;/p&gt;
+&lt;p&gt;退火的主要功能包括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;減少接觸電阻&lt;/strong&gt;：退火改善金屬與半導體的界面，使兩者形成良好的化學鍵，從而降低接觸電阻。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;消除界面缺陷&lt;/strong&gt;：退火去除因沉積金屬產生的界面缺陷，這些缺陷可能影響電流傳輸。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;促進合金形成&lt;/strong&gt;：在某些情況下，金屬與半導體在高溫下相互擴散，形成合金層，有助於提高接觸品質。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;合金金屬與歐姆接觸&#34;&gt;合金金屬與歐姆接觸：&lt;/h4&gt;
+&lt;p&gt;在歐姆接觸的製作中，合金金屬通常被用來提高接觸品質，因為合金金屬具有較好的擴散性與化學穩定性。常見的合金金屬包括鎳（Ni）、金（Au）、鈦（Ti）、鋁（Al）等。這些金屬與半導體材料（如矽或氮化鎵）反應，能形成良好的合金層，從而提高導電性。&lt;/p&gt;
+&lt;p&gt;合金金屬的作用：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;改善導電性&lt;/strong&gt;：合金金屬促進電荷載子的注入，實現低阻抗的歐姆接觸。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;提升熱穩定性&lt;/strong&gt;：某些合金金屬在高溫環境下表現出較高的穩定性，避免接觸層退化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;提升接觸品質&lt;/strong&gt;：合金金屬與半導體的擴散反應能形成良好的接觸，減少表面缺陷。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;總結&#34;&gt;總結：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;退火是製作歐姆接觸的關鍵步驟，通過高溫處理來改善金屬與半導體的接觸，減少接觸電阻。&lt;/li&gt;
+&lt;li&gt;合金金屬如鎳、鈦、鋁等能進一步提升導電性與熱穩定性，有助於形成低阻抗、穩定的歐姆接觸。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;蕭特基接觸-schottky-contact-的重要性與用途&#34;&gt;蕭特基接觸 (Schottky contact) 的重要性與用途&lt;/h3&gt;
+&lt;p&gt;在積體電路 (IC) 設計中，蕭特基接觸 (Schottky contact) 扮演著關鍵角色，特別是在高頻應用、低功耗元件以及高速元件中。以下是蕭特基接觸在模擬與實驗設計中的重要性與用途的詳細說明。&lt;/p&gt;
+&lt;h3 id=&#34;蕭特基接觸的基本概念&#34;&gt;蕭特基接觸的基本概念&lt;/h3&gt;
+&lt;p&gt;蕭特基接觸是指金屬與半導體之間的接觸，當金屬與半導體接觸時，會形成勢壘，稱為「蕭特基勢壘」。與歐姆接觸不同，蕭特基接觸具有整流特性，因此常被應用於二極體、整流器或快速開關元件中。&lt;/p&gt;
+&lt;p&gt;蕭特基二極體的正向壓降較低（約 0.2V-0.3V），相比於傳統的 PN 結二極體，它能有效降低開啟電壓並提升元件速度。由於蕭特基接觸不涉及少數載子的傳輸，其開關速度非常快，在高速應用中尤為重要。&lt;/p&gt;
+&lt;h3 id=&#34;蕭特基接觸的重要性&#34;&gt;蕭特基接觸的重要性&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;高頻與高速應用&lt;/strong&gt;：&lt;br&gt;
+蕭特基二極體的快速開關特性非常適合高頻電路。由於缺少少數載子的影響，它比傳統 PN 結二極體具有更快的開關速度，廣泛應用於射頻 (RF) 和微波電路中，如混頻器、整流器和快速開關元件。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>智能影像檢測 - AOI介紹</title>
       <link>https://eujenz.github.io/posts/aoi/</link>
